@@ -1,0 +1,32 @@
+01/27/2017 05:27:14 PM - HomePage -  INFO : Element found with locator: tab-flight-tab and locator type: id
+01/27/2017 05:27:14 PM - HomePage -  INFO : Elem01/27/2017 05:27:29 PM - StatusTests -  INFO : Screenshot save to directory: C:\Python\TestProject\base\../screenshots/Add Options Link is displayed.1485556048926.png
+01/27/2017 05:27:29 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: NonStop Checkbox is selected
+01/27/2017 05:27:29 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Refund Flight checkbox is selected
+01/27/2017 05:27:38 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Hotel Checkbox is Selected
+01/27/2017 05:27:38 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Car Checkbox is selected
+01/27/2017 05:27:39 PM - StatusTests -  INFO : Screenshot save to directory: C:\Python\TestProject\base\../screenshots/PASSED.1485556058746.png
+01/27/2017 05:27:39 PM - StatusTests -  INFO : test_flightRoundTrip --- PASSED
+or: flight-departing and locator type: id
+01/27/2017 05:27:17 PM - HomePage -  INFO : Element clicked with locator: flight-departing and locator type: id
+01/27/2017 05:27:22 PM - HomePage -  INFO : Element found with locator: flight-returning and locator type: id
+01/27/2017 05:27:22 PM - HomePage -  INFO : Element clicked with locator: flight-returning and locator type: id
+01/27/2017 05:27:26 PM - HomePage -  INFO : Element found with locator: advanced-options and locator type: id
+01/27/2017 05:27:26 PM - HomePage -  INFO : Element clicked with locator: advanced-options and locator type: id
+01/27/2017 05:27:28 PM - HomePage -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
+01/27/2017 05:27:28 PM - HomePage -  INFO : Element clicked with locator: advanced-flight-nonstop and locator type: id
+01/27/2017 05:27:28 PM - HomePage -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
+01/27/2017 05:27:28 PM - HomePage -  INFO : Element clicked with locator: advanced-flight-refundable and locator type: id
+01/27/2017 05:27:28 PM - HomePage -  INFO : Element found with locator: advanced-options and locator type: id
+01/27/2017 05:27:28 PM - HomePage -  INFO : Element is displayed with locator: advanced-options locatorType: id
+01/27/2017 05:27:29 PM - HomePage -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
+01/27/2017 05:27:29 PM - HomePage -  INFO : Element clicked with locator: flight-add-car-checkbox and locator type: id
+01/27/2017 05:27:29 PM - HomePage -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
+01/27/2017 05:27:29 PM - HomePage -  INFO : Element clicked with locator: flight-add-hotel-checkbox and locator type: id
+01/27/2017 05:27:30 PM - HomePage -  INFO : Element found with locator: flight-hotel-checkin and locator type: id
+01/27/2017 05:27:30 PM - HomePage -  INFO : Element clicked with locator: flight-hotel-checkin and locator type: id
+01/27/2017 05:27:34 PM - HomePage -  INFO : Element found with locator: flight-hotel-checkout and locator type: id
+01/27/2017 05:27:35 PM - HomePage -  INFO : Element clicked with locator: flight-hotel-checkout and locator type: id
+01/27/2017 05:27:38 PM - HomePage -  INFO : Element found with locator: search-button and locator type: id
+01/27/2017 05:27:38 PM - HomePage -  INFO : Element is displayed with locator: search-button locatorType: id
+01/27/2017 05:27:39 PM - HomePage -  INFO : Element found with locator: search-button and locator type: id
+01/27/2017 05:27:43 PM - HomePage -  INFO : Element clicked with locator: search-button and locator type: id

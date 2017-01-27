@@ -1,0 +1,12 @@
+[INFO  - 2017-01-26T21:27:41.473Z] GhostDriver - Main - running on port 52064
+[INFO  - 2017-01-26T21:27:43.213Z] Session [45bce060-e40e-11e6-a3c6-3f30b2d08804] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-01-26T21:27:43.213Z] Session [45bce060-e40e-11e6-a3c6-3f30b2d08804] - page.customHeaders:  - {}
+[INFO  - 2017-01-26T21:27:43.214Z] Session [45bce060-e40e-11e6-a3c6-3f30b2d08804] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-01-26T21:27:43.214Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 45bce060-e40e-11e6-a3c6-3f30b2d08804
+[ERROR - 2017-01-26T21:27:52.748Z] Session [45bce060-e40e-11e6-a3c6-3f30b2d08804] - page.onError - msg: Timeout when calling scratchpad server the first time. Trying to make the second call
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-01-26T21:27:52.748Z] Session [45bce060-e40e-11e6-a3c6-3f30b2d08804] - page.onError - stack:
+  b (https://www.expedia.com/minify/corewizard.siteid_1.langid_1033-min-4143360655.js?v=release-2017-01-r4-5086-1739466-1:71)
+
+  phantomjs://platform/console++.js:263 in error
