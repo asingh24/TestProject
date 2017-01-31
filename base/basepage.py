@@ -13,6 +13,8 @@ Example:
 from base.selenium_driver import PageElements
 from traceback import print_stack
 from utilities.util import Util
+import requests
+import time
 
 
 
@@ -43,6 +45,44 @@ class BasePage(PageElements):
             self.log.error("EXCEPTION: Actual and Expected Page Title Differ")
             #print_stack()
             return False
+
+
+    def verifyPageLinks(self):
+
+        links = self.driver.find_elements_by_css_selector("a")
+
+        # response_codes = [302, ]
+
+        # Use to this loop to log the list of working Links
+        for link in links:
+            r = requests.head(link.get_attribute("href"))
+            self.log.info(r.status_code == 404)
+            time.sleep(0.5)
+
+        # Use this loop to log only the broken Links
+        # for link in links:
+        #     r = requests.head(link.get_attribute("href"))
+        #     if r.status_code != 200:
+        #         self.log.info(link.get_attribute("href"))
+        #         time.sleep(0.5)
+
+
+
+    def verifyBrokenImages(self):
+        images = self.driver.find_elements_by_css_selector("img")
+
+        # Use to this loop to log the list of working Images
+        for image in images:
+            r = requests.head(image.get_attribute("src"))
+            print(r.status_code == 200)
+            time.sleep(0.5)
+
+        # Use this loop to log only the broken Links
+        # for image in images:
+        #     r = requests.head(image.get_attribute("href"))
+        #     if r.status_code != 200:
+        #         self.log.info(image.get_attribute("href"))
+        #         time.sleep(0.5)
 
 
 

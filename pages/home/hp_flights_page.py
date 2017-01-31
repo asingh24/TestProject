@@ -30,6 +30,7 @@ class HomePage(BasePage):
     _departing_date = "flight-departing"
     _currentCalendar_month = "//div[@class='datepicker-cal-month'][position()=1]"
     _nextCalendar_month = "//div[@class='datepicker-cal-month'][position()=2]"
+    _nextCalendar_page = "//div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext']"
     _return_date = "flight-returning"
     _adults = "flight-adults"
     _children = "flight-children"
@@ -42,10 +43,12 @@ class HomePage(BasePage):
     _add_hotel = "flight-add-hotel-checkbox"
     _add_car = "flight-add-car-checkbox"
     _hotel_checkin = "flight-hotel-checkin"
+    _hotel_checkin_nextpage = "//div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext']"
     _hotel_checkOut = "flight-hotel-checkout"
     _no_of_rooms = "flight-hotel-rooms"
     _checkin_adults = "flight-hotel-1-adults"
     _checkin_children = "flight-hotel-1-children"
+    _search_property = "inpHotelNameMirror"
 
 
 
@@ -63,17 +66,21 @@ class HomePage(BasePage):
 
     def clickDepartDate(self):
         self.clickElement(self._departing_date)
-        time.sleep(1)
+        time.sleep(2)
+        self.clickElement(self._nextCalendar_page, locatorType="xpath")
+        time.sleep(2)
 
     def pickDepartDate(self, departDate):
         """
         Checks for the Active Dates in the Current Month and clicks on it
         :return:
         """
-        callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=1]")
-        ValidDates = callMonth.find_elements(By.CLASS_NAME, "datepicker-cal-date")
+        callMonth = self.getElement(locator="//div[@class='datepicker-cal-month'][position()=1]", locatorType="xpath")
+        #callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=1]")
+        validDates = callMonth.find_elements(By.CLASS_NAME, "datepicker-cal-date")
 
-        for date in ValidDates:
+
+        for date in validDates:
             if date.text == departDate:
                 date.click()
                 time.sleep(3)
@@ -84,21 +91,22 @@ class HomePage(BasePage):
         time.sleep(3)
 
     def pickReturnDate(self, returnDate):
-        callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=2]")
-        ValidDates = callMonth.find_elements(By.CLASS_NAME, "datepicker-cal-date")
+        callMonth = self.getElement(locator="//div[@class='datepicker-cal-month'][position()=2]", locatorType="xpath")
+        #callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=2]")
+        validDates = callMonth.find_elements(By.CLASS_NAME, "datepicker-cal-date")
 
-        for date in ValidDates:
+        for date in validDates:
             if date.text == returnDate:
                 date.click()
                 break
 
     def selectAdults(self, adults):
-        element = self.driver.find_element_by_id(self._adults)
+        element = self.getElement(self._adults)
         sel = Select(element)
         sel.select_by_value(adults)
 
     def selectChildren(self, children):
-        element = self.driver.find_element_by_id(self._children)
+        element = self.getElement(self._children)
         sel = Select(element)
         sel.select_by_value(children)
 
@@ -118,12 +126,12 @@ class HomePage(BasePage):
         self.clickElement(self._refundable)
 
     def preferredAirline(self, airline):
-        element = self.driver.find_element_by_id(self._preferred_airline)
+        element = self.getElement(self._preferred_airline)
         sel = Select(element)
         sel.select_by_value(airline)
 
     def preferredClass(self, classPreference):
-        element = self.driver.find_element_by_id(self._preferred_class)
+        element = self.getElement(self._preferred_class)
         sel = Select(element)
         sel.select_by_value(classPreference)
 
@@ -135,14 +143,17 @@ class HomePage(BasePage):
 
     def clickCheckInDate(self):
         self.clickElement(self._hotel_checkin)
-        time.sleep(1)
+        time.sleep(2)
+        self.clickElement(self._hotel_checkin_nextpage, locatorType="xpath")
+        time.sleep(2)
 
     def pickCheckIntDate(self, checkInDt):
         """
         Checks for the Active Dates in the Current Month and clicks on it
         :return:
         """
-        callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=1]")
+        callMonth = self.getElement(locator="//div[@class='datepicker-cal-month'][position()=1]", locatorType="xpath")
+        #callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=1]")
         ValidDates = callMonth.find_elements(By.CLASS_NAME, "datepicker-cal-date")
 
         for date in ValidDates:
@@ -157,28 +168,32 @@ class HomePage(BasePage):
 
 
     def pickCheckoutDate(self, checkoutDate):
-        callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=2]")
-        ValidDates = callMonth.find_elements(By.CLASS_NAME, "datepicker-cal-date")
+        callMonth = self.getElement(locator="//div[@class='datepicker-cal-month'][position()=2]", locatorType="xpath")
+        #callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=2]")
+        validDates = callMonth.find_elements(By.CLASS_NAME, "datepicker-cal-date")
 
-        for date in ValidDates:
+        for date in validDates:
             if date.text == checkoutDate:
                 date.click()
                 break
 
     def noOfRooms(self, rooms):
-        element = self.driver.find_element_by_id(self._no_of_rooms)
+        element = self.getElement(self._no_of_rooms)
         sel = Select(element)
         sel.select_by_value(rooms)
 
     def selectCheckInAdults(self, adults):
-        element = self.driver.find_element_by_id(self._checkin_adults)
+        element = self.getElement(self._checkin_adults)
         sel = Select(element)
         sel.select_by_value(adults)
 
     def selectCheckinChildren(self, children):
-        element = self.driver.find_element_by_id(self._checkin_children)
+        element = self.getElement(self._checkin_children)
         sel = Select(element)
         sel.select_by_value(children)
+
+    def waitForSearchProperty(self):
+        self.waitForElement(self._search_property, timeout=50)
 
 
     def bookRoundTripFlight(self, fromAirport, toAirport, departDate, returnDate, adults="1", children="0",
@@ -212,72 +227,43 @@ class HomePage(BasePage):
         self.noOfRooms(rooms)
         self.selectCheckInAdults(adults)
         self.selectCheckinChildren(children)
+        self.pageScroll("up")
 
+
+    def search(self):
+        self.clickSearchButton()
+        self.waitForSearchProperty()
 
     def verifyHomepageTitle(self):
         self.verifyPageTitle("Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares")
 
-    def nonstopIsSelected(self):
-        element = self.driver.find_element_by_id("advanced-flight-nonstop").is_selected()
-        return element
 
-    def refundIsSelected(self):
-        element = self.driver.find_element_by_id("advanced-flight-refundable").is_selected()
-        return element
+    def nonStopIsDisplayed(self):
+        self.isElementDisplayed(self._non_stop)
+
+    # def nonstopIsSelected(self):
+    #     self.isSelected(self._non_stop)
+    #     # element = self.driver.find_element_by_id("advanced-flight-nonstop").is_selected()
+    #     # return element
+
+    def refundIsDisplayed(self):
+        self.isElementDisplayed(self._refundable)
+
+    # def refundIsSelected(self):
+    #     self.isSelected(self._refundable)
+    #     # element = self.driver.find_element_by_id("advanced-flight-refundable").is_selected()
+    #     # return element
 
     def searchButtonIsDisplayed(self):
         self.isElementDisplayed(self._search_button)
 
+
     def addHotelIsSelected(self):
-        element = self.driver.find_element_by_id("flight-add-hotel-checkbox").is_selected()
-        return element
+        self.isSelected(self._add_hotel)
+        # element = self.driver.find_element_by_id("flight-add-hotel-checkbox").is_selected()
+        # return element
 
     def addCarIsSelected(self):
-        element = self.driver.find_element_by_id("flight-add-car-checkbox").is_selected()
-        return element
-
-
-
-
-
-
-
-
-
-    def verifyPageLinks(self):
-
-        links = self.driver.find_elements_by_css_selector("a")
-        # response_codes = [302, ]
-
-        # Use to this loop to log the list of working Links
-        for link in links:
-            r = requests.head(link.get_attribute("href"))
-            self.log.info(r.status_code == 404)
-            time.sleep(0.5)
-
-        # Use this loop to log only the broken Links
-        # for link in links:
-        #     r = requests.head(link.get_attribute("href"))
-        #     if r.status_code != 200:
-        #         self.log.info(link.get_attribute("href"))
-        #         time.sleep(0.5)
-
-
-
-    def verifyBrokenImages(self):
-        images = self.driver.find_elements_by_css_selector("img")
-
-        # Use to this loop to log the list of working Images
-        for image in images:
-            r = requests.head(image.get_attribute("src"))
-            print(r.status_code == 200)
-            time.sleep(0.5)
-
-        # Use this loop to log only the broken Links
-        # for image in images:
-        #     r = requests.head(image.get_attribute("href"))
-        #     if r.status_code != 200:
-        #         self.log.info(image.get_attribute("href"))
-        #         time.sleep(0.5)
-
-
+        self.isSelected(self._add_car)
+        # element = self.driver.find_element_by_id("flight-add-car-checkbox").is_selected()
+        # return element

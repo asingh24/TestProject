@@ -1,32 +1,68 @@
-01/27/2017 05:27:14 PM - HomePage -  INFO : Element found with locator: tab-flight-tab and locator type: id
-01/27/2017 05:27:14 PM - HomePage -  INFO : Elem01/27/2017 05:27:29 PM - StatusTests -  INFO : Screenshot save to directory: C:\Python\TestProject\base\../screenshots/Add Options Link is displayed.1485556048926.png
-01/27/2017 05:27:29 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: NonStop Checkbox is selected
-01/27/2017 05:27:29 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Refund Flight checkbox is selected
-01/27/2017 05:27:38 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Hotel Checkbox is Selected
-01/27/2017 05:27:38 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Car Checkbox is selected
-01/27/2017 05:27:39 PM - StatusTests -  INFO : Screenshot save to directory: C:\Python\TestProject\base\../screenshots/PASSED.1485556058746.png
-01/27/2017 05:27:39 PM - StatusTests -  INFO : test_flightRoundTrip --- PASSED
-or: flight-departing and locator type: id
-01/27/2017 05:27:17 PM - HomePage -  INFO : Element clicked with locator: flight-departing and locator type: id
-01/27/2017 05:27:22 PM - HomePage -  INFO : Element found with locator: flight-returning and locator type: id
-01/27/2017 05:27:22 PM - HomePage -  INFO : Element clicked with locator: flight-returning and locator type: id
-01/27/2017 05:27:26 PM - HomePage -  INFO : Element found with locator: advanced-options and locator type: id
-01/27/2017 05:27:26 PM - HomePage -  INFO : Element clicked with locator: advanced-options and locator type: id
-01/27/2017 05:27:28 PM - HomePage -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
-01/27/2017 05:27:28 PM - HomePage -  INFO : Element clicked with locator: advanced-flight-nonstop and locator type: id
-01/27/2017 05:27:28 PM - HomePage -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
-01/27/2017 05:27:28 PM - HomePage -  INFO : Element clicked with locator: advanced-flight-refundable and locator type: id
-01/27/2017 05:27:28 PM - HomePage -  INFO : Element found with locator: advanced-options and locator type: id
-01/27/2017 05:27:28 PM - HomePage -  INFO : Element is displayed with locator: advanced-options locatorType: id
-01/27/2017 05:27:29 PM - HomePage -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
-01/27/2017 05:27:29 PM - HomePage -  INFO : Element clicked with locator: flight-add-car-checkbox and locator type: id
-01/27/2017 05:27:29 PM - HomePage -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
-01/27/2017 05:27:29 PM - HomePage -  INFO : Element clicked with locator: flight-add-hotel-checkbox and locator type: id
-01/27/2017 05:27:30 PM - HomePage -  INFO : Element found with locator: flight-hotel-checkin and locator type: id
-01/27/2017 05:27:30 PM - HomePage -  INFO : Element clicked with locator: flight-hotel-checkin and locator type: id
-01/27/2017 05:27:34 PM - HomePage -  INFO : Element found with locator: flight-hotel-checkout and locator type: id
-01/27/2017 05:27:35 PM - HomePage -  INFO : Element clicked with locator: flight-hotel-checkout and locator type: id
-01/27/2017 05:27:38 PM - HomePage -  INFO : Element found with locator: search-button and locator type: id
-01/27/2017 05:27:38 PM - HomePage -  INFO : Element is displayed with locator: search-button locatorType: id
-01/27/2017 05:27:39 PM - HomePage -  INFO : Element found with locator: search-button and locator type: id
-01/27/2017 05:27:43 PM - HomePage -  INFO : Element clicked with locator: search-button and locator type: id
+01/31/2017 12:30:26 PM - Util -  INFO : Actual Text From Application Web UI --> :: Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
+01/31/2017 12:30:26 PM - Util -  INFO : Expected Text From Application Web UI --> :: Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
+01/31/2017 12:30:26 PM - Util -  INFO : --- PASS - Expected Text MATCHES the Actual Text!
+01/31/2017 12:30:27 PM - StatusTests -  INFO : Screenshot saved to directory: C:\Python\TestProject\base\../screenshots/Title Verification.1485883826906.png
+01/31/2017 12:30:27 PM - HomePage -  INFO : Element found with locator: tab-flight-tab and locator type: id
+01/31/2017 12:30:27 PM - HomePage -  INFO : Element clicked with locator: tab-flight-tab and locator type: id
+01/31/2017 12:30:28 PM - HomePage -  INFO : Element found with locator: flight-type-roundtrip-label and locator type: id
+01/31/2017 12:30:28 PM - HomePage -  INFO : Element clicked with locator: flight-type-roundtrip-label and locator type: id
+01/31/2017 12:30:28 PM - HomePage -  INFO : Element found with locator: flight-origin and locator type: id
+01/31/2017 12:30:29 PM - HomePage -  INFO : Data sent to Element with locator: flight-origin and locator type: id
+01/31/2017 12:30:30 PM - HomePage -  INFO : Element found with locator: flight-destination and locator type: id
+01/31/2017 12:30:31 PM - HomePage -  INFO : Data sent to Element with locator: flight-destination and locator type: id
+01/31/2017 12:30:31 PM - HomePage -  INFO : Element found with locator: flight-departing and locator type: id
+01/31/2017 12:30:32 PM - HomePage -  INFO : Element clicked with locator: flight-departing and locator type: id
+01/31/2017 12:30:34 PM - HomePage -  INFO : Element found with locator: //div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+01/31/2017 12:30:34 PM - HomePage -  INFO : Element clicked with locator: //div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+01/31/2017 12:30:36 PM - HomePage -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
+01/31/2017 12:30:40 PM - HomePage -  INFO : Element found with locator: flight-returning and locator type: id
+01/31/2017 12:30:40 PM - HomePage -  INFO : Element clicked with locator: flight-returning and locator type: id
+01/31/2017 12:30:43 PM - HomePage -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
+01/31/2017 12:30:44 PM - HomePage -  INFO : Element found with locator: flight-adults and locator type: id
+01/31/2017 12:30:44 PM - HomePage -  INFO : Element found with locator: flight-children and locator type: id
+01/31/2017 12:30:44 PM - HomePage -  INFO : Element found with locator: advanced-options and locator type: id
+01/31/2017 12:30:44 PM - HomePage -  INFO : Element clicked with locator: advanced-options and locator type: id
+01/31/2017 12:30:46 PM - HomePage -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
+01/31/2017 12:30:46 PM - HomePage -  INFO : Element clicked with locator: advanced-flight-nonstop and locator type: id
+01/31/2017 12:30:46 PM - HomePage -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
+01/31/2017 12:30:47 PM - HomePage -  INFO : Element clicked with locator: advanced-flight-refundable and locator type: id
+01/31/2017 12:30:47 PM - HomePage -  INFO : Element found with locator: flight-advanced-preferred-airline and locator type: id
+01/31/2017 12:30:47 PM - HomePage -  INFO : Element found with locator: flight-advanced-preferred-class and locator type: id
+01/31/2017 12:30:47 PM - HomePage -  INFO : Element found with locator: advanced-options and locator type: id
+01/31/2017 12:30:47 PM - HomePage -  INFO : Element is displayed with locator: advanced-options locatorType: id
+01/31/2017 12:30:47 PM - StatusTests -  INFO : Screenshot saved to directory: C:\Python\TestProject\base\../screenshots/Add Options Link is displayed.1485883847229.png
+01/31/2017 12:30:47 PM - HomePage -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
+01/31/2017 12:30:47 PM - HomePage -  INFO : Element is displayed with locator: advanced-flight-nonstop locatorType: id
+01/31/2017 12:30:47 PM - StatusTests -  INFO : Screenshot saved to directory: C:\Python\TestProject\base\../screenshots/NonStop Checkbox is displayed.1485883847563.png
+01/31/2017 12:30:47 PM - HomePage -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
+01/31/2017 12:30:47 PM - HomePage -  INFO : Element is displayed with locator: advanced-flight-refundable locatorType: id
+01/31/2017 12:30:48 PM - StatusTests -  INFO : Screenshot saved to directory: C:\Python\TestProject\base\../screenshots/Refund Flight checkbox is displayed.1485883847895.png
+01/31/2017 12:30:48 PM - HomePage -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
+01/31/2017 12:30:48 PM - HomePage -  INFO : Element clicked with locator: flight-add-car-checkbox and locator type: id
+01/31/2017 12:30:48 PM - HomePage -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
+01/31/2017 12:30:49 PM - HomePage -  INFO : Element clicked with locator: flight-add-hotel-checkbox and locator type: id
+01/31/2017 12:30:49 PM - HomePage -  INFO : Element found with locator: flight-hotel-checkin and locator type: id
+01/31/2017 12:30:49 PM - HomePage -  INFO : Element clicked with locator: flight-hotel-checkin and locator type: id
+01/31/2017 12:30:51 PM - HomePage -  INFO : Element found with locator: //div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+01/31/2017 12:30:51 PM - HomePage -  INFO : Element clicked with locator: //div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+01/31/2017 12:30:53 PM - HomePage -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
+01/31/2017 12:30:57 PM - HomePage -  INFO : Element found with locator: flight-hotel-checkout and locator type: id
+01/31/2017 12:30:57 PM - HomePage -  INFO : Element clicked with locator: flight-hotel-checkout and locator type: id
+01/31/2017 12:31:00 PM - HomePage -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
+01/31/2017 12:31:00 PM - HomePage -  INFO : Element found with locator: flight-hotel-rooms and locator type: id
+01/31/2017 12:31:01 PM - HomePage -  INFO : Element found with locator: flight-hotel-1-adults and locator type: id
+01/31/2017 12:31:01 PM - HomePage -  INFO : Element found with locator: flight-hotel-1-children and locator type: id
+01/31/2017 12:31:01 PM - HomePage -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
+01/31/2017 12:31:01 PM - HomePage -  INFO : Element is Selected with locator: flight-add-hotel-checkbox and locator type: id
+01/31/2017 12:31:01 PM - StatusTests -  INFO : Screenshot saved to directory: C:\Python\TestProject\base\../screenshots/Add Hotel Checkbox is Selected.1485883861175.png
+01/31/2017 12:31:01 PM - HomePage -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
+01/31/2017 12:31:01 PM - HomePage -  INFO : Element is Selected with locator: flight-add-car-checkbox and locator type: id
+01/31/2017 12:31:01 PM - StatusTests -  INFO : Screenshot saved to directory: C:\Python\TestProject\base\../screenshots/Add Car Checkbox is selected.1485883861518.png
+01/31/2017 12:31:01 PM - HomePage -  INFO : Element found with locator: search-button and locator type: id
+01/31/2017 12:31:01 PM - HomePage -  INFO : Element is displayed with locator: search-button locatorType: id
+01/31/2017 12:31:02 PM - StatusTests -  INFO : Screenshot saved to directory: C:\Python\TestProject\base\../screenshots/PASSED.1485883861855.png
+01/31/2017 12:31:02 PM - StatusTests -  INFO : test_flightRoundTrip --- TEST PASSED
+01/31/2017 12:31:02 PM - HomePage -  INFO : Element found with locator: search-button and locator type: id
+01/31/2017 12:31:02 PM - HomePage -  INFO : Element clicked with locator: search-button and locator type: id
+01/31/2017 12:31:02 PM - HomePage -  INFO : Waiting for maximum :: 50 :: seconds for the element to appear
+01/31/2017 12:31:39 PM - HomePage -  INFO : Element appeared on the page

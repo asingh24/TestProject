@@ -62,7 +62,7 @@ class PageElements():
             self.log.info("Element clicked with locator: " + locator + " and locator type: " + locatorType)
         except:
             self.log.error("EXCEPTION: Element NOT clicked with locator: " + locator + " and locator type: " + locatorType)
-            print_stack()
+            #print_stack()
 
 
     def sendKeys(self, data, locator = "", locatorType = "id", element = None):
@@ -72,7 +72,22 @@ class PageElements():
             self.log.info("Data sent to Element with locator: " + locator + " and locator type: " + locatorType)
         except:
             self.log.error("EXCEPTION: Data NOT sent to Element with locator: " + locator + " and locator type: " + locatorType)
-            print_stack()
+            #print_stack()
+
+
+    def isSelected(self, locator = "", locatorType = "id", element = None):
+        try:
+            element = self.getElement(locator, locatorType)
+            checkBox = element.get_attribute("checked")
+
+            if checkBox:
+                self.log.info("Element is Selected with locator: " + locator + " and locator type: " + locatorType)
+                return True
+            else:
+                self.log.info("Element is NOT Selected with locator: " + locator + " and locator type: " + locatorType)
+                return False
+        except:
+            self.log.error("EXCEPTION: Element is NOT SELECTED")
 
 
     def getElements(self, locator = "", locatorType = "id"):
@@ -165,10 +180,12 @@ class PageElements():
                 isDisplayed = element.is_displayed()
                 self.log.info("Element is displayed with locator: " + locator +
                               " locatorType: " + locatorType)
+                return isDisplayed
             else:
                 self.log.error("Element not displayed with locator: " + locator +
                               " locatorType: " + locatorType)
-            return isDisplayed
+                return isDisplayed
+
         except:
             self.log.error("EXCEPTION: Element is not displayed and hence was not found")
             return False
@@ -219,7 +236,7 @@ class PageElements():
             if not os.path.exists(destinationDirectory):
                 os.makedirs(destinationDirectory)
             self.driver.save_screenshot(destinationFile)
-            self.log.info("Screenshot save to directory: " + destinationFile)
+            self.log.info("Screenshot saved to directory: " + destinationFile)
         except:
             self.log.error("EXCEPTION: Occurred when taking Screenshot")
             print_stack()

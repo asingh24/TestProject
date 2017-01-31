@@ -20,7 +20,7 @@ class StatusTests(PageElements):
         """
         Inits CheckPoint class
         """
-        super().__init__(driver)
+        super(StatusTests, self).__init__(driver)
         self.resultList = []
 
 
@@ -60,10 +60,10 @@ class StatusTests(PageElements):
         self.setResult(result, resultMessage)
 
         if "FAIL" in self.resultList:
-            self.log.error(testName + " --- FAILED")
+            self.log.error(testName + " --- TEST FAILED")
             self.resultList.clear()
             assert True == False
         else:
-            self.log.info(testName + " --- PASSED")
+            self.log.info(testName + " --- TEST PASSED")
             self.resultList.clear()
             assert True == True
