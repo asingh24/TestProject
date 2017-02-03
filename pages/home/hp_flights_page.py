@@ -9,7 +9,7 @@ import time
 import requests
 
 
-class HomePage(BasePage):
+class FlightRTBundle(BasePage):
 
     log = cl.customLogger(logging.DEBUG)
 
@@ -21,8 +21,7 @@ class HomePage(BasePage):
 
     # DEFINING LOCATORS OF PAGE ELEMENTS
 
-    _flights_tab = "tab-flight-tab"
-    _roundtrip_subTab = "flight-type-roundtrip-label"
+
     _oneway_subTab = "flight-type-one-way-label"
     _multiDest_subTab = "flight-type-multi-dest-label"
     _flight_origin = "flight-origin"
@@ -49,14 +48,12 @@ class HomePage(BasePage):
     _checkin_adults = "flight-hotel-1-adults"
     _checkin_children = "flight-hotel-1-children"
     _search_property = "inpHotelNameMirror"
+    _sort_price = "//div[@id='sortContainer']//button[@aria-label='Sort by: Price']"
 
 
 
-    def clickFlightsTab(self):
-        self.clickElement(self._flights_tab)
-
-    def clickRoundtripSubnav(self):
-        self.clickElement(self._roundtrip_subTab)
+    def navigateToRoundTrip(self):
+        self.nav.bookRoundTrip()
 
     def enterdepartAirport(self, fromAirport):
         self.sendKeys(fromAirport, self._flight_origin)
@@ -114,7 +111,7 @@ class HomePage(BasePage):
         self.clickElement(self._search_button)
 
     def aOptionsIsDisplayed(self):
-        self.isElementDisplayed(self._advance_options)
+        return self.isElementDisplayed(self._advance_options)
 
     def clickAddOptions(self):
         self.clickElement(self._advance_options)
@@ -195,11 +192,16 @@ class HomePage(BasePage):
     def waitForSearchProperty(self):
         self.waitForElement(self._search_property, timeout=50)
 
+    def clickSortByPrice(self):
+        element = self.waitForElement(self._sort_price, locatorType="xpath")
+        element.click()
+        self.waitForElement(self._sort_price, locatorType="xpath", timeout=40)
+
 
     def bookRoundTripFlight(self, fromAirport, toAirport, departDate, returnDate, adults="1", children="0",
                             airline = "", classPreference = ""):
-        self.clickFlightsTab()
-        self.clickRoundtripSubnav()
+
+        self.navigateToRoundTrip()
         self.enterdepartAirport(fromAirport)
         self.enterDestinationAirport(toAirport)
         self.clickDepartDate()
@@ -233,13 +235,14 @@ class HomePage(BasePage):
     def search(self):
         self.clickSearchButton()
         self.waitForSearchProperty()
+        self.clickSortByPrice()
 
     def verifyHomepageTitle(self):
-        self.verifyPageTitle("Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares")
+        return self.verifyPageTitle("Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares")
 
 
     def nonStopIsDisplayed(self):
-        self.isElementDisplayed(self._non_stop)
+        return self.isElementDisplayed(self._non_stop)
 
     # def nonstopIsSelected(self):
     #     self.isSelected(self._non_stop)
@@ -247,7 +250,7 @@ class HomePage(BasePage):
     #     # return element
 
     def refundIsDisplayed(self):
-        self.isElementDisplayed(self._refundable)
+        return self.isElementDisplayed(self._refundable)
 
     # def refundIsSelected(self):
     #     self.isSelected(self._refundable)
@@ -255,15 +258,15 @@ class HomePage(BasePage):
     #     # return element
 
     def searchButtonIsDisplayed(self):
-        self.isElementDisplayed(self._search_button)
+        return self.isElementDisplayed(self._search_button)
 
 
     def addHotelIsSelected(self):
-        self.isSelected(self._add_hotel)
+        return self.isSelected(self._add_hotel)
         # element = self.driver.find_element_by_id("flight-add-hotel-checkbox").is_selected()
         # return element
 
     def addCarIsSelected(self):
-        self.isSelected(self._add_car)
+        return self.isSelected(self._add_car)
         # element = self.driver.find_element_by_id("flight-add-car-checkbox").is_selected()
         # return element

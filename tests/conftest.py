@@ -1,6 +1,6 @@
 import pytest
 from base.webdriverfactory import WebDriverFactory
-from pages.home.hp_flights_page import HomePage
+from pages.home.hp_flights_page import FlightRTBundle
 
 @pytest.yield_fixture()
 def setUp():

@@ -1265,3 +1265,495 @@ JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getPara
 JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
 JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
 [Child 4324] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485965332519	geckodriver	INFO	Listening on 127.0.0.1:52279
+1485965335664	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.Km56PbBdy5gp
+1485965335676	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485965335687	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52287
+1485965339061	Marionette	INFO	Listening on port 52287
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 3348] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485967043011	geckodriver	INFO	Listening on 127.0.0.1:53481
+1485967044972	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.TA9odNVrac22
+1485967044980	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485967045047	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53487
+1485967047497	Marionette	INFO	Listening on port 53487
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 6228] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 6228] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:576:15
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:576:15
+
+*************************
+Marionette threw an error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: chrome://marionette/content/proxy.js :: sendReply_ :: line 187"  data: no]
+sendReply_@chrome://marionette/content/proxy.js:187:5
+reply@chrome://marionette/content/proxy.js:176:7
+sendToServer@chrome://marionette/content/listener.js:430:3
+sendError@chrome://marionette/content/listener.js:464:3
+dispatch/</<@chrome://marionette/content/listener.js:201:40
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:940:21
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+1485967199255	geckodriver	INFO	Listening on 127.0.0.1:54043
+1485967201210	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.kPR4OjxvddyZ
+1485967201217	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485967201225	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54049
+1485967203568	Marionette	INFO	Listening on port 54049
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 1776] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485967547159	geckodriver	INFO	Listening on 127.0.0.1:54613
+1485967549134	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.585zAF3yCN7f
+1485967549141	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485967549151	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54619
+1485967550647	Marionette	INFO	Listening on port 54619
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://suggest.expedia.com/api/v4/nearby/?callback=jQuery182043326969377372593_1485967556038&latlong=40.3765983581543%7C-74.90019989013672&client=Homepage&siteid=1&locale=en_US&regiontype=1&maxradius=200&maxresults=100&_=1485967559146, line 1: TypeError: jQuery182043326969377372593_1485967556038 is not a function
+[Child 992] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485967852941	geckodriver	INFO	Listening on 127.0.0.1:55204
+1485967854916	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.PZ7YS8JUnVc9
+1485967854925	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485967854933	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55210
+1485967856678	Marionette	INFO	Listening on port 55210
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 3240] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485968957899	geckodriver	INFO	Listening on 127.0.0.1:56672
+1485968959854	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.zdILpoZ9Zmcj
+1485968959892	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485968959901	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56678
+1485968962243	Marionette	INFO	Listening on port 56678
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 7080] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x9E0001,name=PLayerTransaction::Msg_PLayerConstructor) Channel error: cannot send/recv
+
+IPDL protocol error: constructor for actor failed
+[Child 7080] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+[Child 7080] ###!!! ABORT: IPDL error [PLayerTransactionChild]: "constructor for actor failed". abort()ing as a result.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/ProtocolUtils.cpp, line 402
+1485969794726	geckodriver	INFO	Listening on 127.0.0.1:57399
+1485969796688	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.ZEd4DfIhVlUQ
+1485969796695	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485969796704	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57407
+1485969799127	Marionette	INFO	Listening on port 57407
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 6896] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485970277381	geckodriver	INFO	Listening on 127.0.0.1:58037
+1485970279358	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.FbwcafpUjyCX
+1485970279366	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485970279376	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58045
+1485970281905	Marionette	INFO	Listening on port 58045
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 4936] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485970901840	geckodriver	INFO	Listening on 127.0.0.1:58641
+1485970903795	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.3wAnRUnSQKQ7
+1485970903802	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485970903811	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58647
+1485970906753	Marionette	INFO	Listening on port 58647
+JavaScript error: https://www.expedia.com/, line 21939: ReferenceError: dctk is not defined
+[Child 2524] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485971107660	geckodriver	INFO	Listening on 127.0.0.1:58905
+1485971109637	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.Nu5MbqFWvZlH
+1485971109645	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485971109691	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58911
+1485971111366	Marionette	INFO	Listening on port 58911
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 5220] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485971444618	geckodriver	INFO	Listening on 127.0.0.1:59482
+1485971446595	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.mrc1DlucpGUa
+1485971446604	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485971446614	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59489
+1485971449073	Marionette	INFO	Listening on port 59489
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 6824] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485971916905	geckodriver	INFO	Listening on 127.0.0.1:60059
+1485971918880	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.Na2wtOwsq9Dj
+1485971918888	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485971918897	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60065
+1485971921414	Marionette	INFO	Listening on port 60065
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 4528] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485972260433	geckodriver	INFO	Listening on 127.0.0.1:60650
+1485972262408	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.8uY6WJB8jbpn
+1485972262416	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485972262426	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60656
+1485972263846	Marionette	INFO	Listening on port 60656
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 1824] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 1824] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485974255924	geckodriver	INFO	Listening on 127.0.0.1:61144
+1485974257903	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.aXkf92IyTS9T
+1485974257910	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485974257919	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61150
+1485974259611	Marionette	INFO	Listening on port 61150
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 3384] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485974790449	geckodriver	INFO	Listening on 127.0.0.1:61497
+1485974792406	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.te9RnHGqwcca
+1485974792414	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485974792422	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61503
+1485974794918	Marionette	INFO	Listening on port 61503
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 3992] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485975055302	geckodriver	INFO	Listening on 127.0.0.1:61820
+1485975057277	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.FOHrZAkyjISz
+1485975057285	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485975057294	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61826
+1485975059763	Marionette	INFO	Listening on port 61826
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 4780] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485975156251	geckodriver	INFO	Listening on 127.0.0.1:62089
+1485975158228	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.Zyzcr9mQEXG6
+1485975158267	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485975158276	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62095
+1485975159641	Marionette	INFO	Listening on port 62095
+JavaScript error: https://www.expedia.com/, line 21939: ReferenceError: dctk is not defined
+1485975191662	geckodriver	INFO	Listening on 127.0.0.1:62286
+1485975193640	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.xn0XOSvRQ68c
+1485975193648	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485975193656	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62292
+1485975194977	Marionette	INFO	Listening on port 62292
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 5932] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485975544372	geckodriver	INFO	Listening on 127.0.0.1:62567
+1485975546350	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.ONEDedyqUCNE
+1485975546357	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485975546366	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62573
+1485975547815	Marionette	INFO	Listening on port 62573
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 4932] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485975601061	geckodriver	INFO	Listening on 127.0.0.1:62818
+1485975603041	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.oL21kat8M83C
+1485975603047	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485975603056	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62824
+1485975604723	Marionette	INFO	Listening on port 62824
+JavaScript error: https://www.expedia.com/, line 21945: ReferenceError: dctk is not defined
+[Child 7124] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485975621558	geckodriver	INFO	Listening on 127.0.0.1:63012
+1485975623536	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.xH2fru0IlyPS
+1485975623543	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485975623551	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63018
+1485975624908	Marionette	INFO	Listening on port 63018
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 5696] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485975793765	geckodriver	INFO	Listening on 127.0.0.1:63550
+1485975795742	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.MepzlZ9SrFsD
+1485975795750	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485975795758	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63556
+1485975797465	Marionette	INFO	Listening on port 63556
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 6552] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485976071255	geckodriver	INFO	Listening on 127.0.0.1:63865
+1485976073235	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.vytvzefMzlYA
+1485976073243	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485976073251	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63871
+1485976074708	Marionette	INFO	Listening on port 63871
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:576:15
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:576:15
+
+*************************
+Marionette threw an error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: chrome://marionette/content/proxy.js :: sendReply_ :: line 187"  data: no]
+sendReply_@chrome://marionette/content/proxy.js:187:5
+reply@chrome://marionette/content/proxy.js:176:7
+sendToServer@chrome://marionette/content/listener.js:430:3
+sendError@chrome://marionette/content/listener.js:464:3
+dispatch/</<@chrome://marionette/content/listener.js:201:40
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:940:21
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+1485978887344	geckodriver	INFO	Listening on 127.0.0.1:64334
+1485978889319	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.MunkCg5s7zFx
+1485978889327	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485978889336	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64340
+1485978891929	Marionette	INFO	Listening on port 64340
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAE0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 7820] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][OnMaybeDequeueOne] Error: Chan1485979166931	Marionette	INFO	Listening on port 64916
+JavaScript error: https://a1.nyt.com/assets/homepage/20170130-151318/js/homepage/main.js, line 5: TypeError: this.prettyDate(...).toLowerCase is not a function
+[Child 5060] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 5060] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1485979695650	geckodriver	INFO	Listening on 127.0.0.1:49230
+1485979697629	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.rWqEsKf57LMV
+1485979697637	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485979697645	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49236
+1485979699027	Marionette	INFO	Listening on port 49236
+1485980539055	addons.xpi-utils	ERROR	Failed to load XPI JSON data from profile: TypeError: XPIProvider.installLocationsByName is null (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:339:5) JS Stack trace: DBAddonInternal@XPIProviderUtils.js:339:5 < this.XPIDatabase.parseDB@XPIProviderUtils.js:675:24 < this.XPIDatabase.asyncLoadDB/this._dbPromise<@XPIProviderUtils.js:778:9 < Handler.prototype.process@Promise-backend.js:937:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:816:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:750:11 < Spinner.prototype.observe@AsyncShutdown.jsm:551:9
+1485980539058	addons.xpi-utils	WARN	Rebuilding add-ons database from installed extensions.
+1485980539059	addons.xpi-utils	ERROR	Failed to rebuild XPI database from installed extensions: TypeError: XPIProvider.installLocations is null (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1934:14) JS Stack trace: processFileChanges@XPIProviderUtils.js:1934:14 < this.XPIDatabase.rebuildDatabase@XPIProviderUtils.js:825:9 < this.XPIDatabase.parseDB@XPIProviderUtils.js:696:7 < this.XPIDatabase.asyncLoadDB/this._dbPromise<@XPIProviderUtils.js:778:9 < Handler.prototype.process@Promise-backend.js:937:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:816:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:750:11 < Spinner.prototype.observe@AsyncShutdown.jsm:551:9
+1485980539062	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:458:17) JS Stack trace: this.XPIDatabase.saveChanges@XPIProviderUtils.js:458:17 < this.XPIProvider.verifySignatures/</<@XPIProvider.jsm:3178:9
+1485980539104	DeferredSave.extensions.json	WARN	Write failed: Error: OS.File has been shut down. Rejecting request to writeAtomic (resource://gre/modules/osfile/osfile_async_front.jsm:412:8) JS Stack trace: post/<@osfile_async_front.jsm:412:8 < TaskImpl_run@Task.jsm:319:40 < TaskImpl@Task.jsm:280:3 < createAsyncFunction/asyncFunction@Task.jsm:254:14 < Handler.prototype.process@Promise-backend.js:937:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:816:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:750:11 < Spinner.prototype.observe@AsyncShutdown.jsm:551:9
+1485980539106	addons.xpi-utils	WARN	Failed to save XPI database: Error: OS.File has been shut down. Rejecting request to writeAtomic (resource://gre/modules/osfile/osfile_async_front.jsm:412:8) JS Stack trace: post/<@osfile_async_front.jsm:412:8 < TaskImpl_run@Task.jsm:319:40 < TaskImpl@Task.jsm:280:3 < createAsyncFunction/asyncFunction@Task.jsm:254:14 < Handler.prototype.process@Promise-backend.js:937:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:816:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:750:11 < Spinner.prototype.observe@AsyncShutdown.jsm:551:9
+1485984877871	geckodriver	INFO	Listening on 127.0.0.1:51396
+1485984879787	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.V8XXseQTyIlB
+1485984879796	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485984879806	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51402
+1485984882545	Marionette	INFO	Listening on port 51402
+[Child 7472] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1485989090326	geckodriver	INFO	Listening on 127.0.0.1:52681
+1485989092262	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.nBbf2ArLRU48
+1485989092282	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485989092290	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52687
+1485989094863	Marionette	INFO	Listening on port 52687
+[Child 288] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1485989228656	geckodriver	INFO	Listening on 127.0.0.1:52946
+1485989230421	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.3ueY8mTlTFBa
+1485989230429	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485989230438	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52952
+1485989232966	Marionette	INFO	Listening on port 52952
+JavaScript error: https://us-ads.openx.net/w/1.0/jstag, line 9: Error: Permission denied to access property "realvu"
+JavaScript error: https://us-ads.openx.net/w/1.0/jstag, line 9: Error: Permission denied to access property "realvu"
+JavaScript error: https://us-ads.openx.net/w/1.0/jstag, line 9: Error: Permission denied to access property "realvu"
+1485992202071	geckodriver	INFO	Listening on 127.0.0.1:55480
+1485992208918	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.qDbBJ4pbSB3r
+1485992209121	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485992209130	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55491
+1485992213091	Marionette	INFO	Listening on port 55491
+[Child 8320] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8E0007,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8E0007,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8E0007,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2E0045,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A00C2,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+
+1485992370798	geckodriver	INFO	Listening on 127.0.0.1:55876
+1485992372713	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.YQErXJesOYJ1
+1485992372721	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485992372729	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55883
+1485992375812	Marionette	INFO	Listening on port 55883
+1485992691654	geckodriver	INFO	Listening on 127.0.0.1:56329
+1485992693630	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.kpqtepw1wbFu
+1485992693638	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1485992693646	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56335
+1485992695508	Marionette	INFO	Listening on port 56335
+[Child 6848] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6848] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1486052939630	geckodriver	INFO	Listening on 127.0.0.1:60319
+1486052941576	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.nv6vyM8IFqHC
+1486052941586	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1486052941598	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60326
+1486052954463	Marionette	INFO	Listening on port 60326
+1486053013013	geckodriver	INFO	Listening on 127.0.0.1:60416
+1486053014993	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.PAlS7csN3M2r
+1486053015308	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1486053015317	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60422
+1486053018840	Marionette	INFO	Listening on port 60422
+1486053124849	geckodriver	INFO	Listening on 127.0.0.1:60670
+1486053126843	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.heU6qfYmd4cy
+1486053126853	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1486053126861	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60676
+1486053135970	Marionette	INFO	Listening on port 60676
+JavaScript error: https://www.nytimes.com/, line 111: TypeError: window.location is null
+1486053163380	geckodriver	INFO	Listening on 127.0.0.1:60726
+1486053165373	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.oTOZBN9Lww91
+1486053165380	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1486053165389	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60732
+1486053166784	Marionette	INFO	Listening on port 60732
+1486140739708	geckodriver	INFO	Listening on 127.0.0.1:57677
+1486140741409	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.kLGnzXwdLjiF
+1486140741418	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1486140741462	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57684
+1486140758952	Marionette	INFO	Listening on port 57684
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://suggest.expedia.com/api/v4/nearby/?callback=jQuery182024770478542817653_1486140773391&latlong=40.3765983581543%7C-74.90019989013672&client=Homepage&siteid=1&locale=en_US&regiontype=1&maxradius=200&maxresults=100&_=1486140777874, line 1: TypeError: jQuery182024770478542817653_1486140773391 is not a function
+JavaScript error: https://b.travel-assets.com/datacapture/2-98/4a33d9e9b8e27431176f79c9ff6bc7fb4b5bed15/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '12,804')
+[Child 8232] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1486140859102	geckodriver	INFO	Listening on 127.0.0.1:58107
+1486140861117	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.qX2Keotf4uZw
+1486140861215	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1486140861223	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58113
+1486140864988	Marionette	INFO	Listening on port 58113
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-98/4a33d9e9b8e27431176f79c9ff6bc7fb4b5bed15/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '12,804')
+[Child 4152] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1486141570836	geckodriver	INFO	Listening on 127.0.0.1:58748
+1486141572866	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.oguQJ5vf3e3Q
+1486141572874	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1486141572884	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58754
+1486141574566	Marionette	INFO	Listening on port 58754
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-98/4a33d9e9b8e27431176f79c9ff6bc7fb4b5bed15/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '12,804')
+[Child 3316] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1486143441140	geckodriver	INFO	Listening on 127.0.0.1:60103
+1486143443162	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.laBZhra88OLi
+1486143443171	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1486143443180	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60109
+1486143445943	Marionette	INFO	Listening on port 60109
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://suggest.expedia.com/api/v4/nearby/?callback=jQuery182014899013934400385_1486143452738&latlong=40.3765983581543%7C-74.90019989013672&client=Homepage&siteid=1&locale=en_US&regiontype=1&maxradius=200&maxresults=100&_=1486143458585, line 1: TypeError: jQuery182014899013934400385_1486143452738 is not a function
+JavaScript error: https://b.travel-assets.com/datacapture/2-98/4a33d9e9b8e27431176f79c9ff6bc7fb4b5bed15/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '12,804')
+[Child 5208] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 5208] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056

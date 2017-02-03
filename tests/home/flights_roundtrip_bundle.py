@@ -1,4 +1,4 @@
-from pages.home.hp_flights_page import HomePage
+from pages.home.hp_flights_page import FlightRTBundle
 import unittest
 import pytest
 from utilities.statustests import StatusTests
@@ -10,7 +10,7 @@ class RoundTrip(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
     def classSetup(self, oneTimeSetUp):
-        self.hp = HomePage(self.driver)
+        self.hp = FlightRTBundle(self.driver)
         self.ts = StatusTests(self.driver)
 
     @pytest.mark.run(order=1)
