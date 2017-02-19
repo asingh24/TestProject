@@ -1,10 +1,10 @@
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
-import utilities.custom_logger as cl
+import TestProject.utilities.custom_logger as cl
 import logging
-from base.basepage import BasePage
-from navigation.navigation import NavigationPage
+from TestProject.base.basepage import BasePage
+from TestProject.navigation.navigation import NavigationPage
 import time
 import requests
 

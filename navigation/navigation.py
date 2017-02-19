@@ -1,6 +1,6 @@
-import utilities.custom_logger as cl
+import TestProject.utilities.custom_logger as cl
 import logging
-from base.basepage import BasePage
+from TestProject.base.basepage import BasePage
 
 
 class NavigationPage(BasePage):

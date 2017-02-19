@@ -1757,3 +1757,108 @@ JavaScript error: https://suggest.expedia.com/api/v4/nearby/?callback=jQuery1820
 JavaScript error: https://b.travel-assets.com/datacapture/2-98/4a33d9e9b8e27431176f79c9ff6bc7fb4b5bed15/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '12,804')
 [Child 5208] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
 [Child 5208] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1486492331180	geckodriver	INFO	Listening on 127.0.0.1:50278
+1486492335775	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.vyP2bIuOuEfz
+1486492335785	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1486492335795	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50285
+1486492339539	Marionette	INFO	Listening on port 50285
+JavaScript error: https://suggest.expedia.com/api/v4/nearby/?callback=jQuery182005266499442207795_1486492351793&latlong=40.3765983581543%7C-74.90019989013672&client=Homepage&siteid=1&locale=en_US&regiontype=1&maxradius=200&maxresults=100&_=1486492353484, line 1: TypeError: jQuery182005266499442207795_1486492351793 is not a function
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-99/aa7dfaf0ee7b8ae876269eac96509662c4d9b0c6/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4300 (The given Experiment '12,804' was not found)
+[Child 8172] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1486492623799	geckodriver	INFO	Listening on 127.0.0.1:50844
+1486492625773	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.cpY3dfleJA58
+1486492625781	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1486492625789	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50850
+1486492627975	Marionette	INFO	Listening on port 50850
+JavaScript error: https://suggest.expedia.com/api/v4/nearby/?callback=jQuery18203903971948839461_1486492633232&latlong=40.3765983581543%7C-74.90019989013672&client=Homepage&siteid=1&locale=en_US&regiontype=1&maxradius=200&maxresults=100&_=1486492634175, line 1: TypeError: jQuery18203903971948839461_1486492633232 is not a function
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-99/aa7dfaf0ee7b8ae876269eac96509662c4d9b0c6/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4300 (The given Experiment '12,804' was not found)
+[Child 7612] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1486492816611	geckodriver	INFO	Listening on 127.0.0.1:51258
+1486492818587	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.89u1ZsSZRjTZ
+1486492818595	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1486492818604	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51264
+1486492819867	Marionette	INFO	Listening on port 51264
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-99/aa7dfaf0ee7b8ae876269eac96509662c4d9b0c6/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4300 (The given Experiment '12,804' was not found)
+[Child 8388] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1487002374583	geckodriver	INFO	Listening on 127.0.0.1:62220
+1487002376580	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.10gnuqckQ11R
+1487002376589	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1487002376625	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62227
+1487002390371	Marionette	INFO	Listening on port 62227
+JavaScript error: https://suggest.expedia.com/api/v4/nearby/?callback=jQuery18207794852928204788_1487002423460&latlong=40.3765983581543%7C-74.90019989013672&client=Homepage&siteid=1&locale=en_US&regiontype=1&maxradius=200&maxresults=100&_=1487002425265, line 1: TypeError: jQuery18207794852928204788_1487002423460 is not a function
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-99/90bb81caee77de2f81d28d0cd5fb2ccb0928cdfa/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4300 (The given Experiment '12,804' was not found)
+[Child 3764] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 3764] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1487003237968	geckodriver	INFO	Listening on 127.0.0.1:62976
+1487003239943	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.0AGxGm5knu1N
+1487003239950	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1487003239959	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62982
+1487003241500	Marionette	INFO	Listening on port 62982
+JavaScript error: https://suggest.expedia.com/api/v4/nearby/?callback=jQuery182014700267788408405_1487003247420&latlong=40.3765983581543%7C-74.90019989013672&client=Homepage&siteid=1&locale=en_US&regiontype=1&maxradius=200&maxresults=100&_=1487003248766, line 1: TypeError: jQuery182014700267788408405_1487003247420 is not a function
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-100/44e4af3b2815cf34ea9a220192ec7b1a866cbf20/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4300 (The given Experiment '12,804' was not found)
+[Child 1392] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1487003692597	geckodriver	INFO	Listening on 127.0.0.1:63465
+1487003694605	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.WlxNdbjxm8uW
+1487003694613	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1487003694622	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63471
+1487003697475	Marionette	INFO	Listening on port 63471
+JavaScript error: https://suggest.expedia.com/api/v4/nearby/?callback=jQuery18204345640235460645_1487003704365&latlong=40.3765983581543%7C-74.90019989013672&client=Homepage&siteid=1&locale=en_US&regiontype=1&maxradius=200&maxresults=100&_=1487003705524, line 1: TypeError: jQuery18204345640235460645_1487003704365 is not a function
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-99/90bb81caee77de2f81d28d0cd5fb2ccb0928cdfa/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4300 (The given Experiment '12,804' was not found)
+[Child 4752] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1487095720095	geckodriver	INFO	Listening on 127.0.0.1:61592
+1487095721788	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.YGtyExHArcce
+1487095721797	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1487095721853	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61599
+1487095727472	Marionette	INFO	Listening on port 61599
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-99/90bb81caee77de2f81d28d0cd5fb2ccb0928cdfa/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4300 (The given Experiment '12,804' was not found)
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-4&p=https%3A//www.expedia.com, line 26: SyntaxError: expected expression, got '<'
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-4&p=https%3A//www.expedia.com, line 26: ReferenceError: osdlfm is not defined
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-2&p=https%3A//www.expedia.com, line 26: SyntaxError: expected expression, got '<'
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-2&p=https%3A//www.expedia.com, line 27: ReferenceError: osdlfm is not defined
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-3&p=https%3A//www.expedia.com, line 26: SyntaxError: expected expression, got '<'
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-3&p=https%3A//www.expedia.com, line 27: ReferenceError: osdlfm is not defined
+JavaScript error: https://secure.insightexpressai.com/adServer/adServerESI.aspx?script=false&bannerID=1278209&siteID=N2724.Expedia&creativeID=72200729&placementID=143671834&rnd=1531967530&redir=http://secure.insightexpressai.com/adserver/1pixel.gif, line 1: SyntaxError: illegal character
+JavaScript error: https://secure.insightexpressai.com/adServer/adServerESI.aspx?script=false&bannerID=1278209&siteID=N2724.Expedia&creativeID=78079940&placementID=143671843&rnd=1990864344&redir=http://secure.insightexpressai.com/adserver/1pixel.gif, line 1: SyntaxError: illegal character
+JavaScript error: https://secure.insightexpressai.com/adServer/adServerESI.aspx?script=false&bannerID=1278209&siteID=N2724.Expedia&creativeID=78079940&placementID=143671844&rnd=1705329453&redir=http://secure.insightexpressai.com/adserver/1pixel.gif, line 1: SyntaxError: illegal character
+[Child 11068] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1487096417081	geckodriver	INFO	Listening on 127.0.0.1:63173
+1487096418852	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.QNy8nyK2P8T4
+1487096418861	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1487096418871	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63179
+1487096421732	Marionette	INFO	Listening on port 63179
+JavaScript error: https://suggest.expedia.com/api/v4/nearby/?callback=jQuery182008071818406602227_1487096430861&latlong=40.3765983581543%7C-74.90019989013672&client=Homepage&siteid=1&locale=en_US&regiontype=1&maxradius=200&maxresults=100&_=1487096432440, line 1: TypeError: jQuery182008071818406602227_1487096430861 is not a function
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-99/90bb81caee77de2f81d28d0cd5fb2ccb0928cdfa/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4300 (The given Experiment '12,804' was not found)
+JavaScript error: https://secure.insightexpressai.com/adServer/adServerESI.aspx?script=false&bannerID=1278209&siteID=N2724.Expedia&creativeID=72200729&placementID=143671834&rnd=1539507728&redir=http://secure.insightexpressai.com/adserver/1pixel.gif, line 1: SyntaxError: illegal character
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-2&p=https%3A//www.expedia.com, line 26: SyntaxError: expected expression, got '<'
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-2&p=https%3A//www.expedia.com, line 27: ReferenceError: osdlfm is not defined
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-3&p=https%3A//www.expedia.com, line 26: SyntaxError: expected expression, got '<'
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-3&p=https%3A//www.expedia.com, line 27: ReferenceError: osdlfm is not defined
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-4&p=https%3A//www.expedia.com, line 26: SyntaxError: expected expression, got '<'
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-4&p=https%3A//www.expedia.com, line 26: ReferenceError: osdlfm is not defined
+[Child 1516] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 1516] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1487463109470	geckodriver	INFO	Listening on 127.0.0.1:60268
+1487463111196	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.4zEMW7Ig9lHC
+1487463111205	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1487463111257	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60275
+1487463115377	Marionette	INFO	Listening on port 60275
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 9: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-100/8eeb60cafc1ae6746a1c3e62afdb20c4acfa12c3/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4300 (The given Experiment '12,804' was not found)
+[Child 11020] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056

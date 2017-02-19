@@ -10,7 +10,7 @@ Example:
 import time
 import traceback
 import random, string
-import utilities.custom_logger as cl
+import TestProject.utilities.custom_logger as cl
 import logging
 
 class Util(object):

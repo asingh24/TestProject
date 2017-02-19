@@ -1,7 +1,7 @@
-from pages.home.hp_flights_page import FlightRTBundle
+from TestProject.pages.home.hp_flights_page import FlightRTBundle
 import unittest
 import pytest
-from utilities.statustests import StatusTests
+from TestProject.utilities.statustests import StatusTests
 
 
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
@@ -15,10 +15,7 @@ class RoundTrip(unittest.TestCase):
 
     @pytest.mark.run(order=1)
     def test_flightRoundTrip(self):
-        # result = self.hp.verifyPageLinks()
-        # self.ts.mark(result, "Page Links are Validated")
-        # result1 = self.hp.verifyBrokenImages()
-        # self.ts.mark(result1, "Page images are Validated")
+        
 
 
         result2 = self.hp.verifyHomepageTitle()

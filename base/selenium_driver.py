@@ -4,7 +4,7 @@ from traceback import print_stack
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
-from utilities import custom_logger as cl
+from TestProject.utilities import custom_logger as cl
 import logging
 import os
 import time
@@ -79,6 +79,7 @@ class PageElements():
         try:
             element = self.getElement(locator, locatorType)
             checkBox = element.get_attribute("checked")
+            #checkBox = element.is_selected()
 
             if checkBox:
                 self.log.info("Element is Selected with locator: " + locator + " and locator type: " + locatorType)

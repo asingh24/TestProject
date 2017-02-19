@@ -1,144 +1,286 @@
-02/03/2017 12:06:35 PM - Util -  INFO : Actual Text From Application Web UI --> :: Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
-02/03/2017 12:06:35 PM - Util -  INFO : Expected Text From Application Web UI --> :: Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
-02/03/2017 12:06:35 PM - Util -  INFO : --- PASS - Expected Text MATCHES the Actual Text!
-02/03/2017 12:06:35 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Title Verification
-02/03/2017 12:06:35 PM - NavigationPage -  INFO : Element found with locator: tab-flight-tab and locator type: id
-02/03/2017 12:06:35 PM - NavigationPage -  INFO : Element clicked with locator: tab-flight-tab and locator type: id
-02/03/2017 12:06:35 PM - NavigationPage -  INFO : Element found with locator: flight-type-roundtrip-label and locator type: id
-02/03/2017 12:06:36 PM - NavigationPage -  INFO : Element clicked with locator: flight-type-roundtrip-label and locator type: id
-02/03/2017 12:06:36 PM - FlightRTBundle -  INFO : Element found with locator: flight-origin and locator type: id
-02/03/2017 12:06:37 PM - FlightRTBundle -  INFO : Data sent to Element with locator: flight-origin and locator type: id
-02/03/2017 12:06:37 PM - FlightRTBundle -  INFO : Element found with locator: flight-destination and locator type: id
-02/03/2017 12:06:38 PM - FlightRTBundle -  INFO : Data sent to Element with locator: flight-destination and locator type: id
-02/03/2017 12:06:39 PM - FlightRTBundle -  INFO : Element found with locator: flight-departing and locator type: id
-02/03/2017 12:06:40 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-departing and locator type: id
-02/03/2017 12:06:42 PM - FlightRTBundle -  INFO : Element found with locator: //div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
-02/03/2017 12:06:42 PM - FlightRTBundle -  INFO : Element clicked with locator: //div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
-02/03/2017 12:06:44 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
-02/03/2017 12:06:49 PM - FlightRTBundle -  INFO : Element found with locator: flight-returning and locator type: id
-02/03/2017 12:06:49 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-returning and locator type: id
-02/03/2017 12:06:52 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
-02/03/2017 12:06:52 PM - FlightRTBundle -  INFO : Element found with locator: flight-adults and locator type: id
-02/03/2017 12:06:53 PM - FlightRTBundle -  INFO : Element found with locator: flight-children and locator type: id
-02/03/2017 12:06:53 PM - FlightRTBundle -  INFO : Element found with locator: advanced-options and locator type: id
-02/03/2017 12:06:53 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-options and locator type: id
-02/03/2017 12:06:55 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
-02/03/2017 12:06:55 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-flight-nonstop and locator type: id
-02/03/2017 12:06:55 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
-02/03/2017 12:06:55 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-flight-refundable and locator type: id
-02/03/2017 12:06:55 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-preferred-airline and locator type: id
-02/03/2017 12:06:55 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-preferred-class and locator type: id
-02/03/2017 12:06:55 PM - FlightRTBundle -  INFO : Element found with locator: advanced-options and locator type: id
-02/03/2017 12:06:55 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-options locatorType: id
-02/03/2017 12:06:55 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Options Link is displayed
-02/03/2017 12:06:55 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
-02/03/2017 12:06:55 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-flight-nonstop locatorType: id
-02/03/2017 12:06:55 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: NonStop Checkbox is displayed
-02/03/2017 12:06:55 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
-02/03/2017 12:06:55 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-flight-refundable locatorType: id
-02/03/2017 12:06:55 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Refund Flight checkbox is displayed
-02/03/2017 12:06:55 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
-02/03/2017 12:06:56 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-add-car-checkbox and locator type: id
-02/03/2017 12:06:56 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
-02/03/2017 12:06:56 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-add-hotel-checkbox and locator type: id
-02/03/2017 12:06:56 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-checkin and locator type: id
-02/03/2017 12:06:56 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-hotel-checkin and locator type: id
-02/03/2017 12:06:58 PM - FlightRTBundle -  INFO : Element found with locator: //div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
-02/03/2017 12:06:58 PM - FlightRTBundle -  INFO : Element clicked with locator: //div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
-02/03/2017 12:07:00 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
-02/03/2017 12:07:04 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-checkout and locator type: id
-02/03/2017 12:07:04 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-hotel-checkout and locator type: id
-02/03/2017 12:07:07 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
-02/03/2017 12:07:07 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-rooms and locator type: id
-02/03/2017 12:07:07 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-1-adults and locator type: id
-02/03/2017 12:07:07 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-1-children and locator type: id
-02/03/2017 12:07:07 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
-02/03/2017 12:07:07 PM - FlightRTBundle -  INFO : Element is Selected with locator: flight-add-hotel-checkbox and locator type: id
-02/03/2017 12:07:07 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Hotel Checkbox is Selected
-02/03/2017 12:07:07 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
-02/03/2017 12:07:07 PM - FlightRTBundle -  INFO : Element is Selected with locator: flight-add-car-checkbox and locator type: id
-02/03/2017 12:07:07 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Car Checkbox is selected
-02/03/2017 12:07:07 PM - FlightRTBundle -  INFO : Element found with locator: search-button and locator type: id
-02/03/2017 12:07:07 PM - FlightRTBundle -  INFO : Element is displayed with locator: search-button locatorType: id
-02/03/2017 12:07:07 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: PASSED
-02/03/2017 12:07:07 PM - StatusTests -  INFO : test_flightRoundTrip --- TEST PASSED
-02/03/2017 12:07:08 PM - FlightRTBundle -  INFO : Element found with locator: search-button and locator type: id
-02/03/2017 12:07:08 PM - FlightRTBundle -  INFO : Element clicked with locator: search-button and locator type: id
-02/03/2017 12:07:08 PM - FlightRTBundle -  INFO : Waiting for maximum :: 50 :: seconds for the element to appear
-02/03/2017 12:07:20 PM - FlightRTBundle -  INFO : Element appeared on the page
-02/03/2017 12:07:20 PM - FlightRTBundle -  INFO : Waiting for maximum :: 10 :: seconds for the element to appear
-02/03/2017 12:07:21 PM - FlightRTBundle -  INFO : Element appeared on the page
-02/03/2017 12:07:21 PM - FlightRTBundle -  INFO : Waiting for maximum :: 40 :: seconds for the element to appear
-02/03/2017 12:07:22 PM - FlightRTBundle -  INFO : Element appeared on the page
-02/03/2017 12:38:30 PM - Util -  INFO : Actual Text From Application Web UI --> :: Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
-02/03/2017 12:38:30 PM - Util -  INFO : Expected Text From Application Web UI --> :: Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
-02/03/2017 12:38:30 PM - Util -  INFO : --- PASS - Expected Text MATCHES the Actual Text!
-02/03/2017 12:38:30 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Title Verification
-02/03/2017 12:38:30 PM - NavigationPage -  INFO : Element found with locator: tab-flight-tab and locator type: id
-02/03/2017 12:38:31 PM - NavigationPage -  INFO : Element clicked with locator: tab-flight-tab and locator type: id
-02/03/2017 12:38:31 PM - NavigationPage -  INFO : Element found with locator: flight-type-roundtrip-label and locator type: id
-02/03/2017 12:38:32 PM - NavigationPage -  INFO : Element clicked with locator: flight-type-roundtrip-label and locator type: id
-02/03/2017 12:38:32 PM - FlightRTBundle -  INFO : Element found with locator: flight-origin and locator type: id
-02/03/2017 12:38:33 PM - FlightRTBundle -  INFO : Data sent to Element with locator: flight-origin and locator type: id
-02/03/2017 12:38:34 PM - FlightRTBundle -  INFO : Element found with locator: flight-destination and locator type: id
-02/03/2017 12:38:35 PM - FlightRTBundle -  INFO : Data sent to Element with locator: flight-destination and locator type: id
-02/03/2017 12:38:35 PM - FlightRTBundle -  INFO : Element found with locator: flight-departing and locator type: id
-02/03/2017 12:38:36 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-departing and locator type: id
-02/03/2017 12:38:38 PM - FlightRTBundle -  INFO : Element found with locator: //div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
-02/03/2017 12:38:38 PM - FlightRTBundle -  INFO : Element clicked with locator: //div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
-02/03/2017 12:38:40 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
-02/03/2017 12:38:44 PM - FlightRTBundle -  INFO : Element found with locator: flight-returning and locator type: id
-02/03/2017 12:38:44 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-returning and locator type: id
-02/03/2017 12:38:47 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
-02/03/2017 12:38:47 PM - FlightRTBundle -  INFO : Element found with locator: flight-adults and locator type: id
-02/03/2017 12:38:48 PM - FlightRTBundle -  INFO : Element found with locator: flight-children and locator type: id
-02/03/2017 12:38:48 PM - FlightRTBundle -  INFO : Element found with locator: advanced-options and locator type: id
-02/03/2017 12:38:48 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-options and locator type: id
-02/03/2017 12:38:50 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
-02/03/2017 12:38:50 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-flight-nonstop and locator type: id
-02/03/2017 12:38:50 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
-02/03/2017 12:38:50 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-flight-refundable and locator type: id
-02/03/2017 12:38:50 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-preferred-airline and locator type: id
-02/03/2017 12:38:50 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-preferred-class and locator type: id
-02/03/2017 12:38:50 PM - FlightRTBundle -  INFO : Element found with locator: advanced-options and locator type: id
-02/03/2017 12:38:50 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-options locatorType: id
-02/03/2017 12:38:50 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Options Link is displayed
-02/03/2017 12:38:50 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
-02/03/2017 12:38:50 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-flight-nonstop locatorType: id
-02/03/2017 12:38:50 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: NonStop Checkbox is displayed
-02/03/2017 12:38:50 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
-02/03/2017 12:38:50 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-flight-refundable locatorType: id
-02/03/2017 12:38:50 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Refund Flight checkbox is displayed
-02/03/2017 12:38:50 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
-02/03/2017 12:38:51 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-add-car-checkbox and locator type: id
-02/03/2017 12:38:51 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
-02/03/2017 12:38:51 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-add-hotel-checkbox and locator type: id
-02/03/2017 12:38:52 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-checkin and locator type: id
-02/03/2017 12:38:52 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-hotel-checkin and locator type: id
-02/03/2017 12:38:54 PM - FlightRTBundle -  INFO : Element found with locator: //div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
-02/03/2017 12:38:54 PM - FlightRTBundle -  INFO : Element clicked with locator: //div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
-02/03/2017 12:38:56 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
-02/03/2017 12:38:59 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-checkout and locator type: id
-02/03/2017 12:39:00 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-hotel-checkout and locator type: id
-02/03/2017 12:39:03 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
-02/03/2017 12:39:03 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-rooms and locator type: id
-02/03/2017 12:39:03 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-1-adults and locator type: id
-02/03/2017 12:39:03 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-1-children and locator type: id
-02/03/2017 12:39:03 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
-02/03/2017 12:39:03 PM - FlightRTBundle -  INFO : Element is Selected with locator: flight-add-hotel-checkbox and locator type: id
-02/03/2017 12:39:03 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Hotel Checkbox is Selected
-02/03/2017 12:39:03 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
-02/03/2017 12:39:03 PM - FlightRTBundle -  INFO : Element is Selected with locator: flight-add-car-checkbox and locator type: id
-02/03/2017 12:39:03 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Car Checkbox is selected
-02/03/2017 12:39:03 PM - FlightRTBundle -  INFO : Element found with locator: search-button and locator type: id
-02/03/2017 12:39:03 PM - FlightRTBundle -  INFO : Element is displayed with locator: search-button locatorType: id
-02/03/2017 12:39:03 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: PASSED
-02/03/2017 12:39:03 PM - StatusTests -  INFO : test_flightRoundTrip --- TEST PASSED
-02/03/2017 12:39:03 PM - FlightRTBundle -  INFO : Element found with locator: search-button and locator type: id
-02/03/2017 12:39:04 PM - FlightRTBundle -  INFO : Element clicked with locator: search-button and locator type: id
-02/03/2017 12:39:04 PM - FlightRTBundle -  INFO : Waiting for maximum :: 50 :: seconds for the element to appear
-02/03/2017 12:39:16 PM - FlightRTBundle -  INFO : Element appeared on the page
-02/03/2017 12:39:16 PM - FlightRTBundle -  INFO : Waiting for maximum :: 10 :: seconds for the element to appear
-02/03/2017 12:39:17 PM - FlightRTBundle -  INFO : Element appeared on the page
-02/03/2017 12:39:18 PM - FlightRTBundle -  INFO : Waiting for maximum :: 40 :: seconds for the element to appear
-02/03/2017 12:39:24 PM - FlightRTBundle -  ERROR : EXCEPTION: Element did not appear until the WAIT timeout
+02/14/2017 01:17:17 PM - Util -  INFO : Actual Text From Application Web UI --> :: Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
+02/14/2017 01:17:17 PM - Util -  INFO : Expected Text From Application Web UI --> :: Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
+02/14/2017 01:17:17 PM - Util -  INFO : --- PASS - Expected Text MATCHES the Actual Text!
+02/14/2017 01:17:17 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Title Verification
+02/14/2017 01:17:18 PM - NavigationPage -  INFO : Element found with locator: tab-flight-tab and locator type: id
+02/14/2017 01:17:18 PM - NavigationPage -  INFO : Element clicked with locator: tab-flight-tab and locator type: id
+02/14/2017 01:17:19 PM - NavigationPage -  INFO : Element found with locator: flight-type-roundtrip-label and locator type: id
+02/14/2017 01:17:20 PM - NavigationPage -  INFO : Element clicked with locator: flight-type-roundtrip-label and locator type: id
+02/14/2017 01:17:20 PM - FlightRTBundle -  INFO : Element found with locator: flight-origin and locator type: id
+02/14/2017 01:17:45 PM - FlightRTBundle -  INFO : Data sent to Element with locator: flight-origin and locator type: id
+02/14/2017 01:17:46 PM - FlightRTBundle -  INFO : Element found with locator: flight-destination and locator type: id
+02/14/2017 01:18:09 PM - FlightRTBundle -  INFO : Data sent to Element with locator: flight-destination and locator type: id
+02/14/2017 01:18:09 PM - FlightRTBundle -  INFO : Element found with locator: flight-departing and locator type: id
+02/14/2017 01:18:10 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-departing and locator type: id
+02/14/2017 01:18:12 PM - FlightRTBundle -  INFO : Element found with locator: //div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/14/2017 01:18:12 PM - FlightRTBundle -  INFO : Element clicked with locator: //div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/14/2017 01:18:15 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
+02/14/2017 01:18:28 PM - FlightRTBundle -  INFO : Element found with locator: flight-returning and locator type: id
+02/14/2017 01:18:29 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-returning and locator type: id
+02/14/2017 01:18:32 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
+02/14/2017 01:18:36 PM - FlightRTBundle -  INFO : Element found with locator: flight-adults and locator type: id
+02/14/2017 01:18:37 PM - FlightRTBundle -  INFO : Element found with locator: flight-children and locator type: id
+02/14/2017 01:18:38 PM - FlightRTBundle -  INFO : Element found with locator: advanced-options and locator type: id
+02/14/2017 01:18:39 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-options and locator type: id
+02/14/2017 01:18:41 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
+02/14/2017 01:18:42 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-flight-nonstop and locator type: id
+02/14/2017 01:18:42 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
+02/14/2017 01:18:43 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-flight-refundable and locator type: id
+02/14/2017 01:18:43 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-preferred-airline and locator type: id
+02/14/2017 01:18:44 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-preferred-class and locator type: id
+02/14/2017 01:18:45 PM - FlightRTBundle -  INFO : Element found with locator: advanced-options and locator type: id
+02/14/2017 01:18:46 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-options locatorType: id
+02/14/2017 01:18:46 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Options Link is displayed
+02/14/2017 01:18:46 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
+02/14/2017 01:18:46 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-flight-nonstop locatorType: id
+02/14/2017 01:18:46 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: NonStop Checkbox is displayed
+02/14/2017 01:18:46 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
+02/14/2017 01:18:47 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-flight-refundable locatorType: id
+02/14/2017 01:18:47 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Refund Flight checkbox is displayed
+02/14/2017 01:18:47 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
+02/14/2017 01:18:48 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-add-car-checkbox and locator type: id
+02/14/2017 01:18:48 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
+02/14/2017 01:18:49 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-add-hotel-checkbox and locator type: id
+02/14/2017 01:18:49 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-checkin and locator type: id
+02/14/2017 01:18:50 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-hotel-checkin and locator type: id
+02/14/2017 01:18:52 PM - FlightRTBundle -  INFO : Element found with locator: //div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/14/2017 01:18:53 PM - FlightRTBundle -  INFO : Element clicked with locator: //div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/14/2017 01:18:55 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
+02/14/2017 01:19:07 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-checkout and locator type: id
+02/14/2017 01:19:08 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-hotel-checkout and locator type: id
+02/14/2017 01:19:11 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
+02/14/2017 01:19:15 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-rooms and locator type: id
+02/14/2017 01:19:16 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-1-adults and locator type: id
+02/14/2017 01:19:18 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-1-children and locator type: id
+02/14/2017 01:19:19 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
+02/14/2017 01:19:20 PM - FlightRTBundle -  INFO : Element is Selected with locator: flight-add-hotel-checkbox and locator type: id
+02/14/2017 01:19:20 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Hotel Checkbox is Selected
+02/14/2017 01:19:20 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
+02/14/2017 01:19:20 PM - FlightRTBundle -  INFO : Element is Selected with locator: flight-add-car-checkbox and locator type: id
+02/14/2017 01:19:20 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Car Checkbox is selected
+02/14/2017 01:19:21 PM - FlightRTBundle -  INFO : Element found with locator: search-button and locator type: id
+02/14/2017 01:19:21 PM - FlightRTBundle -  INFO : Element is displayed with locator: search-button locatorType: id
+02/14/2017 01:19:21 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: PASSED
+02/14/2017 01:19:21 PM - StatusTests -  INFO : test_flightRoundTrip --- TEST PASSED
+02/14/2017 01:19:21 PM - FlightRTBundle -  INFO : Element found with locator: search-button and locator type: id
+02/14/2017 01:19:26 PM - FlightRTBundle -  INFO : Element clicked with locator: search-button and locator type: id
+02/14/2017 01:19:26 PM - FlightRTBundle -  INFO : Waiting for maximum :: 50 :: seconds for the element to appear
+02/14/2017 01:19:34 PM - FlightRTBundle -  INFO : Element appeared on the page
+02/14/2017 01:19:34 PM - FlightRTBundle -  INFO : Waiting for maximum :: 10 :: seconds for the element to appear
+02/14/2017 01:19:35 PM - FlightRTBundle -  INFO : Element appeared on the page
+02/14/2017 01:19:36 PM - FlightRTBundle -  INFO : Waiting for maximum :: 40 :: seconds for the element to appear
+02/14/2017 01:19:37 PM - FlightRTBundle -  INFO : Element appeared on the page
+02/14/2017 01:21:01 PM - Util -  INFO : Actual Text From Application Web UI --> :: Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
+02/14/2017 01:21:01 PM - Util -  INFO : Expected Text From Application Web UI --> :: Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
+02/14/2017 01:21:01 PM - Util -  INFO : --- PASS - Expected Text MATCHES the Actual Text!
+02/14/2017 01:21:01 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Title Verification
+02/14/2017 01:21:01 PM - NavigationPage -  INFO : Element found with locator: tab-flight-tab and locator type: id
+02/14/2017 01:21:02 PM - NavigationPage -  INFO : Element clicked with locator: tab-flight-tab and locator type: id
+02/14/2017 01:21:02 PM - NavigationPage -  INFO : Element found with locator: flight-type-roundtrip-label and locator type: id
+02/14/2017 01:21:03 PM - NavigationPage -  INFO : Element clicked with locator: flight-type-roundtrip-label and locator type: id
+02/14/2017 01:21:04 PM - FlightRTBundle -  INFO : Element found with locator: flight-origin and locator type: id
+02/14/2017 01:21:05 PM - FlightRTBundle -  INFO : Data sent to Element with locator: flight-origin and locator type: id
+02/14/2017 01:21:06 PM - FlightRTBundle -  INFO : Element found with locator: flight-destination and locator type: id
+02/14/2017 01:21:07 PM - FlightRTBundle -  INFO : Data sent to Element with locator: flight-destination and locator type: id
+02/14/2017 01:21:07 PM - FlightRTBundle -  INFO : Element found with locator: flight-departing and locator type: id
+02/14/2017 01:21:08 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-departing and locator type: id
+02/14/2017 01:21:10 PM - FlightRTBundle -  INFO : Element found with locator: //div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/14/2017 01:21:11 PM - FlightRTBundle -  INFO : Element clicked with locator: //div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/14/2017 01:21:13 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
+02/14/2017 01:21:18 PM - FlightRTBundle -  INFO : Element found with locator: flight-returning and locator type: id
+02/14/2017 01:21:18 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-returning and locator type: id
+02/14/2017 01:21:21 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
+02/14/2017 01:21:22 PM - FlightRTBundle -  INFO : Element found with locator: flight-adults and locator type: id
+02/14/2017 01:21:23 PM - FlightRTBundle -  INFO : Element found with locator: flight-children and locator type: id
+02/14/2017 01:21:23 PM - FlightRTBundle -  INFO : Element found with locator: advanced-options and locator type: id
+02/14/2017 01:21:23 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-options and locator type: id
+02/14/2017 01:21:26 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
+02/14/2017 01:21:26 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-flight-nonstop and locator type: id
+02/14/2017 01:21:26 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
+02/14/2017 01:21:31 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-flight-refundable and locator type: id
+02/14/2017 01:21:32 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-preferred-airline and locator type: id
+02/14/2017 01:21:32 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-preferred-class and locator type: id
+02/14/2017 01:21:32 PM - FlightRTBundle -  INFO : Element found with locator: advanced-options and locator type: id
+02/14/2017 01:21:32 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-options locatorType: id
+02/14/2017 01:21:32 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Options Link is displayed
+02/14/2017 01:21:33 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
+02/14/2017 01:21:33 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-flight-nonstop locatorType: id
+02/14/2017 01:21:33 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: NonStop Checkbox is displayed
+02/14/2017 01:21:33 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
+02/14/2017 01:21:33 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-flight-refundable locatorType: id
+02/14/2017 01:21:33 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Refund Flight checkbox is displayed
+02/14/2017 01:21:33 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
+02/14/2017 01:21:33 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-add-car-checkbox and locator type: id
+02/14/2017 01:21:34 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
+02/14/2017 01:21:34 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-add-hotel-checkbox and locator type: id
+02/14/2017 01:21:34 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-checkin and locator type: id
+02/14/2017 01:21:34 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-hotel-checkin and locator type: id
+02/14/2017 01:21:36 PM - FlightRTBundle -  INFO : Element found with locator: //div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/14/2017 01:21:36 PM - FlightRTBundle -  INFO : Element clicked with locator: //div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/14/2017 01:21:38 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
+02/14/2017 01:21:43 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-checkout and locator type: id
+02/14/2017 01:21:44 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-hotel-checkout and locator type: id
+02/14/2017 01:21:47 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
+02/14/2017 01:21:47 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-rooms and locator type: id
+02/14/2017 01:21:48 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-1-adults and locator type: id
+02/14/2017 01:21:48 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-1-children and locator type: id
+02/14/2017 01:21:48 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
+02/14/2017 01:21:48 PM - FlightRTBundle -  INFO : Element is Selected with locator: flight-add-hotel-checkbox and locator type: id
+02/14/2017 01:21:48 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Hotel Checkbox is Selected
+02/14/2017 01:21:48 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
+02/14/2017 01:21:49 PM - FlightRTBundle -  INFO : Element is Selected with locator: flight-add-car-checkbox and locator type: id
+02/14/2017 01:21:49 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Car Checkbox is selected
+02/14/2017 01:21:49 PM - FlightRTBundle -  INFO : Element found with locator: search-button and locator type: id
+02/14/2017 01:21:49 PM - FlightRTBundle -  INFO : Element is displayed with locator: search-button locatorType: id
+02/14/2017 01:21:49 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: PASSED
+02/14/2017 01:21:49 PM - StatusTests -  INFO : test_flightRoundTrip --- TEST PASSED
+02/14/2017 01:21:49 PM - FlightRTBundle -  INFO : Element found with locator: search-button and locator type: id
+02/14/2017 01:21:49 PM - FlightRTBundle -  INFO : Element clicked with locator: search-button and locator type: id
+02/14/2017 01:21:49 PM - FlightRTBundle -  INFO : Waiting for maximum :: 50 :: seconds for the element to appear
+02/14/2017 01:22:14 PM - FlightRTBundle -  INFO : Element appeared on the page
+02/14/2017 01:22:14 PM - FlightRTBundle -  INFO : Waiting for maximum :: 10 :: seconds for the element to appear
+02/14/2017 01:22:15 PM - FlightRTBundle -  INFO : Element appeared on the page
+02/14/2017 01:22:15 PM - FlightRTBundle -  INFO : Waiting for maximum :: 40 :: seconds for the element to appear
+02/14/2017 01:22:19 PM - FlightRTBundle -  ERROR : EXCEPTION: Element did not appear until the WAIT timeout
+02/14/2017 01:26:36 PM - Util -  INFO : Actual Text From Application Web UI --> :: Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
+02/14/2017 01:26:36 PM - Util -  INFO : Expected Text From Application Web UI --> :: Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
+02/14/2017 01:26:36 PM - Util -  INFO : --- PASS - Expected Text MATCHES the Actual Text!
+02/14/2017 01:26:36 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Title Verification
+02/14/2017 01:26:36 PM - NavigationPage -  INFO : Element found with locator: tab-flight-tab and locator type: id
+02/14/2017 01:26:37 PM - NavigationPage -  INFO : Element clicked with locator: tab-flight-tab and locator type: id
+02/14/2017 01:26:38 PM - NavigationPage -  INFO : Element found with locator: flight-type-roundtrip-label and locator type: id
+02/14/2017 01:26:39 PM - NavigationPage -  INFO : Element clicked with locator: flight-type-roundtrip-label and locator type: id
+02/14/2017 01:26:39 PM - FlightRTBundle -  INFO : Element found with locator: flight-origin and locator type: id
+02/14/2017 01:27:04 PM - FlightRTBundle -  INFO : Data sent to Element with locator: flight-origin and locator type: id
+02/14/2017 01:27:05 PM - FlightRTBundle -  INFO : Element found with locator: flight-destination and locator type: id
+02/14/2017 01:27:28 PM - FlightRTBundle -  INFO : Data sent to Element with locator: flight-destination and locator type: id
+02/14/2017 01:27:28 PM - FlightRTBundle -  INFO : Element found with locator: flight-departing and locator type: id
+02/14/2017 01:27:29 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-departing and locator type: id
+02/14/2017 01:27:31 PM - FlightRTBundle -  INFO : Element found with locator: //div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/14/2017 01:27:32 PM - FlightRTBundle -  INFO : Element clicked with locator: //div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/14/2017 01:27:34 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
+02/14/2017 01:27:46 PM - FlightRTBundle -  INFO : Element found with locator: flight-returning and locator type: id
+02/14/2017 01:27:46 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-returning and locator type: id
+02/14/2017 01:27:50 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
+02/14/2017 01:27:53 PM - FlightRTBundle -  INFO : Element found with locator: flight-adults and locator type: id
+02/14/2017 01:27:55 PM - FlightRTBundle -  INFO : Element found with locator: flight-children and locator type: id
+02/14/2017 01:27:56 PM - FlightRTBundle -  INFO : Element found with locator: advanced-options and locator type: id
+02/14/2017 01:27:57 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-options and locator type: id
+02/14/2017 01:28:00 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
+02/14/2017 01:28:00 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-flight-nonstop and locator type: id
+02/14/2017 01:28:00 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
+02/14/2017 01:28:01 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-flight-refundable and locator type: id
+02/14/2017 01:28:01 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-preferred-airline and locator type: id
+02/14/2017 01:28:03 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-preferred-class and locator type: id
+02/14/2017 01:28:04 PM - FlightRTBundle -  INFO : Element found with locator: advanced-options and locator type: id
+02/14/2017 01:28:05 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-options locatorType: id
+02/14/2017 01:28:05 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Options Link is displayed
+02/14/2017 01:28:05 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
+02/14/2017 01:28:05 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-flight-nonstop locatorType: id
+02/14/2017 01:28:05 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: NonStop Checkbox is displayed
+02/14/2017 01:28:06 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
+02/14/2017 01:28:06 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-flight-refundable locatorType: id
+02/14/2017 01:28:06 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Refund Flight checkbox is displayed
+02/14/2017 01:28:06 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
+02/14/2017 01:28:07 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-add-car-checkbox and locator type: id
+02/14/2017 01:28:07 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
+02/14/2017 01:28:08 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-add-hotel-checkbox and locator type: id
+02/14/2017 01:28:08 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-checkin and locator type: id
+02/14/2017 01:28:09 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-hotel-checkin and locator type: id
+02/14/2017 01:28:11 PM - FlightRTBundle -  INFO : Element found with locator: //div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/14/2017 01:28:12 PM - FlightRTBundle -  INFO : Element clicked with locator: //div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/14/2017 01:28:14 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
+02/14/2017 01:28:27 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-checkout and locator type: id
+02/14/2017 01:28:28 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-hotel-checkout and locator type: id
+02/14/2017 01:28:31 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
+02/14/2017 01:28:35 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-rooms and locator type: id
+02/14/2017 01:28:36 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-1-adults and locator type: id
+02/14/2017 01:28:38 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-1-children and locator type: id
+02/14/2017 01:28:40 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
+02/14/2017 01:28:40 PM - FlightRTBundle -  INFO : Element is Selected with locator: flight-add-hotel-checkbox and locator type: id
+02/14/2017 01:28:40 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Hotel Checkbox is Selected
+02/14/2017 01:28:40 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
+02/14/2017 01:28:41 PM - FlightRTBundle -  INFO : Element is Selected with locator: flight-add-car-checkbox and locator type: id
+02/14/2017 01:28:41 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Car Checkbox is selected
+02/14/2017 01:28:41 PM - FlightRTBundle -  INFO : Element found with locator: search-button and locator type: id
+02/14/2017 01:28:41 PM - FlightRTBundle -  INFO : Element is displayed with locator: search-button locatorType: id
+02/14/2017 01:28:41 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: PASSED
+02/14/2017 01:28:41 PM - StatusTests -  INFO : test_flightRoundTrip --- TEST PASSED
+02/14/2017 01:28:41 PM - FlightRTBundle -  INFO : Element found with locator: search-button and locator type: id
+02/14/2017 01:28:46 PM - FlightRTBundle -  INFO : Element clicked with locator: search-button and locator type: id
+02/14/2017 01:28:46 PM - FlightRTBundle -  INFO : Waiting for maximum :: 50 :: seconds for the element to appear
+02/14/2017 01:29:41 PM - FlightRTBundle -  ERROR : EXCEPTION: Element did not appear until the WAIT timeout
+02/14/2017 01:29:41 PM - FlightRTBundle -  INFO : Waiting for maximum :: 10 :: seconds for the element to appear
+02/14/2017 01:29:52 PM - FlightRTBundle -  ERROR : EXCEPTION: Element did not appear until the WAIT timeout
+02/18/2017 07:13:25 PM - Util -  INFO : Actual Text From Application Web UI --> :: Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
+02/18/2017 07:13:25 PM - Util -  INFO : Expected Text From Application Web UI --> :: Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
+02/18/2017 07:13:25 PM - Util -  INFO : --- PASS - Expected Text MATCHES the Actual Text!
+02/18/2017 07:13:25 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Title Verification
+02/18/2017 07:13:25 PM - NavigationPage -  INFO : Element found with locator: tab-flight-tab and locator type: id
+02/18/2017 07:13:25 PM - NavigationPage -  INFO : Element clicked with locator: tab-flight-tab and locator type: id
+02/18/2017 07:13:25 PM - NavigationPage -  INFO : Element found with locator: flight-type-roundtrip-label and locator type: id
+02/18/2017 07:13:26 PM - NavigationPage -  INFO : Element clicked with locator: flight-type-roundtrip-label and locator type: id
+02/18/2017 07:13:26 PM - FlightRTBundle -  INFO : Element found with locator: flight-origin and locator type: id
+02/18/2017 07:13:27 PM - FlightRTBundle -  INFO : Data sent to Element with locator: flight-origin and locator type: id
+02/18/2017 07:13:28 PM - FlightRTBundle -  INFO : Element found with locator: flight-destination and locator type: id
+02/18/2017 07:13:29 PM - FlightRTBundle -  INFO : Data sent to Element with locator: flight-destination and locator type: id
+02/18/2017 07:13:30 PM - FlightRTBundle -  INFO : Element found with locator: flight-departing and locator type: id
+02/18/2017 07:13:30 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-departing and locator type: id
+02/18/2017 07:13:32 PM - FlightRTBundle -  INFO : Element found with locator: //div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/18/2017 07:13:32 PM - FlightRTBundle -  INFO : Element clicked with locator: //div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/18/2017 07:13:34 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
+02/18/2017 07:13:38 PM - FlightRTBundle -  INFO : Element found with locator: flight-returning and locator type: id
+02/18/2017 07:13:38 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-returning and locator type: id
+02/18/2017 07:13:41 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
+02/18/2017 07:13:41 PM - FlightRTBundle -  INFO : Element found with locator: flight-adults and locator type: id
+02/18/2017 07:13:42 PM - FlightRTBundle -  INFO : Element found with locator: flight-children and locator type: id
+02/18/2017 07:13:42 PM - FlightRTBundle -  INFO : Element found with locator: advanced-options and locator type: id
+02/18/2017 07:13:42 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-options and locator type: id
+02/18/2017 07:13:44 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
+02/18/2017 07:13:44 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-flight-nonstop and locator type: id
+02/18/2017 07:13:44 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
+02/18/2017 07:13:44 PM - FlightRTBundle -  INFO : Element clicked with locator: advanced-flight-refundable and locator type: id
+02/18/2017 07:13:44 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-preferred-airline and locator type: id
+02/18/2017 07:13:44 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-preferred-class and locator type: id
+02/18/2017 07:13:44 PM - FlightRTBundle -  INFO : Element found with locator: advanced-options and locator type: id
+02/18/2017 07:13:44 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-options locatorType: id
+02/18/2017 07:13:44 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Options Link is displayed
+02/18/2017 07:13:44 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-nonstop and locator type: id
+02/18/2017 07:13:44 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-flight-nonstop locatorType: id
+02/18/2017 07:13:44 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: NonStop Checkbox is displayed
+02/18/2017 07:13:44 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-refundable and locator type: id
+02/18/2017 07:13:44 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-flight-refundable locatorType: id
+02/18/2017 07:13:44 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Refund Flight checkbox is displayed
+02/18/2017 07:13:44 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
+02/18/2017 07:13:45 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-add-car-checkbox and locator type: id
+02/18/2017 07:13:45 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
+02/18/2017 07:13:45 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-add-hotel-checkbox and locator type: id
+02/18/2017 07:13:45 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-checkin and locator type: id
+02/18/2017 07:13:45 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-hotel-checkin and locator type: id
+02/18/2017 07:13:47 PM - FlightRTBundle -  INFO : Element found with locator: //div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/18/2017 07:13:48 PM - FlightRTBundle -  INFO : Element clicked with locator: //div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext'] and locator type: xpath
+02/18/2017 07:13:50 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
+02/18/2017 07:13:53 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-checkout and locator type: id
+02/18/2017 07:13:53 PM - FlightRTBundle -  INFO : Element clicked with locator: flight-hotel-checkout and locator type: id
+02/18/2017 07:13:56 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
+02/18/2017 07:13:56 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-rooms and locator type: id
+02/18/2017 07:13:57 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-1-adults and locator type: id
+02/18/2017 07:13:57 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-1-children and locator type: id
+02/18/2017 07:13:57 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-hotel-checkbox and locator type: id
+02/18/2017 07:13:57 PM - FlightRTBundle -  INFO : Element is Selected with locator: flight-add-hotel-checkbox and locator type: id
+02/18/2017 07:13:57 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Hotel Checkbox is Selected
+02/18/2017 07:13:57 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-car-checkbox and locator type: id
+02/18/2017 07:13:57 PM - FlightRTBundle -  INFO : Element is Selected with locator: flight-add-car-checkbox and locator type: id
+02/18/2017 07:13:57 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Car Checkbox is selected
+02/18/2017 07:13:57 PM - FlightRTBundle -  INFO : Element found with locator: search-button and locator type: id
+02/18/2017 07:13:57 PM - FlightRTBundle -  INFO : Element is displayed with locator: search-button locatorType: id
+02/18/2017 07:13:57 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: PASSED
+02/18/2017 07:13:57 PM - StatusTests -  INFO : test_flightRoundTrip --- TEST PASSED
+02/18/2017 07:13:57 PM - FlightRTBundle -  INFO : Element found with locator: search-button and locator type: id
+02/18/2017 07:13:57 PM - FlightRTBundle -  INFO : Element clicked with locator: search-button and locator type: id
+02/18/2017 07:13:57 PM - FlightRTBundle -  INFO : Waiting for maximum :: 50 :: seconds for the element to appear
+02/18/2017 07:14:26 PM - FlightRTBundle -  INFO : Element appeared on the page
+02/18/2017 07:14:26 PM - FlightRTBundle -  INFO : Waiting for maximum :: 10 :: seconds for the element to appear
+02/18/2017 07:14:28 PM - FlightRTBundle -  INFO : Element appeared on the page
+02/18/2017 07:14:28 PM - FlightRTBundle -  INFO : Waiting for maximum :: 40 :: seconds for the element to appear
+02/18/2017 07:14:30 PM - FlightRTBundle -  INFO : Element appeared on the page
