@@ -1,5 +1,5 @@
-from TestProject.BackEndTesting.tools.request import REQ
-from TestProject.BackEndTesting.tools.dbconnect import DBConnect
+from BackEndTesting.tools.request import REQ
+from BackEndTesting.tools.dbconnect import DBConnect
 import json
 
 # creating our object to be used to make API call and db connections
@@ -36,7 +36,7 @@ def test_create_a_product():
     response_title = response_body["product"] ["title"]
     response_price = response_body["product"]["regular_price"]
     product_id = response_body["product"]["id"]
-
+    print(product_id)
     if status_code == 201:
         print("The HTTP Response Codes MATCH, EXPECTED VALUE: 201 and ACTUAL VALUE: " + str(status_code))
     else:
@@ -67,8 +67,8 @@ def test_verify_product_created_in_db():
 
     sql ='''SELECT p.post_title, p.post_type, pm.meta_value FROM ak_posts p JOIN ak_postmeta pm
             ON p.id=pm.post_id WHERE p.id={} AND pm.meta_key='_regular_price' '''.format(product_id)
-    qrs = qry.select('wp218', sql)
-
+    qrs = qry.select('akstore', sql)
+    print(qrs)
     # extracting the data
     db_title = qrs[0][0]
     db_type = qrs[0][1]
@@ -94,5 +94,12 @@ def test_verify_product_created_in_db():
               + price + " and ACTUAL VALUE " + db_regular_price)
 
 
+def test_product_delete():
+
+    product_delete = rq.wc_product_delete(product_id)
+    print(product_delete)
+
+
 test_create_a_product()
 test_verify_product_created_in_db()
+test_product_delete()

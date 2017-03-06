@@ -1,4 +1,4 @@
-import pymysql
+import pymysql # pip install pymysql first
 
 class DBConnect():
     """

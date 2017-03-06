@@ -1,4 +1,4 @@
-from TestProject.BackEndTesting.tools.request import REQ
+from BackEndTesting.tools.request import REQ
 
 rq = REQ()
 
@@ -11,7 +11,7 @@ def test_ng_tc1_product_empty_payload():
 
     input_data = {}
     info = rq.post('products', input_data)
-
+    print(info)
     tc = 'EMPTY INPUT DATA'
     expected_message = "No product data specified to create product"
     expected_error_code = "woocommerce_api_missing_product_data"
@@ -33,7 +33,7 @@ def test_ng_tc2_product_missing_title_key_in_payload():
 
     input_data["product"] = product
     info = rq.post('products', input_data)
-
+    print(info)
 
     tc = 'OMITTING TITLE PARAMETER'
     expected_message = "Missing parameter title"
@@ -58,6 +58,7 @@ def test_ng_tc3_product_empty_sting_for_title_in_payload():
 
     input_data["product"] = product
     info = rq.post('products', input_data)
+    print(info)
 
     tc = 'EMPTY TITLE STRING'
     expected_message = "Content, title, and excerpt are empty."
@@ -90,9 +91,9 @@ def verify_ng_test_response(response_list, test_case, exp_error_msg, exp_error_c
     # verify there is key 'errors' in the response
     response_body = response_list[1]
     if 'errors' in response_body.keys():
-        print("Test Case {tc}: The Response body does have 'Errors' as key".format(tc=test_case))
+        print("Test Case {tc}: The Response body contains 'Errors' as key".format(tc=test_case))
     else:
-        print("Test Case {tc}: The Response body does NOT have 'Errors' as key".format(tc=test_case))
+        print("Test Case {tc}: The Response body does NOT contain 'Errors' as key".format(tc=test_case))
 
 
     # verify the content of the error message

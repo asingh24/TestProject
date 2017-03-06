@@ -228,7 +228,7 @@ function filter_table(elem) {
     not_found_message.hidden = !all_rows_hidden;
 }
 </script>
-    <p>Report generated on 18-Feb-2017 at 19:14:31 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.13.0</p>
+    <p>Report generated on 02-Mar-2017 at 19:21:27 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.13.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -238,8 +238,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.5.2</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 170.46 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 116.95 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -250,12 +250,12 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="5">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="passed results-table-row">
+      <tbody class="failed results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
+          <td class="col-result">Failed</td>
           <td class="col-name">tests/home/flights_roundtrip_bundle.py::RoundTrip::test_flightRoundTrip</td>
-          <td class="col-duration">65.47</td>
+          <td class="col-duration">75.18</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="5">
-            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>
+            <div class="log">self = &lt;tests.home.flights_roundtrip_bundle.RoundTrip testMethod=test_flightRoundTrip&gt;<br/><br/>    @pytest.mark.run(order=1)<br/>    def test_flightRoundTrip(self):<br/>    <br/>    <br/>    <br/>        result2 = self.hp.verifyHomepageTitle()<br/>        self.ts.mark(result2, &quot;Title Verification&quot;)<br/>        self.hp.bookRoundTripFlight(&quot;Philadelphia, PA (PHL-Philadelphia Intl.)&quot;, &quot;Las Vegas, NV (LAS-McCarran Intl.)&quot;,<br/>&gt;                                   &quot;27&quot;, &quot;7&quot;, &quot;2&quot;)<br/><br/>tests\home\flights_roundtrip_bundle.py:24: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/>pages\home\hp_flights_page.py:208: in bookRoundTripFlight<br/>    self.pickDepartDate(departDate)<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/><br/>self = &lt;TestProject.pages.home.hp_flights_page.FlightRTBundle object at 0x000001B76388D240&gt;<br/>departDate = &#x27;27&#x27;<br/><br/>    def pickDepartDate(self, departDate):<br/>        &quot;&quot;&quot;<br/>            Checks for the Active Dates in the Current Month and clicks on it<br/>            :return:<br/>            &quot;&quot;&quot;<br/>        callMonth = self.getElement(locator=&quot;//div[@class=&#x27;datepicker-cal-month&#x27;][position()=1]&quot;, locatorType=&quot;xpath&quot;)<br/>        #callMonth = self.driver.find_element(By.XPATH, &quot;//div[@class=&#x27;datepicker-cal-month&#x27;][position()=1]&quot;)<br/>&gt;       validDates = callMonth.find_elements(By.CLASS_NAME, &quot;datepicker-cal-date&quot;)<br/><span class="error">E       AttributeError: &#x27;NoneType&#x27; object has no attribute &#x27;find_elements&#x27;</span><br/><br/>pages\home\hp_flights_page.py:77: AttributeError<br/></div></td></tr></tbody></table></body></html>

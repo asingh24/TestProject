@@ -4,8 +4,8 @@ class REQ():
 
     def __init__(self):
 
-        consumer_admin_key = "ck_86a0e8e0a15d8a38332a893bed6057de519e8694"
-        consumer_admin_secret = "cs_87ad46417c09d8982badd6162185cc38f1591eb9"
+        consumer_admin_key = "ck_f1d3d8d97e19a69835796d7ad5bf7511971620af"
+        consumer_admin_secret = "cs_8dc071e9fbfefb6f38c23500838465bf6e011a6f"
 
         self.wcapi = API(url="http://127.0.0.1/akstore", consumer_key= consumer_admin_key,
                          consumer_secret= consumer_admin_secret, version="v3")
@@ -49,3 +49,19 @@ class REQ():
         rs_url = result.url
 
         return (rs_code, rs_body, rs_url)
+
+
+    def wc_cust_delete(self, id):
+
+        result = self.wcapi.delete("customers/" + str(id) + "?force=true")
+        return(result).json()
+
+
+    def wc_product_delete(self, id):
+
+        result = self.wcapi.delete("products/" + str(id) + "?force=true")
+        return(result).json()
+
+
+x = REQ()
+x.test_api()
