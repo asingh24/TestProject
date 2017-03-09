@@ -32,10 +32,8 @@ class RoundTrip(unittest.TestCase):
         result6 = self.hp.addHotelIsSelected()
         self.ts.mark(result6, "Add Hotel Checkbox is Selected")
         result7 = self.hp.addCarIsSelected()
-        self.ts.mark(result7, "Add Car Checkbox is selected")
-        result8 = self.hp.searchButtonIsDisplayed()
-        self.ts.markFinal("test_flightRoundTrip", result8, "PASSED")
-        self.hp.search()
+        self.ts.markFinal("test_flightRoundTrip",result7, "Add Car Checkbox is selected --- PASSED ")
+        self.hp.click_search()
 
 
 

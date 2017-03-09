@@ -55,23 +55,27 @@ class PageElements():
         return element
 
 
-    def clickElement(self, locator = "", locatorType = "id", element = None):
+    def clickElement(self, locator = "", locatorType ="id", element = None):
         try:
-            element = self.getElement(locator, locatorType)
+            if locator: # This means if locator is not empty
+                element = self.getElement(locator, locatorType)
             element.click()
-            self.log.info("Element clicked with locator: " + locator + " and locator type: " + locatorType)
+            self.log.info("Clicked on the Element with Locator: " + locator + " and Locator Type: " + locatorType)
         except:
-            self.log.error("EXCEPTION: Element NOT clicked with locator: " + locator + " and locator type: " + locatorType)
+            self.log.error("EXCEPTION: Cannot click on the element with Locator: " + locator + " and Locator Type: " +
+                           locatorType)
             #print_stack()
 
 
-    def sendKeys(self, data, locator = "", locatorType = "id", element = None):
+    def sendKeys(self, data, locator = "", locatorType ="id", element = None):
         try:
-            element = self.getElement(locator, locatorType)
+            if locator:  # This means if locator is not empty
+                element = self.getElement(locator, locatorType)
             element.send_keys(data)
-            self.log.info("Data sent to Element with locator: " + locator + " and locator type: " + locatorType)
+            self.log.info("Data sent to the Element with Locator: " + locator + " and Locator Type: " + locatorType)
         except:
-            self.log.error("EXCEPTION: Data NOT sent to Element with locator: " + locator + " and locator type: " + locatorType)
+            self.log.error("EXCEPTION: Cannot send data to element with Locator: " + locator + " and Locator Type: " +
+                           locatorType)
             #print_stack()
 
 

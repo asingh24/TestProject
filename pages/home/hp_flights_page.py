@@ -22,31 +22,33 @@ class FlightRTBundle(BasePage):
     # DEFINING LOCATORS OF PAGE ELEMENTS
 
 
-    _oneway_subTab = "flight-type-one-way-label"
-    _multiDest_subTab = "flight-type-multi-dest-label"
-    _flight_origin = "flight-origin"
-    _flight_destination = "flight-destination"
-    _departing_date = "flight-departing"
+    _oneway_subTab = "flight-type-one-way-label-hp-flight" # "flight-type-one-way-label"
+    _multiDest_subTab = "flight-type-multi-dest-label-hp-flight" # "flight-type-multi-dest-label"
+    _flight_origin = "flight-origin-hp-flight" # "flight-origin"
+    _flight_destination = "flight-destination-hp-flight" # "flight-destination"
+    _departing_date = "flight-departing-hp-flight" # "flight-departing"
     _currentCalendar_month = "//div[@class='datepicker-cal-month'][position()=1]"
     _nextCalendar_month = "//div[@class='datepicker-cal-month'][position()=2]"
-    _nextCalendar_page = "//div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext']"
-    _return_date = "flight-returning"
-    _adults = "flight-adults"
-    _children = "flight-children"
-    _search_button = "search-button"
-    _advance_options = "advanced-options"
-    _non_stop = "advanced-flight-nonstop"
-    _refundable = "advanced-flight-refundable"
-    _preferred_airline = "flight-advanced-preferred-airline"
-    _preferred_class = "flight-advanced-preferred-class"
-    _add_hotel = "flight-add-hotel-checkbox"
-    _add_car = "flight-add-car-checkbox"
-    _hotel_checkin = "flight-hotel-checkin"
-    _hotel_checkin_nextpage = "//div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext']"
-    _hotel_checkOut = "flight-hotel-checkout"
-    _no_of_rooms = "flight-hotel-rooms"
-    _checkin_adults = "flight-hotel-1-adults"
-    _checkin_children = "flight-hotel-1-children"
+    _nextCalendar_page = "//div[@id='flight-departing-wrapper-hp-flight']//span[@class='icon icon-pagenext']"
+                         #"//div[@id='flight-departing-wrapper']//span[@class='icon icon-pagenext']"
+    _return_date = "flight-returning-hp-flight" # "flight-returning"
+    _adults = "flight-adults-hp-flight" # "flight-adults"
+    _children = "flight-children-hp-flight" # "flight-children"
+    _advance_options = "flight-advanced-options-hp-flight" # "advanced-options"
+    _non_stop = "advanced-flight-nonstop-hp-flight" # "advanced-flight-nonstop"
+    _refundable = "advanced-flight-refundable-hp-flight" # "advanced-flight-refundable"
+    _preferred_airline = "flight-advanced-preferred-airline-hp-flight" # "flight-advanced-preferred-airline"
+    _preferred_class = "flight-advanced-preferred-class-hp-flight" # "flight-advanced-preferred-class"
+    _add_hotel = "flight-add-hotel-checkbox-hp-flight" # "flight-add-hotel-checkbox"
+    _add_car = "flight-add-car-checkbox-hp-flight" # "flight-add-car-checkbox"
+    _hotel_checkin = "flight-hotel-checkin-hp-flight" # "flight-hotel-checkin"
+    _hotel_checkin_nextpage = "//div[@id='flight-hotel-checkin-wrapper-hp-flight']//span[@class='icon icon-pagenext']"
+                              #"//div[@id='flight-hotel-checkin-wrapper']//span[@class='icon icon-pagenext']"
+    _hotel_checkOut = "flight-hotel-checkout-hp-flight" # "flight-hotel-checkout"
+    _no_of_rooms = "flight-hotels-rooms-hp-flight" # "flight-hotel-rooms"
+    _checkin_adults = "flight-hotel-1-adults-hp-flight" # "flight-hotel-1-adults"
+    _checkin_children = "flight-hotel-1-children-hp-flight" # "flight-hotel-1-children"
+    _search_button = "#search-button-hp-package"#"//button[@id='search-button-hp-package']/span[@class='btn-label']"
     _search_property = "inpHotelNameMirror"
     _sort_price = "//div[@id='sortContainer']//button[@aria-label='Sort by: Price']"
 
@@ -108,7 +110,7 @@ class FlightRTBundle(BasePage):
         sel.select_by_value(children)
 
     def clickSearchButton(self):
-        self.clickElement(self._search_button)
+        self.clickElement(self._search_button, locatorType = "css")
 
     def aOptionsIsDisplayed(self):
         return self.isElementDisplayed(self._advance_options)
@@ -229,10 +231,9 @@ class FlightRTBundle(BasePage):
         self.noOfRooms(rooms)
         self.selectCheckInAdults(adults)
         self.selectCheckinChildren(children)
-        self.pageScroll("up")
 
 
-    def search(self):
+    def click_search(self):
         self.clickSearchButton()
         self.waitForSearchProperty()
         self.clickSortByPrice()
@@ -257,8 +258,8 @@ class FlightRTBundle(BasePage):
     #     # element = self.driver.find_element_by_id("advanced-flight-refundable").is_selected()
     #     # return element
 
-    def searchButtonIsDisplayed(self):
-        return self.isElementDisplayed(self._search_button)
+    def searchButtonIsPresent(self):
+        return self.elementPresent(self._search_button)
 
 
     def addHotelIsSelected(self):
