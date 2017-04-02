@@ -13,9 +13,13 @@ Example:
 """
 
 from selenium import webdriver
+import TestProject.utilities.custom_logger as cl
+import logging
 
 
 class WebDriverFactory():
+
+    log = cl.customLogger(logging.DEBUG)
 
     def __init__(self, browser):
         self.browser = browser
@@ -57,4 +61,5 @@ class WebDriverFactory():
         driver.maximize_window()
         # Loading browser with the App URL
         driver.get(baseurl)
+        self.log.info("RUNNING TESTS ON: " + str(driver).upper())
         return driver

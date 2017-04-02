@@ -1,0 +1,14 @@
+1491166097699	geckodriver	INFO	Listening on 127.0.0.1:63658
+1491166099676	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.U668jTUgiDuz
+1491166099684	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1491166099693	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63664
+1491166101813	Marionette	INFO	Listening on port 63664
+1491166106257	Marionette	WARN	Using deprecated data structure for setting timeouts
+JavaScript error: https://www.expedia.com/, line 22873: ReferenceError: dctk is not defined
+JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://a2.cdn-hotels.com/da/assets/cat/js/60.0/8907caea-f5daa010-a1a6992e-0f9df215-8dc26fe0-7b8befa9-9c4836e0-2a91d115-9c4fda7d-8753ad73-2e254091-b57e884c-e9be03f1-3979af06-354c2e08-7312dc63-644ce464-9294db32-6db9cceb-0058afcf-b8fbf00a-cadab809-fbece8f7-98e61ffd-ef6737d7-61006acc-1da1e7b6-84b5e7eb-e08b1509-332d0743-5e108e54-bab7e6a4-3e3cd07f-be8b66fc-d1e63b26-64aa438c-8abba93a-a0de1f0d-14ad0c6e-22bd55de-411acf01-6832977d-a093e3f5-d0cf3498-c080fbbb-ec0d2313-1b50e6f1-adfe84c9-db3f2f46-8cb8577c-f685edb0-60111b6a-79c828ba-e8243ba9-86360c33-f2bc1b38-87163ae6-f6995385-1c99bf91-69f33752-3166a241-3cde58ac-11f1521d-44f79bc0-fd452171-a8f21a08-f189e068-a44eb598-0d8da874-b40e3e55-7c56453f-59825db5-b796af51-ca7fa19b-b3428caa-eed7aeac-ed4f2377-539199a4-54a1a2f2-81414aa9-f79de187-90fc8d7a-0307e8ac-16a3e16a-b6cfd257-8ddc27a8-4c4b2b4a-1480588f, line 90: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://code.jquery.com/jquery-3.1.1.min.js, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://b.travel-assets.com/datacapture/2-106/5e88d750bb066d948648503c903a69c96582208a/datacapture/js/analytics-core-bundle-min.js, line 1: TypeError: J.omtr is undefined
+1491166171508	Marionette	INFO	New connections will no longer be accepted
+[Child 6096] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143

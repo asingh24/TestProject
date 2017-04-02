@@ -1,0 +1,53 @@
+04/02/2017 04:48:36 PM - FlightRTBundle -  INFO : Element found with locator: flight-origin-hp-flight and locator typ04/02/2017 04:48:58 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Options Link is displayed
+04/02/2017 04:48:58 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: NonStop Checkbox is displayed
+04/02/2017 04:48:58 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Refund Flight checkbox is displayed
+04/02/2017 04:49:09 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL :: Add Hotel Checkbox is Selected
+04/02/2017 04:49:09 PM - StatusTests -  INFO : --- VERIFICATION SUCCESSFUL ::  All Checks completed  --- PASSED 
+04/02/2017 04:49:09 PM - StatusTests -  INFO : FLIGHT ROUNDTRIP BUNDLE FLOW:  --- TEST PASSED
+and Locator Type: id
+04/02/2017 04:48:43 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
+04/02/2017 04:48:50 PM - FlightRTBundle -  INFO : Element found with locator: flight-returning-hp-flight and locator type: id
+04/02/2017 04:48:50 PM - FlightRTBundle -  INFO : Clicked on the Element with Locator: flight-returning-hp-flight and Locator Type: id
+04/02/2017 04:48:53 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
+04/02/2017 04:48:55 PM - FlightRTBundle -  INFO : Element found with locator: flight-adults-hp-flight and locator type: id
+04/02/2017 04:48:55 PM - FlightRTBundle -  INFO : Element found with locator: flight-children-hp-flight and locator type: id
+04/02/2017 04:48:55 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-options-hp-flight and locator type: id
+04/02/2017 04:48:55 PM - FlightRTBundle -  INFO : Clicked on the Element with Locator: flight-advanced-options-hp-flight and Locator Type: id
+04/02/2017 04:48:57 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-nonstop-hp-flight and locator type: id
+04/02/2017 04:48:57 PM - FlightRTBundle -  INFO : Clicked on the Element with Locator: advanced-flight-nonstop-hp-flight and Locator Type: id
+04/02/2017 04:48:57 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-refundable-hp-flight and locator type: id
+04/02/2017 04:48:57 PM - FlightRTBundle -  INFO : Clicked on the Element with Locator: advanced-flight-refundable-hp-flight and Locator Type: id
+04/02/2017 04:48:57 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-preferred-airline-hp-flight and locator type: id
+04/02/2017 04:48:57 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-preferred-class-hp-flight and locator type: id
+04/02/2017 04:48:58 PM - FlightRTBundle -  INFO : Element found with locator: flight-advanced-options-hp-flight and locator type: id
+04/02/2017 04:48:58 PM - FlightRTBundle -  INFO : Element is displayed with locator: flight-advanced-options-hp-flight locatorType: id
+04/02/2017 04:48:58 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-nonstop-hp-flight and locator type: id
+04/02/2017 04:48:58 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-flight-nonstop-hp-flight locatorType: id
+04/02/2017 04:48:58 PM - FlightRTBundle -  INFO : Element found with locator: advanced-flight-refundable-hp-flight and locator type: id
+04/02/2017 04:48:58 PM - FlightRTBundle -  INFO : Element is displayed with locator: advanced-flight-refundable-hp-flight locatorType: id
+04/02/2017 04:48:58 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-car-checkbox-hp-flight and locator type: id
+04/02/2017 04:48:58 PM - FlightRTBundle -  INFO : Clicked on the Element with Locator: flight-add-car-checkbox-hp-flight and Locator Type: id
+04/02/2017 04:48:58 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-hotel-checkbox-hp-flight and locator type: id
+04/02/2017 04:48:58 PM - FlightRTBundle -  INFO : Clicked on the Element with Locator: flight-add-hotel-checkbox-hp-flight and Locator Type: id
+04/02/2017 04:48:58 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-checkin-hp-flight and locator type: id
+04/02/2017 04:48:58 PM - FlightRTBundle -  INFO : Clicked on the Element with Locator: flight-hotel-checkin-hp-flight and Locator Type: id
+04/02/2017 04:49:00 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=1] and locator type: xpath
+04/02/2017 04:49:04 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-checkout-hp-flight and locator type: id
+04/02/2017 04:49:05 PM - FlightRTBundle -  INFO : Clicked on the Element with Locator: flight-hotel-checkout-hp-flight and Locator Type: id
+04/02/2017 04:49:08 PM - FlightRTBundle -  INFO : Element found with locator: //div[@class='datepicker-cal-month'][position()=2] and locator type: xpath
+04/02/2017 04:49:08 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotels-rooms-hp-flight and locator type: id
+04/02/2017 04:49:09 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-1-adults-hp-flight and locator type: id
+04/02/2017 04:49:09 PM - FlightRTBundle -  INFO : Element found with locator: flight-hotel-1-children-hp-flight and locator type: id
+04/02/2017 04:49:09 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-hotel-checkbox-hp-flight and locator type: id
+04/02/2017 04:49:09 PM - FlightRTBundle -  INFO : Element is Selected with locator: flight-add-hotel-checkbox-hp-flight and locator type: id
+04/02/2017 04:49:09 PM - FlightRTBundle -  INFO : Element found with locator: flight-add-car-checkbox-hp-flight and locator type: id
+04/02/2017 04:49:09 PM - FlightRTBundle -  INFO : Element is Selected with locator: flight-add-car-checkbox-hp-flight and locator type: id
+04/02/2017 04:49:19 PM - FlightRTBundle -  ERROR : EXCEPTION: Element NOT found with locator: //button[@type='submit'] and locator type: id
+04/02/2017 04:49:19 PM - FlightRTBundle -  ERROR : EXCEPTION: Cannot click on the element with Locator: //button[@type='submit'] and Locator Type: id
+04/02/2017 04:49:22 PM - FlightRTBundle -  INFO : Parent Window Handle is: 2147483652
+04/02/2017 04:49:22 PM - FlightRTBundle -  INFO : Waiting for maximum :: 50 :: seconds for the element to appear
+04/02/2017 04:49:27 PM - FlightRTBundle -  INFO : Element appeared on the page
+04/02/2017 04:49:27 PM - FlightRTBundle -  INFO : Waiting for maximum :: 10 :: seconds for the element to appear
+04/02/2017 04:49:28 PM - FlightRTBundle -  INFO : Element appeared on the page
+04/02/2017 04:49:29 PM - FlightRTBundle -  INFO : Waiting for maximum :: 40 :: seconds for the element to appear
+04/02/2017 04:49:31 PM - FlightRTBundle -  INFO : Element appeared on the page

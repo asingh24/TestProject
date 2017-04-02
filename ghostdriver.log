@@ -1,70 +1,114 @@
-[INFO  - 2017-02-14T18:26:12.933Z] GhostDriver - Main - running on port 63784
-[INFO  - 2017-02-14T18:26:16.025Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-02-14T18:26:16.026Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - page.customHeaders:  - {}
-[INFO  - 2017-02-14T18:26:16.026Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-02-14T18:26:16.026Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 12511320-f2e3-11e6-872c-9f7a95595b16
-[ERROR - 2017-02-14T18:26:21.662Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - page.onError - msg: Double Homepage
-onErrorMsg=%22Homepage%20app%3A%EF%BC%82expweb%EF%BC%82%20reported%3Aexpweb%20cookie%3ACgHgoVijS8l2AFWkDRemAg%3D%3D%20reported%3ACgHm6ViKadGOVQNqL2mRAg%3D%3D%22
+[INFO  - 2017-03-09T17:15:58.256Z] GhostDriver - Main - running on port 53192
+[INFO  - 2017-03-09T17:16:00.743Z] Session [11505600-04ec-11e7-9e35-ff54d0c4e12f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-03-09T17:16:00.743Z] Session [11505600-04ec-11e7-9e35-ff54d0c4e12f] - page.customHeaders:  - {}
+[INFO  - 2017-03-09T17:16:00.743Z] Session [11505600-04ec-11e7-9e35-ff54d0c4e12f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-03-09T17:16:00.743Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 11505600-04ec-11e7-9e35-ff54d0c4e12f
+[ERROR - 2017-03-09T17:16:17.402Z] Session [11505600-04ec-11e7-9e35-ff54d0c4e12f] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.HTMLMediaElement.HAVE_NOTHING')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-03-09T17:16:17.402Z] Session [11505600-04ec-11e7-9e35-ff54d0c4e12f] - page.onError - stack:
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:3)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:3)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:3)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:3)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:2)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:2)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:2)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776216:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-03-09T17:16:17.617Z] Session [11505600-04ec-11e7-9e35-ff54d0c4e12f] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.HTMLMediaElement.HAVE_NOTHING')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-03-09T17:16:17.618Z] Session [11505600-04ec-11e7-9e35-ff54d0c4e12f] - page.onError - stack:
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:3)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:3)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:3)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:3)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:2)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:2)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:2)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776254:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-03-09T17:16:17.694Z] Session [11505600-04ec-11e7-9e35-ff54d0c4e12f] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.HTMLMediaElement.HAVE_NOTHING')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-03-09T17:16:17.695Z] Session [11505600-04ec-11e7-9e35-ff54d0c4e12f] - page.onError - stack:
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:3)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:3)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:3)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:3)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:2)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:2)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:2)
+  e (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:2)
+  (anonymous function) (https://sdk.streamrail.com/player/sr.ads.js?cb=1489079776171:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-03-09T17:16:45.903Z] Session [11505600-04ec-11e7-9e35-ff54d0c4e12f] - page.onError - msg: UniversalTypeahead
+onErrorMsg=%22Error%20evaluating%20experiment%20%5BCWTA_AnchorTAOnTop%5D%3A%20Error%3A%2050003%20(Error%20occurred%20during%20the%20evaluation%20of%20one%20or%20more%20experiments.)%22
 onErrorUrl=%22NA%22
 onErrorLine=%22NA%22
 onErrorChar=%22NA%22
 stack=%22NA%22
+severity=%22MustFix%22
+problemOrigin=%22UniversalTypeahead%22
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:26:21.663Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - page.onError - stack:
-  D (https://b.travel-assets.com/datacapture/2-99/90bb81caee77de2f81d28d0cd5fb2ccb0928cdfa/datacapture/js/client-logging-bundle-min.js:1)
+[ERROR - 2017-03-09T17:16:45.903Z] Session [11505600-04ec-11e7-9e35-ff54d0c4e12f] - page.onError - stack:
+  D (https://b.travel-assets.com/datacapture/2-81/01d4e8b0ac521a160cb14098ca971c58fd463e36/datacapture/js/client-logging-bundle-min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:26:22.722Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - page.onError - msg: Timeout when calling scratchpad server the first time. Trying to make the second call
+[ERROR - 2017-03-09T17:16:47.963Z] Session [11505600-04ec-11e7-9e35-ff54d0c4e12f] - page.onError - msg: UniversalTypeahead
+onErrorMsg=%22Error%20evaluating%20experiment%20%5BCWTA_AnchorTAOnTop%5D%3A%20Error%3A%2050003%20(Error%20occurred%20during%20the%20evaluation%20of%20one%20or%20more%20experiments.)%22
+onErrorUrl=%22NA%22
+onErrorLine=%22NA%22
+onErrorChar=%22NA%22
+stack=%22NA%22
+severity=%22MustFix%22
+problemOrigin=%22UniversalTypeahead%22
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:26:22.722Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - page.onError - stack:
-  b (https://www.expedia.com/minify/corewizard.siteid_1.langid_1033-min-4165977269.js?v=release-2017-02-r1-5164-1748432-1:71)
+[ERROR - 2017-03-09T17:16:47.963Z] Session [11505600-04ec-11e7-9e35-ff54d0c4e12f] - page.onError - stack:
+  D (https://b.travel-assets.com/datacapture/2-81/01d4e8b0ac521a160cb14098ca971c58fd463e36/datacapture/js/client-logging-bundle-min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:26:24.687Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - page.onError - msg: ReferenceError: Can't find variable: osdlfm
+[ERROR - 2017-03-09T17:17:29.697Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1489079849675
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:26:24.687Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - page.onError - stack:
-  global code (https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-4&p=https%3A//www.expedia.com:14)
+[ERROR - 2017-03-09T17:17:41.275Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1489079861215
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:26:24.688Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - page.onError - msg: ReferenceError: Can't find variable: osdlfm
+[ERROR - 2017-03-09T17:17:52.835Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1489079872808
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:26:24.688Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - page.onError - stack:
-  global code (https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-3&p=https%3A//www.expedia.com:14)
+[ERROR - 2017-03-09T17:18:04.414Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1489079884365
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:26:24.689Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - page.onError - msg: ReferenceError: Can't find variable: osdlfm
+[ERROR - 2017-03-09T17:18:15.952Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1489079895945
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:26:24.689Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - page.onError - stack:
-  global code (https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html#xpc=sf-gdn-exp-2&p=https%3A//www.expedia.com:14)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:28:45.235Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - page.onError - msg: ReferenceError: Can't find variable: Yaku
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:28:45.235Z] Session [12511320-f2e3-11e6-872c-9f7a95595b16] - page.onError - stack:
-  global code (https://www.expedia.com/static/default/default/scripts/marketing/tracking/tealiumUtagLoader.js:79)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:28:56.544Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1487096936492
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:29:07.639Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1487096947602
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:29:18.614Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1487096958572
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:29:29.615Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1487096969595
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:29:40.578Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1487096980547
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-14T18:29:51.569Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1487096991561
+[ERROR - 2017-03-09T17:18:27.506Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1489079907489
 
   phantomjs://platform/console++.js:263 in error

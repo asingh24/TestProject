@@ -15,11 +15,9 @@ class RoundTrip(unittest.TestCase):
 
     @pytest.mark.run(order=1)
     def test_flightRoundTrip(self):
-        
-
 
         result2 = self.hp.verifyHomepageTitle()
-        self.ts.mark(result2, "Title Verification")
+        self.ts.mark(result2, "The Actual and Expected Titles Differ")
         self.hp.bookRoundTripFlight("Philadelphia, PA (PHL-Philadelphia Intl.)", "Las Vegas, NV (LAS-McCarran Intl.)",
                                     "27", "7", "2")
         result3 = self.hp.aOptionsIsDisplayed()
@@ -32,7 +30,7 @@ class RoundTrip(unittest.TestCase):
         result6 = self.hp.addHotelIsSelected()
         self.ts.mark(result6, "Add Hotel Checkbox is Selected")
         result7 = self.hp.addCarIsSelected()
-        self.ts.markFinal("test_flightRoundTrip",result7, "Add Car Checkbox is selected --- PASSED ")
+        self.ts.markFinal("FLIGHT ROUNDTRIP BUNDLE FLOW: ",result7, " All Checks completed  --- PASSED ")
         self.hp.click_search()
 
 
