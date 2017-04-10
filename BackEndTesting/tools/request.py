@@ -4,8 +4,8 @@ class REQ():
 
     def __init__(self):
 
-        consumer_admin_key = "ck_f1d3d8d97e19a69835796d7ad5bf7511971620af"
-        consumer_admin_secret = "cs_8dc071e9fbfefb6f38c23500838465bf6e011a6f"
+        consumer_admin_key = "ck_024af398388aae730c780a3fcee1c912c089883a"
+        consumer_admin_secret = "cs_acf02f2cb8d3e5539dfafdb7107f2608df6595f2"
 
         self.wcapi = API(url="http://127.0.0.1/akstore", consumer_key= consumer_admin_key,
                          consumer_secret= consumer_admin_secret, version="v3")

@@ -43,28 +43,28 @@ def test_ng_tc2_product_missing_title_key_in_payload():
 
 
 
-def test_ng_tc3_product_empty_sting_for_title_in_payload():
-    """
-    Negative test case for 'products' endpoint. Try to create a product with empty sting for parameter 'title' in the
-    payload. Title is a required parameter. Making the call with no 'title' and verify the response is error.
-    Verify the response_code, the error message, and the error code.
-    """
-
-    input_data = {}
-    product = {}
-    product["regular_price"] = '19.99'
-    product["type"] = 'simple'
-    product["title"] = ''
-
-    input_data["product"] = product
-    info = rq.post('products', input_data)
-    print(info)
-
-    tc = 'EMPTY TITLE STRING'
-    expected_message = "Content, title, and excerpt are empty."
-    expected_error_code = "woocommerce_api_cannot_create_product"
-
-    verify_ng_test_response(info, tc, expected_message, expected_error_code)
+# def test_ng_tc3_product_empty_string_for_title_in_payload():
+#     """
+#     Negative test case for 'products' endpoint. Try to create a product with empty sting for parameter 'title' in the
+#     payload. Title is a required parameter. Making the call with no 'title' and verify the response is error.
+#     Verify the response_code, the error message, and the error code.
+#     """
+#
+#     input_data = {}
+#     product = {}
+#     product["regular_price"] = '19.99'
+#     product["type"] = 'simple'
+#     product["title"] = ''
+#
+#     input_data["product"] = product
+#     info = rq.post('products', input_data)
+#     print(info)
+#
+#     tc = 'EMPTY TITLE STRING'
+#     expected_message = "Content, title, and excerpt are empty."
+#     expected_error_code = "woocommerce_api_cannot_create_product"
+#
+#     verify_ng_test_response(info, tc, expected_message, expected_error_code)
 
 
 
@@ -118,4 +118,4 @@ def verify_ng_test_response(response_list, test_case, exp_error_msg, exp_error_c
 
 test_ng_tc1_product_empty_payload()
 test_ng_tc2_product_missing_title_key_in_payload()
-test_ng_tc3_product_empty_sting_for_title_in_payload()
+#test_ng_tc3_product_empty_string_for_title_in_payload()
