@@ -13,8 +13,9 @@ Example:
 """
 
 from selenium import webdriver
-import TestProject.utilities.custom_logger as cl
+import utilities.custom_logger as cl
 import logging
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
 
 class WebDriverFactory():
@@ -45,18 +46,20 @@ class WebDriverFactory():
 
         if self.browser == "iexplorer":
             # Set ie Driver if Environment variable for the ie driver path is not set
-            driver = webdriver.Ie("C:\\Browsers\\Microsoft Web Driver\\IEDriverServer\\IEDriverServer.exe")
+            driver = webdriver.Ie("C:\\Tools\\Webdrivers\\Microsoft Web Driver\\IEDriverServer\\IEDriverServer.exe")
         elif self.browser == "firefox":
-            driver = webdriver.Firefox()
+            binary = FirefoxBinary("C:\Program Files (x86)\Mozilla Firefox\\firefox.exe")
+            driver = webdriver.Firefox(firefox_binary=binary)
         elif self.browser == "chrome":
             # Set Chrome Driver if Environment variable chrome driver path is not set
-            driver = webdriver.Chrome("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe")
+            driver = webdriver.Chrome("C:\\Tools\\Webdrivers\\chromedriver\\chromedriver.exe")
         elif self.browser == "phantom":
-            driver = webdriver.PhantomJS("C:\\Python\\phantomjs\\bin\\phantomjs.exe")
+            driver = webdriver.PhantomJS("C:\\Tools\\Webdrivers\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe")
         else:
-            driver = webdriver.Firefox()
+            binary = FirefoxBinary("C:\Program Files (x86)\Mozilla Firefox\\firefox.exe")
+            driver = webdriver.Firefox(firefox_binary=binary)
         # Setting Driver Implicit Time out for an Element based on the connection speed
-        driver.implicitly_wait(10)
+        driver.implicitly_wait(3)
         # Maximize the browser window
         driver.maximize_window()
         # Loading browser with the App URL

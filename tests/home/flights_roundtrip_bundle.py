@@ -1,7 +1,7 @@
-from TestProject.pages.home.hp_flights_page import FlightRTBundle
+from pages.home.hp_flights_page import FlightRTBundle
 import unittest
 import pytest
-from TestProject.utilities.statustests import StatusTests
+from utilities.statustests import StatusTests
 
 
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")

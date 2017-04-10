@@ -7,8 +7,8 @@ It provides functionality to assert the results
 Example:
     self.check_point.markFinal("Test Name", result, "Message")
 """
-from TestProject.base.selenium_driver import PageElements
-import TestProject.utilities.custom_logger as cl
+from base.selenium_driver import PageElements
+import utilities.custom_logger as cl
 import logging
 
 
