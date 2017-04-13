@@ -26,3 +26,27 @@ JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getPar
 JavaScript error: https://b.travel-assets.com/datacapture/2-107/af54c7eb247b3845b4b6c526e1cb2fc6bd97a7ba/datacapture/js/analytics-core-bundle-min.js, line 1: TypeError: J.omtr is undefined
 1491838461959	Marionette	INFO	New connections will no longer be accepted
 [Child 5720] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1491852792599	geckodriver	INFO	Listening on 127.0.0.1:62218
+1491852794635	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.SM5b7QHvspWd
+1491852794651	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1491852794651	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62224
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1491852795221	Marionette	INFO	Listening on port 62224
+1491852795717	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1491852817871	Marionette	INFO	New connections will no longer be accepted
+[Child 3960] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1491862801556	geckodriver	INFO	Listening on 127.0.0.1:50323
+1491862803578	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.rvTmxiFoc1hE
+1491862803589	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1491862803596	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50329
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1491862804343	Marionette	INFO	Listening on port 50329
+1491862804699	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://www.expedia.com/, line 23094: ReferenceError: dctk is not defined
+JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-107/af54c7eb247b3845b4b6c526e1cb2fc6bd97a7ba/datacapture/js/analytics-core-bundle-min.js, line 1: TypeError: J.omtr is undefined
+1491862885959	Marionette	INFO	New connections will no longer be accepted
+[Child 8492] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143

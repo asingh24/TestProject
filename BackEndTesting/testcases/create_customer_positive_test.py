@@ -1,6 +1,7 @@
 from BackEndTesting.tools.request import REQ
 from BackEndTesting.tools.dbconnect import DBConnect
 from BackEndTesting.tools.helpers import Helper
+import time
 
 
 rq = REQ()
@@ -76,6 +77,7 @@ def test_create_customer():
 
 
     rs = rq.post('customers', input_data)
+    time.sleep(5)
 
     print(rs)
     print('verifying response')
