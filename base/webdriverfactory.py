@@ -48,7 +48,7 @@ class WebDriverFactory():
             # Set ie Driver if Environment variable for the ie driver path is not set
             driver = webdriver.Ie("C:\\Tools\\Webdrivers\\Microsoft Web Driver\\IEDriverServer\\IEDriverServer.exe")
         elif self.browser == "firefox":
-            binary = FirefoxBinary("C:\Program Files (x86)\Mozilla Firefox\\firefox.exe")
+            binary = FirefoxBinary("C:\Program Files\\Mozilla Firefox\\firefox.exe")
             driver = webdriver.Firefox(firefox_binary=binary)
         elif self.browser == "chrome":
             # Set Chrome Driver if Environment variable chrome driver path is not set
@@ -56,7 +56,7 @@ class WebDriverFactory():
         elif self.browser == "phantom":
             driver = webdriver.PhantomJS("C:\\Tools\\Webdrivers\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe")
         else:
-            binary = FirefoxBinary("C:\Program Files (x86)\Mozilla Firefox\\firefox.exe")
+            binary = FirefoxBinary("C:\Program Files\\Mozilla Firefox\\firefox.exe")
             driver = webdriver.Firefox(firefox_binary=binary)
         # Setting Driver Implicit Time out for an Element based on the connection speed
         driver.implicitly_wait(3)
