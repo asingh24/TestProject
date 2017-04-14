@@ -64,3 +64,32 @@ JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getPar
 JavaScript error: https://b.travel-assets.com/datacapture/2-108/621001e2ac4a063d87cc835200902752b9674b20/datacapture/js/analytics-core-bundle-min.js, line 1: TypeError: J.omtr is undefined
 1492096768213	Marionette	INFO	New connections will no longer be accepted
 [Child 2252] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1492115779580	geckodriver	INFO	Listening on 127.0.0.1:59260
+1492115781625	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.7wUEegzDtdc4
+1492115781628	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1492115781633	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59266
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1492115782200	Marionette	INFO	Listening on port 59266
+1492115782650	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://www.expedia.com/, line 8418: ReferenceError: dctk is not defined
+JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+[Child 4616] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 4616] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1492115858512	geckodriver	INFO	Listening on 127.0.0.1:59715
+1492115860555	mozprofile::profile	INFO	Using profile path C:\Users\ASHWIN~1\AppData\Local\Temp\rust_mozprofile.IZUmVXOtgMJw
+1492115860560	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1492115860567	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59721
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1492115861131	Marionette	INFO	Listening on port 59721
+1492115861616	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: resource://gre/components/nsHandlerService.js, line 392: NS_ERROR_FILE_ACCESS_DENIED: Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIRDFRemoteDataSource.Flush]
+JavaScript error: resource://gre/components/nsHandlerService.js, line 392: NS_ERROR_FILE_ACCESS_DENIED: Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIRDFRemoteDataSource.Flush]
+JavaScript error: https://www.expedia.com/, line 8418: ReferenceError: dctk is not defined
+JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-108/621001e2ac4a063d87cc835200902752b9674b20/datacapture/js/analytics-core-bundle-min.js, line 1: TypeError: J.omtr is undefined
+1492115901943	Marionette	INFO	New connections will no longer be accepted
+[Child 14584] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
