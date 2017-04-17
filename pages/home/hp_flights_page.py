@@ -18,34 +18,34 @@ class FlightRTBundle(BasePage):
         self.driver = driver
         self.nav = NavigationPage(driver)
 
-
     # DEFINING LOCATORS OF PAGE ELEMENTS
 
-
-    _oneway_subTab = "flight-type-one-way-label-hp-flight" # "flight-type-one-way-label"
-    _multiDest_subTab = "flight-type-multi-dest-label-hp-flight" # "flight-type-multi-dest-label"
-    _flight_origin = "flight-origin-hp-flight" # "flight-origin"
-    _flight_destination = "flight-destination-hp-flight" # "flight-destination"
-    _departing_date = "flight-departing-hp-flight" # "flight-departing"
+    _oneway_subTab = "flight-type-one-way-label-hp-flight"
+    _multiDest_subTab = "flight-type-multi-dest-label-hp-flight"
+    _flight_origin = "flight-origin-hp-flight"
+    _flight_destination = "flight-destination-hp-flight"
+    _departing_date = "flight-departing-hp-flight"
     _currentCalendar_month = "//div[@class='datepicker-cal-month'][position()=1]"
     _nextCalendar_month = "//div[@class='datepicker-cal-month'][position()=2]"
-    _nextCalendar_page = "//span[@class='btn-label']"
-    _return_date = "flight-returning-hp-flight" # "flight-returning"
-    _adults = "flight-adults-hp-flight" # "flight-adults"
-    _children = "flight-children-hp-flight" # "flight-children"
-    _advance_options = "flight-advanced-options-hp-flight" # "advanced-options"
-    _non_stop = "advanced-flight-nonstop-hp-flight" # "advanced-flight-nonstop"
-    _refundable = "advanced-flight-refundable-hp-flight" # "advanced-flight-refundable"
-    _preferred_airline = "flight-advanced-preferred-airline-hp-flight" # "flight-advanced-preferred-airline"
-    _preferred_class = "flight-advanced-preferred-class-hp-flight" # "flight-advanced-preferred-class"
-    _add_hotel = "flight-add-hotel-checkbox-hp-flight" # "flight-add-hotel-checkbox"
-    _add_car = "flight-add-car-checkbox-hp-flight" # "flight-add-car-checkbox"
-    _hotel_checkin = "flight-hotel-checkin-hp-flight" # "flight-hotel-checkin"
-    _hotel_checkin_nextpage = "//span[@class='btn-label']"
-    _hotel_checkOut = "flight-hotel-checkout-hp-flight" # "flight-hotel-checkout"
-    _no_of_rooms = "flight-hotels-rooms-hp-flight" # "flight-hotel-rooms"
-    _checkin_adults = "flight-hotel-1-adults-hp-flight" # "flight-hotel-1-adults"
-    _checkin_children = "flight-hotel-1-children-hp-flight" # "flight-hotel-1-children"
+    #_nextCalendar_page = "//div[@id='flight-departing-wrapper-hp-flight']//button[@class='datepicker-paging datepicker-next btn-paging btn-secondary next']"
+    _return_date = "flight-returning-hp-flight"
+    #_nextreturnCalendar_page = "//div[@id='flight-returning-wrapper-hp-flight']//button[@class='datepicker-paging datepicker-next btn-paging btn-secondary next']"
+    _adults = "flight-adults-hp-flight"
+    _children = "flight-children-hp-flight"
+    _advance_options = "flight-advanced-options-hp-flight"
+    _non_stop = "advanced-flight-nonstop-hp-flight"
+    _refundable = "advanced-flight-refundable-hp-flight"
+    _preferred_airline = "flight-advanced-preferred-airline-hp-flight"
+    _preferred_class = "flight-advanced-preferred-class-hp-flight"
+    _add_hotel = "flight-add-hotel-checkbox-hp-flight"
+    _add_car = "flight-add-car-checkbox-hp-flight"
+    _hotel_checkin = "flight-hotel-checkin-hp-flight"
+    #_hotel_checkin_nextpage = "//div[@id='flight-hotel-checkin-wrapper-hp-flight']//button[@class='datepicker-paging datepicker-next btn-paging btn-secondary next']"
+    _hotel_checkOut = "flight-hotel-checkout-hp-flight"
+    #_hotel_checkout_nextpage = "//div[@id='flight-hotel-checkout-wrapper-hp-flight']//button[@class='datepicker-paging datepicker-next btn-paging btn-secondary next']"
+    _no_of_rooms = "flight-hotels-rooms-hp-flight"
+    _checkin_adults = "flight-hotel-1-adults-hp-flight"
+    _checkin_children = "flight-hotel-1-children-hp-flight"
     _search_button = "//form[@id='gcw-flights-form-hp-flight']//button[@type='submit']"
     _search_property = "inpHotelNameMirror"
     _sort_price = "//div[@id='sortContainer']//button[@aria-label='Sort by: Price']"
@@ -64,18 +64,14 @@ class FlightRTBundle(BasePage):
     def clickDepartDate(self):
         self.clickElement(self._departing_date)
         time.sleep(2)
-        # self.clickElement(self._nextCalendar_page, locatorType="xpath")
-        # time.sleep(2)
 
     def pickDepartDate(self, departDate):
         """
         Checks for the Active Dates in the Current Month and clicks on it
         :return:
         """
-        callMonth = self.getElement(locator="//div[@class='datepicker-cal-month'][position()=1]", locatorType="xpath")
-        #callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=1]")
+        callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=2]")
         validDates = callMonth.find_elements(By.CLASS_NAME, "datepicker-cal-date")
-
 
         for date in validDates:
             if date.text == departDate:
@@ -88,8 +84,7 @@ class FlightRTBundle(BasePage):
         time.sleep(3)
 
     def pickReturnDate(self, returnDate):
-        callMonth = self.getElement(locator="//div[@class='datepicker-cal-month'][position()=2]", locatorType="xpath")
-        #callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=2]")
+        callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=2]")
         validDates = callMonth.find_elements(By.CLASS_NAME, "datepicker-cal-date")
 
         for date in validDates:
@@ -127,7 +122,6 @@ class FlightRTBundle(BasePage):
         # Switch back to Parent window
         self.driver.switch_to.window(parentHandle)
 
-
     def aOptionsIsDisplayed(self):
         return self.isElementDisplayed(self._advance_options)
 
@@ -159,16 +153,13 @@ class FlightRTBundle(BasePage):
     def clickCheckInDate(self):
         self.clickElement(self._hotel_checkin)
         time.sleep(2)
-        # self.clickElement(self._hotel_checkin_nextpage, locatorType="xpath")
-        # time.sleep(2)
 
     def pickCheckIntDate(self, checkInDt):
         """
         Checks for the Active Dates in the Current Month and clicks on it
         :return:
         """
-        callMonth = self.getElement(locator="//div[@class='datepicker-cal-month'][position()=1]", locatorType="xpath")
-        #callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=1]")
+        callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=2]")
         ValidDates = callMonth.find_elements(By.CLASS_NAME, "datepicker-cal-date")
 
         for date in ValidDates:
@@ -181,10 +172,8 @@ class FlightRTBundle(BasePage):
         self.clickElement(self._hotel_checkOut)
         time.sleep(3)
 
-
     def pickCheckoutDate(self, checkoutDate):
-        callMonth = self.getElement(locator="//div[@class='datepicker-cal-month'][position()=2]", locatorType="xpath")
-        #callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=2]")
+        callMonth = self.driver.find_element(By.XPATH, "//div[@class='datepicker-cal-month'][position()=2]")
         validDates = callMonth.find_elements(By.CLASS_NAME, "datepicker-cal-date")
 
         for date in validDates:
@@ -262,18 +251,8 @@ class FlightRTBundle(BasePage):
     def nonStopIsDisplayed(self):
         return self.isElementDisplayed(self._non_stop)
 
-    # def nonstopIsSelected(self):
-    #     self.isSelected(self._non_stop)
-    #     # element = self.driver.find_element_by_id("advanced-flight-nonstop").is_selected()
-    #     # return element
-
     def refundIsDisplayed(self):
         return self.isElementDisplayed(self._refundable)
-
-    # def refundIsSelected(self):
-    #     self.isSelected(self._refundable)
-    #     # element = self.driver.find_element_by_id("advanced-flight-refundable").is_selected()
-    #     # return element
 
     def searchButtonIsPresent(self):
         return self.elementPresent(self._search_button)
@@ -281,10 +260,6 @@ class FlightRTBundle(BasePage):
 
     def addHotelIsSelected(self):
         return self.isSelected(self._add_hotel)
-        # element = self.driver.find_element_by_id("flight-add-hotel-checkbox").is_selected()
-        # return element
 
     def addCarIsSelected(self):
         return self.isSelected(self._add_car)
-        # element = self.driver.find_element_by_id("flight-add-car-checkbox").is_selected()
-        # return element
