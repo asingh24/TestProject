@@ -46,7 +46,7 @@ class FlightRTBundle(BasePage):
     _no_of_rooms = "flight-hotels-rooms-hp-flight" # "flight-hotel-rooms"
     _checkin_adults = "flight-hotel-1-adults-hp-flight" # "flight-hotel-1-adults"
     _checkin_children = "flight-hotel-1-children-hp-flight" # "flight-hotel-1-children"
-    _search_button = "//button[@type='submit']"
+    _search_button = "//form[@id='gcw-flights-form-hp-flight']//button[@type='submit']"
     _search_property = "inpHotelNameMirror"
     _sort_price = "//div[@id='sortContainer']//button[@aria-label='Sort by: Price']"
 
@@ -108,7 +108,7 @@ class FlightRTBundle(BasePage):
         sel.select_by_value(children)
 
     def clickSearchButton(self):
-        self.clickElement(self._search_button)
+        self.clickElement(self._search_button, locatorType="xpath")
         time.sleep(3)
 
     def handleWindowPopup(self):

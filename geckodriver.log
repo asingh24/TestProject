@@ -2677,3 +2677,45 @@ JavaScript error: https://b.travel-assets.com/datacapture/2-108/621001e2ac4a063d
 1492453590967	Marionette	INFO	New connections will no longer be accepted
 [Child 1193] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
 [Child 1193] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1492467556680	geckodriver	INFO	Listening on 127.0.0.1:51202
+1492467557764	mozprofile::profile	INFO	Using profile path /var/folders/qk/r6c6c1m166v2bb87vx_d39nm0000gn/T/rust_mozprofile.Fnq1b9iEFyku
+1492467557765	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1492467557770	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51211
+1492467558405	Marionette	INFO	Listening on port 51211
+1492467558660	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-04-17 18:19:19.790 plugin-container[7386:83009] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x983b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-04-17 18:19:19.791 plugin-container[7386:83009] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 8960: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 1115: ReferenceError: uitk is not defined
+JavaScript error: https://www.expedia.com/, line 11317: TypeError: dctk.logging.logError is not a function
+JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-108/621001e2ac4a063d87cc835200902752b9674b20/datacapture/js/analytics-core-bundle-min.js, line 1: TypeError: J.omtr is undefined
+1492467616638	Marionette	INFO	New connections will no longer be accepted
+[Child 7386] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 685
+[Child 7386] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 7386] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1492467680643	geckodriver	INFO	Listening on 127.0.0.1:51572
+1492467681694	mozprofile::profile	INFO	Using profile path /var/folders/qk/r6c6c1m166v2bb87vx_d39nm0000gn/T/rust_mozprofile.8JcOX3EvFBGU
+1492467681695	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1492467681699	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51581
+1492467682322	Marionette	INFO	Listening on port 51581
+1492467682582	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-04-17 18:21:23.748 plugin-container[7600:85238] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x983b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-04-17 18:21:23.749 plugin-container[7600:85238] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 8960: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 11317: TypeError: dctk.logging.logError is not a function
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 16: Error: Could not connect to /api/bucketing/v1/evaluateExperimentsAndLog
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 16: Error: Could not connect to /api/bucketing/v1/evaluateExperimentsAndLog
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 16: Error: Could not connect to /api/bucketing/v1/evaluateExperimentsAndLog
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 16: Error: Could not connect to /api/bucketing/v1/evaluateExperimentsAndLog
+JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-108/621001e2ac4a063d87cc835200902752b9674b20/datacapture/js/analytics-core-bundle-min.js, line 1: TypeError: J.omtr is undefined
+1492467789296	Marionette	INFO	New connections will no longer be accepted
+[Child 7600] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 7600] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
