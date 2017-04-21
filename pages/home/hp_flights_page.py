@@ -29,7 +29,6 @@ class FlightRTBundle(BasePage):
     _nextCalendar_month = "//div[@class='datepicker-cal-month'][position()=2]"
     #_nextCalendar_page = "//div[@id='flight-departing-wrapper-hp-flight']//button[@class='datepicker-paging datepicker-next btn-paging btn-secondary next']"
     _return_date = "flight-returning-hp-flight"
-    #_nextreturnCalendar_page = "//div[@id='flight-returning-wrapper-hp-flight']//button[@class='datepicker-paging datepicker-next btn-paging btn-secondary next']"
     _adults = "flight-adults-hp-flight"
     _children = "flight-children-hp-flight"
     _advance_options = "flight-advanced-options-hp-flight"
@@ -49,7 +48,6 @@ class FlightRTBundle(BasePage):
     _search_button = "//form[@id='gcw-flights-form-hp-flight']//button[@type='submit']"
     _search_property = "inpHotelNameMirror"
     _sort_price = "//div[@id='sortContainer']//button[@aria-label='Sort by: Price']"
-
 
 
     def navigateToRoundTrip(self):
