@@ -16,3 +16,21 @@ JavaScript error: https://b.travel-assets.com/datacapture/2-108/621001e2ac4a063d
 1492527629853	Marionette	INFO	New connections will no longer be accepted
 [Child 33186] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
 [Child 33186] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1492878805239	geckodriver	INFO	Listening on 127.0.0.1:58458
+1492878806304	mozprofile::profile	INFO	Using profile path /var/folders/qk/r6c6c1m166v2bb87vx_d39nm0000gn/T/rust_mozprofile.h5fjEuhHyarE
+1492878806305	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1492878806308	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58467
+1492878807028	Marionette	INFO	Listening on port 58467
+1492878807303	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-04-22 12:33:28.483 plugin-container[91446:2184161] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x983b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-04-22 12:33:28.485 plugin-container[91446:2184161] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 8954: ReferenceError: dctk is not defined
+JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9245>
+JavaScript warning: https://www.cdn-net.com/cc.js, line 10: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://b.travel-assets.com/datacapture/2-109/06f003074d840fe24de5ef41857c362130d71098/datacapture/js/analytics-core-bundle-min.js, line 1: TypeError: J.omtr is undefined
+1492878861500	Marionette	INFO	New connections will no longer be accepted
+[Child 91446] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 685
+[Child 91446] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 91446] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
