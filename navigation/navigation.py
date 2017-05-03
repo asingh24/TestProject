@@ -12,8 +12,8 @@ class NavigationPage(BasePage):
         self.driver = driver
 
     # Locators
-    _flights_tab =  "tab-flight-tab-hp" or "tab-flight-tab"
-    _roundtrip_subTab = "gcw-packages-form-hp-package" or "flight-type-roundtrip-label"
+    _flights_tab =  "tab-flight-tab-hp"
+    _roundtrip_subTab = "flight-type-roundtrip-label-hp-flight"#"gcw-packages-form-hp-package" or "flight-type-roundtrip-label"
 
 
     def bookRoundTrip(self):

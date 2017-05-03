@@ -54,9 +54,13 @@ class FlightRTBundle(BasePage):
         self.nav.bookRoundTrip()
 
     def enterdepartAirport(self, fromAirport):
+        self.clickElement(self._flight_origin)
+        time.sleep(2)
         self.sendKeys(fromAirport, self._flight_origin)
 
     def enterDestinationAirport(self, toAirport):
+        self.clickElement(self._flight_destination)
+        time.sleep(2)
         self.sendKeys(toAirport, self._flight_destination)
 
     def clickDepartDate(self):
