@@ -279,3 +279,320 @@ JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is n
 JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
 JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Field: eapid - Message: may not be null];[Field: tpid - Message: may not be null];[Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.])
 1493841814302	Marionette	INFO	New connections will no longer be accepted
+1493853763110	geckodriver	INFO	Listening on 127.0.0.1:56440
+1493853764195	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493853765797	Marionette	INFO	Listening on port 56449
+2017-05-03 19:22:46.179 plugin-container[72055:3454306] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-03 19:22:46.182 plugin-container[72055:3454306] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.];[Field: tpid - Message: may not be null];[Field: eapid - Message: may not be null])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493853797602	Marionette	INFO	New connections will no longer be accepted
+1493854030041	geckodriver	INFO	Listening on 127.0.0.1:56759
+1493854031099	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493854032743	Marionette	INFO	Listening on port 56768
+2017-05-03 19:27:13.253 plugin-container[72117:3458357] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-03 19:27:13.255 plugin-container[72117:3458357] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 1157: ReferenceError: uitk is not defined
+JavaScript error: https://www.expedia.com/, line 11367: TypeError: dctk.logging.logMessage is not a function
+1493854059471	Marionette	INFO	New connections will no longer be accepted
+1493854565524	geckodriver	INFO	Listening on 127.0.0.1:57093
+1493854566596	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493854568346	Marionette	INFO	Listening on port 57102
+2017-05-03 19:36:08.854 plugin-container[72176:3465538] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-03 19:36:08.856 plugin-container[72176:3465538] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9003: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 1157: ReferenceError: uitk is not defined
+JavaScript error: https://www.expedia.com/, line 11361: TypeError: dctk.logging.logMessage is not a function
+1493854593049	Marionette	INFO	New connections will no longer be accepted
+1493861662852	geckodriver	INFO	Listening on 127.0.0.1:57632
+1493861663909	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493861665544	Marionette	INFO	Listening on port 57641
+2017-05-03 21:34:26.075 plugin-container[72276:3480690] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x980b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-03 21:34:26.078 plugin-container[72276:3480690] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 11367: TypeError: dctk.logging.logMessage is not a function
+1493861694285	Marionette	INFO	New connections will no longer be accepted
+1493861729699	geckodriver	INFO	Listening on 127.0.0.1:57907
+1493861730754	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493861732355	Marionette	INFO	Listening on port 57916
+2017-05-03 21:35:32.741 plugin-container[72297:3482057] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-03 21:35:32.744 plugin-container[72297:3482057] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.];[Field: tpid - Message: may not be null];[Field: eapid - Message: may not be null])
+1493861755761	Marionette	INFO	New connections will no longer be accepted
+1493861872590	geckodriver	INFO	Listening on 127.0.0.1:58227
+1493861873637	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493861875205	Marionette	INFO	Listening on port 58236
+2017-05-03 21:37:55.586 plugin-container[72323:3483972] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-03 21:37:55.589 plugin-container[72323:3483972] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 1157: ReferenceError: uitk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Field: eapid - Message: may not be null];[Field: tpid - Message: may not be null];[Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493861897811	Marionette	INFO	New connections will no longer be accepted
+1493862293655	geckodriver	INFO	Listening on 127.0.0.1:59380
+1493862294710	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493862296246	Marionette	INFO	Listening on port 59389
+2017-05-03 21:44:56.633 plugin-container[72382:3489950] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-03 21:44:56.635 plugin-container[72382:3489950] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.];[Field: tpid - Message: may not be null];[Field: eapid - Message: may not be null])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493862321942	Marionette	INFO	New connections will no longer be accepted
+1493862337920	geckodriver	INFO	Listening on 127.0.0.1:59688
+1493862338971	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493862340521	Marionette	INFO	Listening on port 59697
+2017-05-03 21:45:40.902 plugin-container[72406:3491230] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-03 21:45:40.905 plugin-container[72406:3491230] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9003: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Field: tpid - Message: may not be null];[Field: eapid - Message: may not be null];[Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493862371413	geckodriver	INFO	Listening on 127.0.0.1:59969
+1493862372467	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493862374033	Marionette	INFO	Listening on port 59978
+2017-05-03 21:46:14.491 plugin-container[72422:3492057] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-03 21:46:14.493 plugin-container[72422:3492057] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 1157: ReferenceError: uitk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Field: tpid - Message: may not be null];[Field: eapid - Message: may not be null];[Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493862399843	Marionette	INFO	New connections will no longer be accepted
+1493862406252	geckodriver	INFO	Listening on 127.0.0.1:60264
+1493862407304	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493862408851	Marionette	INFO	Listening on port 60273
+2017-05-03 21:46:49.222 plugin-container[72442:3493180] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-03 21:46:49.224 plugin-container[72442:3493180] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Field: tpid - Message: may not be null];[Field: eapid - Message: may not be null];[Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493862438005	Marionette	INFO	New connections will no longer be accepted
+1493909762244	geckodriver	INFO	Listening on 127.0.0.1:62373
+1493909763462	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493909765319	Marionette	INFO	Listening on port 62383
+2017-05-04 10:56:05.723 plugin-container[72957:3537803] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 10:56:05.723 plugin-container[72957:3537803] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 11367: TypeError: dctk.logging.logMessage is not a function
+1493909794288	Marionette	INFO	New connections will no longer be accepted
+1493911742738	geckodriver	INFO	Listening on 127.0.0.1:63113
+1493911743806	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493911745383	Marionette	INFO	Listening on port 63122
+2017-05-04 11:29:05.778 plugin-container[73209:3572055] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 11:29:05.781 plugin-container[73209:3572055] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.];[Field: tpid - Message: may not be null];[Field: eapid - Message: may not be null])
+1493911757035	Marionette	INFO	New connections will no longer be accepted
+1493912340482	geckodriver	INFO	Listening on 127.0.0.1:63442
+1493912341550	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493912343261	Marionette	INFO	Listening on port 63451
+2017-05-04 11:39:03.651 plugin-container[73274:3583150] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 11:39:03.652 plugin-container[73274:3583150] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 1157: ReferenceError: uitk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.];[Field: tpid - Message: may not be null];[Field: eapid - Message: may not be null])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493912356246	Marionette	INFO	New connections will no longer be accepted
+1493912499162	geckodriver	INFO	Listening on 127.0.0.1:63704
+1493912500212	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493912501980	Marionette	INFO	Listening on port 63713
+2017-05-04 11:41:42.427 plugin-container[73308:3587881] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 11:41:42.428 plugin-container[73308:3587881] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9003: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.];[Field: tpid - Message: may not be null];[Field: eapid - Message: may not be null])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493912531735	Marionette	INFO	New connections will no longer be accepted
+1493912588787	geckodriver	INFO	Listening on 127.0.0.1:64009
+1493912589840	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493912591541	Marionette	INFO	Listening on port 64018
+2017-05-04 11:43:12.011 plugin-container[73332:3589595] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 11:43:12.012 plugin-container[73332:3589595] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 1157: ReferenceError: uitk is not defined
+JavaScript error: https://www.expedia.com/, line 11367: TypeError: dctk.logging.logMessage is not a function
+1493912615738	Marionette	INFO	New connections will no longer be accepted
+1493912763152	geckodriver	INFO	Listening on 127.0.0.1:64313
+1493912764208	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493912765854	Marionette	INFO	Listening on port 64322
+2017-05-04 11:46:06.342 plugin-container[73366:3592661] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 11:46:06.343 plugin-container[73366:3592661] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9003: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.];[Field: eapid - Message: may not be null];[Field: tpid - Message: may not be null])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493912791031	Marionette	INFO	New connections will no longer be accepted
+1493912946213	geckodriver	INFO	Listening on 127.0.0.1:64739
+1493912947264	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493912948901	Marionette	INFO	Listening on port 64748
+2017-05-04 11:49:09.293 plugin-container[73398:3596315] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 11:49:09.297 plugin-container[73398:3596315] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9003: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 1157: ReferenceError: uitk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.];[Field: eapid - Message: may not be null];[Field: tpid - Message: may not be null])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493912972622	Marionette	INFO	New connections will no longer be accepted
+1493912981203	geckodriver	INFO	Listening on 127.0.0.1:65028
+1493912982253	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493912983870	Marionette	INFO	Listening on port 65037
+2017-05-04 11:49:44.255 plugin-container[73413:3597272] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 11:49:44.255 plugin-container[73413:3597272] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9003: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.];[Field: tpid - Message: may not be null];[Field: eapid - Message: may not be null])
+1493913009274	Marionette	INFO	New connections will no longer be accepted
+1493913078938	geckodriver	INFO	Listening on 127.0.0.1:65334
+1493913079988	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493913081596	Marionette	INFO	Listening on port 65343
+2017-05-04 11:51:22.085 plugin-container[73437:3599209] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 11:51:22.085 plugin-container[73437:3599209] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 1157: ReferenceError: uitk is not defined
+JavaScript error: https://www.expedia.com/, line 11367: TypeError: dctk.logging.logMessage is not a function
+1493913104819	Marionette	INFO	New connections will no longer be accepted
+1493913111089	geckodriver	INFO	Listening on 127.0.0.1:49246
+1493913112143	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493913113751	Marionette	INFO	Listening on port 49257
+2017-05-04 11:51:54.139 plugin-container[73453:3600164] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 11:51:54.139 plugin-container[73453:3600164] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9003: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Field: tpid - Message: may not be null];[Field: eapid - Message: may not be null];[Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493913139885	Marionette	INFO	New connections will no longer be accepted
+1493913205304	geckodriver	INFO	Listening on 127.0.0.1:49558
+1493913206356	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493913208060	Marionette	INFO	Listening on port 49567
+2017-05-04 11:53:28.373 plugin-container[73479:3602491] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 11:53:28.374 plugin-container[73479:3602491] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9003: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 11361: TypeError: dctk.logging.logMessage is not a function
+1493913232079	Marionette	INFO	New connections will no longer be accepted
+1493913284423	geckodriver	INFO	Listening on 127.0.0.1:49858
+1493913285477	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493913287204	Marionette	INFO	Listening on port 49867
+2017-05-04 11:54:47.594 plugin-container[73501:3604643] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 11:54:47.595 plugin-container[73501:3604643] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9003: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Field: eapid - Message: may not be null];[Field: tpid - Message: may not be null];[Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493913310952	Marionette	INFO	New connections will no longer be accepted
+1493913313787	geckodriver	INFO	Listening on 127.0.0.1:50170
+1493913314840	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493913316667	Marionette	INFO	Listening on port 50179
+2017-05-04 11:55:17.076 plugin-container[73516:3606117] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 11:55:17.077 plugin-container[73516:3606117] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9003: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.];[Field: eapid - Message: may not be null];[Field: tpid - Message: may not be null])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493913347736	Marionette	INFO	New connections will no longer be accepted
+1493913684995	geckodriver	INFO	Listening on 127.0.0.1:50674
+1493913686048	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493913687679	Marionette	INFO	Listening on port 50684
+2017-05-04 12:01:28.177 plugin-container[73555:3613245] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 12:01:28.177 plugin-container[73555:3613245] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Field: tpid - Message: may not be null];[Field: eapid - Message: may not be null];[Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493913711460	Marionette	INFO	New connections will no longer be accepted
+1493913718634	geckodriver	INFO	Listening on 127.0.0.1:50983
+1493913719687	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493913721307	Marionette	INFO	Listening on port 50992
+2017-05-04 12:02:01.752 plugin-container[73570:3614430] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 12:02:01.752 plugin-container[73570:3614430] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Field: tpid - Message: may not be null];[Field: eapid - Message: may not be null];[Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.])
+1493913749027	Marionette	INFO	New connections will no longer be accepted
+1493913752196	geckodriver	INFO	Listening on 127.0.0.1:51282
+1493913753249	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493913754990	Marionette	INFO	Listening on port 51291
+2017-05-04 12:02:35.380 plugin-container[73585:3615686] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 12:02:35.381 plugin-container[73585:3615686] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9015: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Field: tpid - Message: may not be null];[Field: eapid - Message: may not be null];[Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493913779456	Marionette	INFO	New connections will no longer be accepted
+1493913782802	geckodriver	INFO	Listening on 127.0.0.1:51589
+1493913783854	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493913785638	Marionette	INFO	Listening on port 51598
+2017-05-04 12:03:06.048 plugin-container[73599:3616718] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 12:03:06.049 plugin-container[73599:3616718] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9003: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Field: eapid - Message: may not be null];[Field: tpid - Message: may not be null];[Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.])
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1493913809460	Marionette	INFO	New connections will no longer be accepted
+1493913821682	geckodriver	INFO	Listening on 127.0.0.1:51898
+1493913822735	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493913824479	Marionette	INFO	Listening on port 51907
+2017-05-04 12:03:44.882 plugin-container[73612:3618130] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 12:03:44.883 plugin-container[73612:3618130] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 11367: TypeError: dctk.logging.logMessage is not a function
+1493913847525	Marionette	INFO	New connections will no longer be accepted
+1493914210161	geckodriver	INFO	Listening on 127.0.0.1:52569
+1493914211230	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493914212801	Marionette	INFO	Listening on port 52578
+2017-05-04 12:10:13.196 plugin-container[73674:3625433] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 12:10:13.198 plugin-container[73674:3625433] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://www.expedia.com/, line 11367: TypeError: dctk.logging.logMessage is not a function
+1493914235173	Marionette	INFO	New connections will no longer be accepted

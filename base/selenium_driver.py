@@ -242,6 +242,10 @@ class PageElements():
             text = None
         return text
 
+    def getAttribute(self,propertyName, locator, locatorType = "id"):
+        attribute = self.getElement(locator, locatorType).getAttribute(propertyName)
+        return attribute
+
 
 
 

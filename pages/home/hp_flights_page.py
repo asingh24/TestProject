@@ -32,6 +32,7 @@ class FlightRTBundle(BasePage):
     _adults = "flight-adults-hp-flight"
     _children = "flight-children-hp-flight"
     _advance_options = "flight-advanced-options-hp-flight"
+    _advance_options_collapsed = "//a[@id='flight-advanced-options-hp-flight' and @aria-expanded='false']"
     _non_stop = "advanced-flight-nonstop-hp-flight"
     _refundable = "advanced-flight-refundable-hp-flight"
     _preferred_airline = "flight-advanced-preferred-airline-hp-flight"
@@ -55,12 +56,10 @@ class FlightRTBundle(BasePage):
 
     def enterdepartAirport(self, fromAirport):
         self.clickElement(self._flight_origin)
-        time.sleep(2)
         self.sendKeys(fromAirport, self._flight_origin)
 
     def enterDestinationAirport(self, toAirport):
         self.clickElement(self._flight_destination)
-        time.sleep(2)
         self.sendKeys(toAirport, self._flight_destination)
 
     def clickDepartDate(self):
@@ -128,13 +127,16 @@ class FlightRTBundle(BasePage):
         return self.isElementDisplayed(self._advance_options)
 
     def clickAddOptions(self):
-        self.clickElement(self._advance_options)
-
-    def clickNonstop(self):
-        self.clickElement(self._non_stop)
-
-    def clickRefundable(self):
-        self.clickElement(self._refundable)
+        element = self.getElement(self._advance_options)
+        flag = element.get_attribute("aria-expanded")
+        print(flag)
+        if flag == "false":
+            self.clickElement(self._advance_options)
+            self.clickElement(self._non_stop)
+            self.clickElement(self._refundable)
+        else:
+            self.clickElement(self._non_stop)
+            self.clickElement(self._refundable)
 
     def preferredAirline(self, airline):
         element = self.getElement(self._preferred_airline)
@@ -219,11 +221,7 @@ class FlightRTBundle(BasePage):
         self.pickReturnDate(returnDate)
         self.selectAdults(adults)
         self.selectChildren(children)
-        self.pageScroll("up")
         self.clickAddOptions()
-        time.sleep(2)
-        self.clickNonstop()
-        self.clickRefundable()
         self.preferredAirline(airline)
         self.preferredClass(classPreference)
 
