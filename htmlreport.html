@@ -228,7 +228,7 @@ function filter_table(elem) {
     not_found_message.hidden = !all_rows_hidden;
 }
 </script>
-    <p>Report generated on 03-May-2017 at 19:27:39 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.14.2</p>
+    <p>Report generated on 16-May-2017 at 11:21:04 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.14.2</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -247,8 +247,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.6.0</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 29.57 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 54.10 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -259,12 +259,12 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
+      <tbody class="passed results-table-row">
         <tr>
-          <td class="col-result">Failed</td>
+          <td class="col-result">Passed</td>
           <td class="col-name">tests/home/flights_roundtrip_bundle.py::RoundTrip::test_flightRoundTrip</td>
-          <td class="col-duration">21.05</td>
+          <td class="col-duration">48.38</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;tests.home.flights_roundtrip_bundle.RoundTrip testMethod=test_flightRoundTrip&gt;<br/><br/>    @pytest.mark.run(order=1)<br/>    def test_flightRoundTrip(self):<br/>    <br/>        result2 = self.hp.verifyHomepageTitle()<br/>        self.ts.mark(result2, &quot;The Actual and Expected Titles Differ&quot;)<br/>        self.hp.bookRoundTripFlight(&quot;Philadelphia, PA (PHL-Philadelphia Intl.)&quot;, &quot;Las Vegas, NV (LAS-McCarran Intl.)&quot;,<br/>                                    &quot;2&quot;, &quot;9&quot;, &quot;2&quot;)<br/>        result3 = self.hp.aOptionsIsDisplayed()<br/>        self.ts.mark(result3, &quot;Add Options Link is displayed&quot;)<br/>        result4 = self.hp.nonStopIsDisplayed()<br/>        self.ts.mark(result4, &quot;NonStop Checkbox is displayed&quot;)<br/>        result5 = self.hp.refundIsDisplayed()<br/>        self.ts.mark(result5, &quot;Refund Flight checkbox is displayed&quot;)<br/>        self.hp.addRoundTripOptions(&quot;2&quot;, &quot;9&quot;, adults=&quot;2&quot;)<br/>        result6 = self.hp.addHotelIsSelected()<br/>        self.ts.mark(result6, &quot;Add Hotel Checkbox is Selected&quot;)<br/>        result7 = self.hp.addCarIsSelected()<br/>&gt;       self.ts.markFinal(&quot;FLIGHT ROUNDTRIP BUNDLE FLOW: &quot;,result7, &quot; All Checks completed  --- PASSED &quot;)<br/><br/>tests/home/flights_roundtrip_bundle.py:33: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;utilities.statustests.StatusTests object at 0x10482f748&gt;, testName = &#x27;FLIGHT ROUNDTRIP BUNDLE FLOW: &#x27;, result = True<br/>resultMessage = &#x27; All Checks completed  --- PASSED &#x27;<br/><br/>    def markFinal(self, testName, result, resultMessage):<br/>        &quot;&quot;&quot;<br/>            Mark the final result of the verification point in a test case<br/>            This needs to be called at least once in a test case<br/>            This should be final test status of the test case<br/>            &quot;&quot;&quot;<br/>        self.setResult(result, resultMessage)<br/>    <br/>        if &quot;FAIL&quot; in self.resultList:<br/>            self.log.error(testName + &quot; --- TEST FAILED&quot;)<br/>            self.resultList.clear()<br/>&gt;           assert True == False<br/><span class="error">E           AssertionError</span><br/><br/>utilities/statustests.py:65: AssertionError<br/></div></td></tr></tbody></table></body></html>
+            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>

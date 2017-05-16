@@ -129,7 +129,6 @@ class FlightRTBundle(BasePage):
     def clickAddOptions(self):
         element = self.getElement(self._advance_options)
         flag = element.get_attribute("aria-expanded")
-        print(flag)
         if flag == "false":
             self.clickElement(self._advance_options)
             self.clickElement(self._non_stop)
