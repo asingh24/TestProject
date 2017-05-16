@@ -1,0 +1,12 @@
+1493914484528	geckodriver	INFO	Listening on 127.0.0.1:53010
+1493914485576	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1493914487159	Marionette	INFO	Listening on port 53019
+2017-05-04 12:14:47.559 plugin-container[73753:3630481] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-04 12:14:47.562 plugin-container[73753:3630481] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9009: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.];[Field: eapid - Message: may not be null];[Field: tpid - Message: may not be null])
+JavaScript error: https://b.travel-assets.com/datacapture/2-111/e54f8be89ad24f6bdb29511e42138c2676e3fd92/datacapture/js/analytics-core-bundle-min.js, line 1: TypeError: J.omtr is undefined
+1493914541249	Marionette	INFO	New connections will no longer be accepted
