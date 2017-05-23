@@ -10,3 +10,18 @@ JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17:
 JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 50001 (Invalid input parameters. [Error: Invalid number format for tpid (tpid) or eapid (eapid) fields. These should be Long or Integer.];[Field: eapid - Message: may not be null];[Field: tpid - Message: may not be null])
 JavaScript error: https://b.travel-assets.com/datacapture/2-111/e54f8be89ad24f6bdb29511e42138c2676e3fd92/datacapture/js/analytics-core-bundle-min.js, line 1: TypeError: J.omtr is undefined
 1493914541249	Marionette	INFO	New connections will no longer be accepted
+1494948248874	geckodriver	INFO	Listening on 127.0.0.1:51903
+1494948249920	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1494948251500	Marionette	INFO	Listening on port 51912
+2017-05-16 11:24:11.878 plugin-container[1475:94836] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-16 11:24:11.880 plugin-container[1475:94836] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9127: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/homepage-bundle/homepage-mercury-script-1-en_US-9a363650a74269aa83b649962cfca33c-min.js, line 9: TypeError: n.dctk.evaluateExperiment is not a function
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/homepage-bundle/homepage-mercury-script-1-en_US-9a363650a74269aa83b649962cfca33c-min.js, line 9: TypeError: n.dctk.evaluateExperiment is not a function
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/homepage-bundle/homepage-mercury-script-1-en_US-9a363650a74269aa83b649962cfca33c-min.js, line 9: TypeError: n.dctk.evaluateExperiment is not a function
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+JavaScript error: https://b.travel-assets.com/datacapture/2-112/0526e4ef25a680b6ae221ca43a7bccdeae83824e/datacapture/js/analytics-core-bundle-min.js, line 1: TypeError: J.omtr is undefined
+1494948287293	Marionette	INFO	New connections will no longer be accepted
+[Child 1475] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
