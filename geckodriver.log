@@ -642,3 +642,36 @@ IPDL protocol error: Handler returned error code!
 
 JavaScript error: https://b.travel-assets.com/datacapture/2-112/0526e4ef25a680b6ae221ca43a7bccdeae83824e/datacapture/js/analytics-core-bundle-min.js, line 1: TypeError: J.omtr is undefined
 1494948064413	Marionette	INFO	New connections will no longer be accepted
+1496262573056	geckodriver	INFO	Listening on 127.0.0.1:65095
+1496262574163	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1496262576216	Marionette	INFO	Listening on port 65104
+2017-05-31 16:29:36.631 plugin-container[10033:2245765] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-31 16:29:36.634 plugin-container[10033:2245765] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-31 16:32:02.252 plugin-container[10040:2246985] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b0b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-31 16:32:02.255 plugin-container[10040:2246985] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa203, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9693: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 17: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+JavaScript error: https://b.travel-assets.com/globalcontrols-service/content/35860910227eea19f154f4bf446d42f190b5872a/scripts/1/en_US/globalcontrols-min.js, line 1: TypeError: window.__pageModel is undefined
+1496262752556	geckodriver	INFO	Listening on 127.0.0.1:65306
+1496262753669	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1496262755540	Marionette	INFO	Listening on port 65315
+2017-05-31 16:32:36.161 plugin-container[10050:2247725] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-31 16:32:36.165 plugin-container[10050:2247725] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1498059291688	geckodriver	INFO	Listening on 127.0.0.1:55969
+1498059292738	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1498059294251	Marionette	INFO	Listening on port 55978
+2017-06-21 11:34:54.734 plugin-container[1091:124158] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x980b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-21 11:34:54.737 plugin-container[1091:124158] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.expedia.com/, line 9928: ReferenceError: dctk is not defined
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/memberOnlyDeals-1-en_US-234f660827f93485fc4aa432d572bf8d-min.js, line 1: ReferenceError: Handlebars is not defined
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 22: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+JavaScript error: https://c.travel-assets.com/datacapture/2/js/dctk.js, line 22: TypeError: b.omtr is undefined
+1498059347835	Marionette	INFO	New connections will no longer be accepted
