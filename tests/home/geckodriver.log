@@ -61,3 +61,261 @@ IPDL protocol error: Handler returned error code!
 1498060339437	Marionette	INFO	New connections will no longer be accepted
 [GFX1]: [Tiling:Client] Failed to allocate a TextureClient
 [Child 1274] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+1499957470122	geckodriver	INFO	Listening on 127.0.0.1:59732
+1499957471170	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499957473203	Marionette	INFO	Listening on port 59741
+1499957473449	Marionette	DEBUG	loaded listener.js
+2017-07-13 10:51:13.510 plugin-container[15158:2846233] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-13 10:51:13.511 plugin-container[15158:2846233] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1499957473796	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1499957474095	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499957474095	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.expedia.com/, line 12234: ReferenceError: dctk is not defined
+1499957475199	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 22: Error: 4301 (The given (TPID, EAPID) pair '(1, 0)' is not valid for the Experiment '13,856')
+1499957476314	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957476318	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957476319	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957476322	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957476323	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957476324	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957476325	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957476325	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957476326	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957476327	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957476328	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957476329	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957476329	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957476330	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957476718	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1499957476726	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1499957476729	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1499957476731	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1499957477182	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957477189	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/safeframe/1-0-9/html/container.html"
+1499957477197	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-9/html/container.html"
+1499957477206	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/safeframe/1-0-9/html/container.html"
+1499957477211	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-9/html/container.html"
+1499957477218	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/safeframe/1-0-9/html/container.html"
+1499957477224	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-9/html/container.html"
+1499957477226	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/safeframe/1-0-9/html/container.html"
+1499957477687	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/sodar/9im3l02I.html"
+1499957477689	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/sodar/9im3l02I.html"
+1499957477696	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957477701	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-9/html/container.html"
+1499957477751	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957477898	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957477902	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957477931	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://2588783.fls.doubleclick.net/activityi;src=2588783;type=nausc547;cat=naush134;ord=3599369240278.756?"
+1499957477932	Marionette	DEBUG	Received DOM event "pageshow" for "https://2588783.fls.doubleclick.net/activityi;src=2588783;type=nausc547;cat=naush134;ord=3599369240278.756?"
+1499957478170	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=q1jglrva2&kxt=https%3A%2F%2Fwww.expedia.com&kxcl=cdn&kxp="
+1499957478325	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957478361	Marionette	DEBUG	Received DOM event "pageshow" for "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=q1jglrva2&kxt=https%3A%2F%2Fwww.expedia.com&kxcl=cdn&kxp="
+1499957478383	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957478384	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957478404	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957478405	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957478416	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957478426	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957478431	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/html/r20170705/r20170110/zrt_lookup.html#"
+1499957478433	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/html/r20170705/r20170110/zrt_lookup.html#"
+1499957478438	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957478534	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stags.bluekai.com/site/25683?dt=0&r=568506114&sig=2411097024&bkca=KJhNDWaryM9x4/NpH1aJDE7AWYDQMCPYFDjq58+Rzjp/UAMfI08QVGmWjBApRlk7w9bobsQy05HouXPhZRrLdiBgJg+hy9kSF/A0jUWjVBBX29thLwZKXameAm7OyxZB0WgsfbY92si2AOUE3AmRIBySlURDha/fG0tKUtgPTNkmCPh5qff9GRI2I+igIg5fw7XlWo39cdmTGdqTWYbTwQ6UZbjkiNq2C9cQKBIMJEYH2DUpbWbhX06/yp5xw55faTkOMVer4LbPNClH8YdPq77BXfp9ShznBxbLJWRwZGgUhOU0jqUmXkpI93QGZWG="
+1499957478538	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957478691	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957478694	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957478697	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957478723	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pix.impdesk.com/csync/fire/multi.html?inc=obk,exp"
+1499957478871	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483700"
+1499957478906	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://a.travel-assets.com/media/meso/programmatic/Expedia/US/Expedia_300x250.html"
+1499957478906	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://a.travel-assets.com/media/meso/programmatic/Expedia/US/Expedia_300x250.html"
+1499957479706	Marionette	DEBUG	Received DOM event "pageshow" for "https://pix.impdesk.com/csync/fire/multi.html?inc=obk,exp"
+1499957499864	Marionette	DEBUG	Received DOM event "pageshow" for "https://a.travel-assets.com/media/meso/programmatic/Expedia/US/Expedia_300x250.html"
+1499957499866	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957499870	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957499940	Marionette	DEBUG	Received DOM event "pageshow" for "https://a.travel-assets.com/media/meso/programmatic/Expedia/US/Expedia_300x250.html"
+1499957499942	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957499978	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+1499957499980	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1499957590530	Marionette	DEBUG	Received DOM event "pageshow" for "https://stags.bluekai.com/site/25683?dt=0&r=568506114&sig=2411097024&bkca=KJhNDWaryM9x4/NpH1aJDE7AWYDQMCPYFDjq58+Rzjp/UAMfI08QVGmWjBApRlk7w9bobsQy05HouXPhZRrLdiBgJg+hy9kSF/A0jUWjVBBX29thLwZKXameAm7OyxZB0WgsfbY92si2AOUE3AmRIBySlURDha/fG0tKUtgPTNkmCPh5qff9GRI2I+igIg5fw7XlWo39cdmTGdqTWYbTwQ6UZbjkiNq2C9cQKBIMJEYH2DUpbWbhX06/yp5xw55faTkOMVer4LbPNClH8YdPq77BXfp9ShznBxbLJWRwZGgUhOU0jqUmXkpI93QGZWG="
+1499957590533	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+JavaScript error: https://a.travel-assets.com/bundles/mercury-web/mercury/script-79fb6fdc656af375458feae7a1235897-min.js, line 5: TypeError: d.storedData is null
+1499957590922	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957591196	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957591526	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957592914	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957593946	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957596194	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1499957596247	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1499957596274	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/tr/"
+1499957596285	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483719"
+1499957596369	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957599648	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957602988	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1499957603031	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1499957603036	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/tr/"
+1499957603041	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483722"
+1499957603160	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957603481	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957603633	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1499957603732	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1499957603744	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/tr/"
+1499957603752	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483725"
+1499957603826	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957604102	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957604356	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957604798	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957605061	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957605329	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957607526	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1499957607574	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1499957607587	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/tr/"
+1499957607594	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483728"
+1499957607713	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957610994	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957614304	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1499957614365	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1499957614381	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/tr/"
+1499957614394	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483731"
+1499957614483	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957615142	Marionette	DEBUG	loaded listener.js
+1499957615384	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.expedia.com/"
+1499957615467	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483739"
+1499957616023	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1499957616028	Marionette	DEBUG	Received DOM event "unload" for "https://www.expedia.com/"
+1499957616080	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=1d554be4-079a-4a90-bb22-7847527b0a96&adults=2&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&ttla=LAS&startDate=8/2/2017&endDate=8/9/2017&sort=recommended"
+1499957616167	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1499957616170	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1499957616171	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
+1499957616173	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483673"
+1499957616174	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483682"
+1499957616175	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1499957616176	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483696"
+1499957616177	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483703"
+1499957616177	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483717"
+1499957616178	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483694"
+1499957616179	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1499957616180	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483707"
+1499957616180	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483710"
+1499957616181	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483697"
+1499957616182	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1499957616182	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483688"
+1499957616183	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483685"
+1499957616184	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483687"
+1499957616184	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483734"
+1499957616185	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483692"
+1499957616185	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483708"
+1499957616299	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=1d554be4-079a-4a90-bb22-7847527b0a96&adults=2&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&ttla=LAS&startDate=8/2/2017&endDate=8/9/2017&sort=recommended"
+1499957619421	Marionette	DEBUG	loaded listener.js
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1499957652704	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/Hotel-Search?packageType=fhc&c=3a042abc-4297-439b-a55c-2a5f2643206f&ttla=LAS&ftla=PHL&origin=Philadelphia,+PA,+United+States+(PHL-Philadelphia+Intl.)&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&startDate=8/2/2017&endDate=8/9/2017&isPartialStay=1&checkInDate=8/2/2017&checkOutDate=8/9/2017&adults=2&infantsInSeats=0&cabinClass=e&regionId=178276&sort=price&rfrr=PKG.FHC.HSR.Refine.PartialStay"
+1499957652705	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/Hotel-Search?packageType=fhc&c=3a042abc-4297-439b-a55c-2a5f2643206f&ttla=LAS&ftla=PHL&origin=Philadelphia,+PA,+United+States+(PHL-Philadelphia+Intl.)&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&startDate=8/2/2017&endDate=8/9/2017&isPartialStay=1&checkInDate=8/2/2017&checkOutDate=8/9/2017&adults=2&infantsInSeats=0&cabinClass=e&regionId=178276&sort=price&rfrr=PKG.FHC.HSR.Refine.PartialStay"
+1499957652706	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/Hotel-Search?packageType=fhc&c=3a042abc-4297-439b-a55c-2a5f2643206f&ttla=LAS&ftla=PHL&origin=Philadelphia,+PA,+United+States+(PHL-Philadelphia+Intl.)&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&startDate=8/2/2017&endDate=8/9/2017&isPartialStay=1&checkInDate=8/2/2017&checkOutDate=8/9/2017&adults=2&infantsInSeats=0&cabinClass=e&regionId=178276&sort=price&rfrr=PKG.FHC.HSR.Refine.PartialStay"
+1499957652707	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/Hotel-Search?packageType=fhc&c=3a042abc-4297-439b-a55c-2a5f2643206f&ttla=LAS&ftla=PHL&origin=Philadelphia,+PA,+United+States+(PHL-Philadelphia+Intl.)&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&startDate=8/2/2017&endDate=8/9/2017&isPartialStay=1&checkInDate=8/2/2017&checkOutDate=8/9/2017&adults=2&infantsInSeats=0&cabinClass=e&regionId=178276&sort=price&rfrr=PKG.FHC.HSR.Refine.PartialStay"
+1499957652708	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1499957652852	Marionette	INFO	New connections will no longer be accepted
