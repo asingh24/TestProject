@@ -108,3 +108,189 @@ JavaScript error: https://a.travel-assets.com/bundles/mercury-web/mercury/script
 1503937781391	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/Hotel-Search?packageType=fhc&c=74c06d23-f722-4a7a-8938-ad6cb56e5737&ttla=LAS&ftla=PHL&origin=Philadelphia,+PA,+United+States+(PHL-Philadelphia+Intl.)&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&startDate=9/21/2017&endDate=9/28/2017&isPartialStay=1&checkInDate=9/21/2017&checkOutDate=9/28/2017&adults=2&infantsInSeats=0&cabinClass=e&regionId=178276&sort=price&rfrr=PKG.FHC.HSR.Refine.PartialStay"
 1503937781418	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1503937781542	Marionette	INFO	New connections will no longer be accepted
+1508363485951	geckodriver	INFO	Listening on 127.0.0.1:64993
+1508363487056	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508363487390	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1508363487716	Marionette	INFO	Enabled via --marionette
+2017-10-18 17:51:28.673 plugin-container[14016:4661795] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad2f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-18 17:51:28.674 plugin-container[14016:4661795] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb003, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1508363489043	Marionette	INFO	Listening on port 65002
+1508363489165	Marionette	DEBUG	Register listener.js for window 2147483649
+JavaScript error: chrome://browser/content/browser-safebrowsing.js, line 16: TypeError: gBrowser is null
+2017-10-18 17:57:18.008 plugin-container[14046:4664704] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-18 17:57:18.009 plugin-container[14046:4664704] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaf03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-18 17:57:25.028 plugin-container[14047:4664900] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-18 17:57:25.029 plugin-container[14047:4664900] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb003, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1508364197292	geckodriver	INFO	geckodriver 0.19.0
+1508364197297	geckodriver	INFO	Listening on 127.0.0.1:65304
+1508364198349	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/qk/r6c6c1m166v2bb87vx_d39nm0000gn/T/rust_mozprofile.kI7l7zuCTg4d"
+1508364198624	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1508364198946	Marionette	INFO	Enabled via --marionette
+2017-10-18 18:03:19.746 plugin-container[14117:4671953] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-18 18:03:19.747 plugin-container[14117:4671953] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb003, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1508364200118	Marionette	INFO	Listening on port 65313
+1508364200223	Marionette	DEBUG	Register listener.js for window 2147483649
+1508364200568	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508364200827	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508364200828	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508364201540	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+JavaScript error: https://suggest.expedia.com/api/v4/ping?callback=jQuery18203665740416379155_1508364201733&_=1508364201745, line 1: SyntaxError: missing ; before statement
+1508364206178	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1508364206609	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364206788	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1508364206788	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1508364206789	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1508364206789	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
+1508364206790	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483673"
+1508364206798	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483675"
+1508364206800	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483677"
+1508364206948	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364207287	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364208689	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364210511	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364213009	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483726"
+1508364213091	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364216368	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364219819	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483729"
+1508364219945	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364220235	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364220451	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483732"
+1508364220534	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364220786	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364221037	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364221436	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364221689	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364221941	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364224329	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483735"
+1508364224452	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364227716	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364231214	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483738"
+1508364231344	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364232052	Marionette	DEBUG	Register listener.js for window 2147483746
+1508364232193	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.expedia.com/"
+1508364232237	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483746"
+1508364232758	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1508364232809	Marionette	DEBUG	Received DOM event "unload" for "https://www.expedia.com/"
+1508364232874	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=38a9ae2c-3273-4ae1-a273-c2bb3b5acaba&adults=2&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&ttla=LAS&startDate=11/21/2017&endDate=11/28/2017&sort=recommended"
+1508364232875	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483702"
+1508364232875	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483712"
+1508364232876	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483713"
+1508364232876	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483679"
+1508364232876	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483681"
+1508364232876	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483683"
+1508364232877	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483685"
+1508364232877	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483716"
+1508364232877	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483719"
+1508364232877	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483707"
+1508364232878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483687"
+1508364232878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483706"
+1508364232878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483718"
+1508364232878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483720"
+1508364232878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483703"
+1508364232878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483689"
+1508364232879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483691"
+1508364232879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1508364232879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1508364232879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508364232879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483700"
+1508364232879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483741"
+1508364232879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1508364232880	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1508364232929	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=38a9ae2c-3273-4ae1-a273-c2bb3b5acaba&adults=2&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&ttla=LAS&startDate=11/21/2017&endDate=11/28/2017&sort=recommended"
+JavaScript error: https://suggest.expedia.com/api/v4/ping?callback=jQuery18208084880113960754_1508364233279&_=1508364233452, line 1: SyntaxError: missing ; before statement
+1508364236063	Marionette	DEBUG	Register listener.js for window 2147483743
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=3818880&callback=jQuery18208084880113960754_1508364233279&_=1508364250883, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=16110930&callback=jQuery18208084880113960754_1508364233280&_=1508364250893, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=15930&callback=jQuery18208084880113960754_1508364233281&_=1508364250898, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1443&callback=jQuery18208084880113960754_1508364233282&_=1508364250906, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=3818880&callback=jQuery18208084880113960754_1508364233283&_=1508364250914, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=41081&callback=jQuery18208084880113960754_1508364233286&_=1508364251315, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=19558&callback=jQuery18208084880113960754_1508364233287&_=1508364251328, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=203613&callback=jQuery18208084880113960754_1508364233288&_=1508364251338, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=13945&callback=jQuery18208084880113960754_1508364233290&_=1508364251359, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=19901392&callback=jQuery18208084880113960754_1508364233289&_=1508364251349, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1769973&callback=jQuery18208084880113960754_1508364233291&_=1508364251376, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=7611&callback=jQuery18208084880113960754_1508364233293&_=1508364251401, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=15237&callback=jQuery18208084880113960754_1508364233292&_=1508364251391, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=19837&callback=jQuery18208084880113960754_1508364233294&_=1508364251411, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=41308&callback=jQuery18208084880113960754_1508364233295&_=1508364251421, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=200710&callback=jQuery18208084880113960754_1508364233296&_=1508364251430, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=41245&callback=jQuery18208084880113960754_1508364233297&_=1508364251440, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=14323&callback=jQuery18208084880113960754_1508364233298&_=1508364251456, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=24715&callback=jQuery18208084880113960754_1508364233299&_=1508364251465, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=198225&callback=jQuery18208084880113960754_1508364233300&_=1508364251475, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=20194&callback=jQuery18208084880113960754_1508364233301&_=1508364251486, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=43312&callback=jQuery18208084880113960754_1508364233302&_=1508364251497, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=15117&callback=jQuery18208084880113960754_1508364233303&_=1508364251505, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1857289&callback=jQuery18208084880113960754_1508364233304&_=1508364251516, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=8753178&callback=jQuery18208084880113960754_1508364233306&_=1508364251534, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=12628&callback=jQuery18208084880113960754_1508364233305&_=1508364251526, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=12384405&callback=jQuery18208084880113960754_1508364233307&_=1508364251542, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=41307&callback=jQuery18208084880113960754_1508364233310&_=1508364251569, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=140596&callback=jQuery18208084880113960754_1508364233309&_=1508364251562, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=792446&callback=jQuery18208084880113960754_1508364233308&_=1508364251553, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=41277&callback=jQuery18208084880113960754_1508364233283&_=1508364251742, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=17863402&callback=jQuery18208084880113960754_1508364233281&_=1508364251762, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1380135&callback=jQuery18208084880113960754_1508364233282&_=1508364251752, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=852937&callback=jQuery18208084880113960754_1508364233280&_=1508364251769, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=19&callback=jQuery18208084880113960754_1508364233279&_=1508364251775, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=41080&callback=jQuery18208084880113960754_1508364233311&_=1508364251785, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1184243&callback=jQuery18208084880113960754_1508364233312&_=1508364251795, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=15575&callback=jQuery18208084880113960754_1508364233313&_=1508364251803, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=460435&callback=jQuery18208084880113960754_1508364233314&_=1508364251811, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1847179&callback=jQuery18208084880113960754_1508364233315&_=1508364251823, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1217263&callback=jQuery18208084880113960754_1508364233316&_=1508364251832, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=921745&callback=jQuery18208084880113960754_1508364233317&_=1508364251841, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=58201&callback=jQuery18208084880113960754_1508364233318&_=1508364251852, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=787214&callback=jQuery18208084880113960754_1508364233319&_=1508364251861, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=970030&callback=jQuery18208084880113960754_1508364233320&_=1508364251869, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=460434&callback=jQuery18208084880113960754_1508364233322&_=1508364251888, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=2223789&callback=jQuery18208084880113960754_1508364233321&_=1508364251878, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1309521&callback=jQuery18208084880113960754_1508364233323&_=1508364251896, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=12028553&callback=jQuery18208084880113960754_1508364233325&_=1508364251913, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1248211&callback=jQuery18208084880113960754_1508364233324&_=1508364251904, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=894235&callback=jQuery18208084880113960754_1508364233326&_=1508364251921, line 2: SyntaxError: missing ; before statement
+JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=7116&callback=jQuery18208084880113960754_1508364233327&_=1508364251932, line 2: SyntaxError: missing ; before statement
+1508364253417	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508364253819	Marionette	INFO	New connections will no longer be accepted
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[Child 14117] WARNING: pipe error: Broken pipe: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 14117] WARNING: pipe error: Broken pipe: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
