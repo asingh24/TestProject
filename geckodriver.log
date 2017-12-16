@@ -1,296 +1,438 @@
-1503937725373	geckodriver	INFO	Listening on 127.0.0.1:57193
-1503937726460	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
-1503937726937	Marionette	INFO	Enabled via --marionette
-2017-08-28 12:28:47.956 plugin-container[7496:1439815] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xae3b, name = 'com.apple.tsm.portname'
+1513183448293	geckodriver	INFO	geckodriver 0.19.1
+1513183448300	geckodriver	INFO	Listening on 127.0.0.1:65009
+1513183451399	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/qk/r6c6c1m166v2bb87vx_d39nm0000gn/T/rust_mozprofile.Ang9GOtRHcC3"
+1513183452035	Marionette	INFO	Enabled via --marionette
+2017-12-13 11:44:12.834 plugin-container[5852:3107376] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb03f, name = 'com.apple.tsm.portname'
 See /usr/include/servers/bootstrap_defs.h for the error codes.
-2017-08-28 12:28:47.958 plugin-container[7496:1439815] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb103, name = 'com.apple.CFPasteboardClient'
+1513183453243	Marionette	INFO	Listening on port 65017
+1513183453681	Marionette	DEBUG	Register listener.js for window 2147483649
+1513183454068	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513183454308	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513183454308	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/memberOnlyDeals-1-en_US-32fbe104be8b60293a98c79a6c92189b-min.js, line 1: ReferenceError: Handlebars is not defined
+1513183455083	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+JavaScript error: https://suggest.expedia.com/api/v4/ping?callback=jQuery18208496880341885794_1513183454803&_=1513183454819, line 1: SyntaxError: missing ; before statement
+1513183456102	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1513183456102	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1513183456102	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1513183456102	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1513183456103	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1513183456103	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1513183456103	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1513183456955	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1513183456955	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1513183456956	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1513183456956	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1513183456966	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1513183456968	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1513183456970	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1513183459020	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1513183460084	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183460332	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183460583	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183461969	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183463530	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183465939	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483720"
+1513183465998	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183469268	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183472620	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483723"
+1513183472733	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183472994	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183473206	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483726"
+1513183473266	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183473504	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183473743	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183474067	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183474315	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183474562	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183476865	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483729"
+1513183476954	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183480211	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183483519	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483732"
+1513183483634	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183631198	geckodriver	INFO	geckodriver 0.19.1
+1513183631203	geckodriver	INFO	Listening on 127.0.0.1:65472
+1513183634274	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/qk/r6c6c1m166v2bb87vx_d39nm0000gn/T/rust_mozprofile.QsFm5MU1FWNr"
+1513183634737	Marionette	INFO	Enabled via --marionette
+2017-12-13 11:47:15.452 plugin-container[5871:3110360] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaf3f, name = 'com.apple.tsm.portname'
 See /usr/include/servers/bootstrap_defs.h for the error codes.
-1503937728082	Marionette	INFO	Listening on port 57202
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1503937728147	Marionette	DEBUG	loaded listener.js
-1503937728596	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1503937728900	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1503937728900	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-JavaScript error: https://www.expedia.com/, line 12941: ReferenceError: dctk is not defined
-1503937729542	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
-JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/memberOnlyDeals-1-en_US-d3edaa3d36788ab48cb83f4252bc386b-min.js, line 1: ReferenceError: Handlebars is not defined
-1503937731304	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
-JavaScript error: https://a.travel-assets.com/bundles/mercury-web/mercury/script-23118710dd56e094964454cfb1e02ede-min.js, line 7: TypeError: d.storedData is null
-1503937732025	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937732542	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937732608	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937733045	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937733152	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937733153	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937734223	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.tamgrt.com/RT"
-1503937734237	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937734246	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483697"
-1503937734372	Marionette	DEBUG	Received DOM event "pagehide" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
-1503937734473	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937736002	Marionette	DEBUG	Received DOM event "pagehide" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
-1503937736060	Marionette	DEBUG	Received DOM event "pagehide" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
-1503937736063	Marionette	DEBUG	Received DOM event "pagehide" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
-1503937736064	Marionette	DEBUG	Received DOM event "pagehide" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
-1503937736066	Marionette	DEBUG	Received DOM event "pagehide" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
-1503937736239	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937738723	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937738803	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937738806	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/tr/"
-1503937738821	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483741"
-1503937738908	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937742201	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937745720	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937745785	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937745789	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/tr/"
-1503937745805	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483744"
-1503937745888	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937746194	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937746334	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937746505	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937746512	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/tr/"
-1503937746530	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483747"
-1503937746531	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937746804	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937747066	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937747511	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937747775	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937748061	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937750463	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937750551	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937750555	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/tr/"
-1503937750569	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483750"
-1503937750632	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937753906	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937757405	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937757472	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937757477	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/tr/"
-1503937757492	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483753"
-1503937757581	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937758165	Marionette	DEBUG	loaded listener.js
-1503937758390	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.expedia.com/"
-1503937758473	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483761"
-1503937759230	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1503937759244	Marionette	DEBUG	Received DOM event "unload" for "https://www.expedia.com/"
-1503937759310	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483712"
-1503937759311	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483721"
-1503937759311	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483729"
-1503937759313	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483710"
-1503937759313	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
-1503937759313	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
-1503937759313	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
-1503937759314	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483673"
-1503937759314	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483727"
-1503937759314	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483730"
-1503937759315	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483713"
-1503937759315	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483675"
-1503937759315	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483723"
-1503937759315	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483732"
-1503937759315	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483718"
-1503937759315	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483677"
-1503937759316	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483725"
-1503937759316	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483731"
-1503937759316	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483716"
-1503937759316	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483679"
-1503937759316	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483694"
-1503937759316	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483688"
-1503937759316	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483690"
-1503937759316	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483692"
-1503937759317	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483699"
-1503937759317	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483756"
-1503937759317	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483701"
-1503937759317	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483706"
-1503937759318	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=d6defa2f-450b-4563-ba68-56a392aeace0&adults=2&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&ttla=LAS&startDate=9/21/2017&endDate=9/28/2017&sort=recommended"
-1503937759427	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=d6defa2f-450b-4563-ba68-56a392aeace0&adults=2&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&ttla=LAS&startDate=9/21/2017&endDate=9/28/2017&sort=recommended"
-1503937762478	Marionette	DEBUG	loaded listener.js
-1503937781390	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/Hotel-Search?packageType=fhc&c=74c06d23-f722-4a7a-8938-ad6cb56e5737&ttla=LAS&ftla=PHL&origin=Philadelphia,+PA,+United+States+(PHL-Philadelphia+Intl.)&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&startDate=9/21/2017&endDate=9/28/2017&isPartialStay=1&checkInDate=9/21/2017&checkOutDate=9/28/2017&adults=2&infantsInSeats=0&cabinClass=e&regionId=178276&sort=price&rfrr=PKG.FHC.HSR.Refine.PartialStay"
-1503937781390	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/Hotel-Search?packageType=fhc&c=74c06d23-f722-4a7a-8938-ad6cb56e5737&ttla=LAS&ftla=PHL&origin=Philadelphia,+PA,+United+States+(PHL-Philadelphia+Intl.)&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&startDate=9/21/2017&endDate=9/28/2017&isPartialStay=1&checkInDate=9/21/2017&checkOutDate=9/28/2017&adults=2&infantsInSeats=0&cabinClass=e&regionId=178276&sort=price&rfrr=PKG.FHC.HSR.Refine.PartialStay"
-1503937781391	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/Hotel-Search?packageType=fhc&c=74c06d23-f722-4a7a-8938-ad6cb56e5737&ttla=LAS&ftla=PHL&origin=Philadelphia,+PA,+United+States+(PHL-Philadelphia+Intl.)&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&startDate=9/21/2017&endDate=9/28/2017&isPartialStay=1&checkInDate=9/21/2017&checkOutDate=9/28/2017&adults=2&infantsInSeats=0&cabinClass=e&regionId=178276&sort=price&rfrr=PKG.FHC.HSR.Refine.PartialStay"
-1503937781391	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/Hotel-Search?packageType=fhc&c=74c06d23-f722-4a7a-8938-ad6cb56e5737&ttla=LAS&ftla=PHL&origin=Philadelphia,+PA,+United+States+(PHL-Philadelphia+Intl.)&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&startDate=9/21/2017&endDate=9/28/2017&isPartialStay=1&checkInDate=9/21/2017&checkOutDate=9/28/2017&adults=2&infantsInSeats=0&cabinClass=e&regionId=178276&sort=price&rfrr=PKG.FHC.HSR.Refine.PartialStay"
-1503937781418	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1503937781542	Marionette	INFO	New connections will no longer be accepted
-1508363485951	geckodriver	INFO	Listening on 127.0.0.1:64993
-1508363487056	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
-1508363487390	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
-1508363487716	Marionette	INFO	Enabled via --marionette
-2017-10-18 17:51:28.673 plugin-container[14016:4661795] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad2f, name = 'com.apple.tsm.portname'
+1513183635806	Marionette	INFO	Listening on port 65479
+1513183636784	Marionette	DEBUG	Register listener.js for window 2147483649
+1513183637134	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513183637309	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513183637309	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/memberOnlyDeals-1-en_US-32fbe104be8b60293a98c79a6c92189b-min.js, line 1: ReferenceError: Handlebars is not defined
+1513183638034	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+JavaScript error: https://suggest.expedia.com/api/v4/ping?callback=jQuery182028314098845767754_1513183637715&_=1513183637775, line 1: SyntaxError: missing ; before statement
+1513183638547	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1513183638547	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1513183638547	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1513183638548	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1513183638548	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1513183638548	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1513183638548	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1513183639558	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1513183639559	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1513183639559	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1513183639559	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1513183639565	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1513183639569	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1513183639571	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1513183641589	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1513183642814	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183643058	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183643298	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183644638	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183646151	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183648580	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483714"
+1513183648624	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183651896	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183655245	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483717"
+1513183655347	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183655609	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183655774	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483720"
+1513183655879	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183656116	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183656354	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183656669	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183656911	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183657162	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183659511	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483723"
+1513183659550	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183662810	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513183666150	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483726"
+1513183666232	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184118667	geckodriver	INFO	geckodriver 0.19.1
+1513184118672	geckodriver	INFO	Listening on 127.0.0.1:49614
+1513184118853	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/qk/r6c6c1m166v2bb87vx_d39nm0000gn/T/rust_mozprofile.3adJSsJLYSgx"
+1513184119348	Marionette	INFO	Enabled via --marionette
+2017-12-13 11:55:20.089 plugin-container[5915:3116932] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb03f, name = 'com.apple.tsm.portname'
 See /usr/include/servers/bootstrap_defs.h for the error codes.
-2017-10-18 17:51:28.674 plugin-container[14016:4661795] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb003, name = 'com.apple.CFPasteboardClient'
+1513184120446	Marionette	INFO	Listening on port 49618
+1513184121350	Marionette	DEBUG	Register listener.js for window 2147483649
+1513184121713	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513184121898	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513184121899	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513184122655	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+JavaScript error: https://suggest.expedia.com/api/v4/ping?callback=jQuery18207647476880816764_1513184122249&_=1513184122480, line 1: SyntaxError: missing ; before statement
+1513184123223	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1513184123223	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1513184123223	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1513184123223	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1513184123223	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1513184123224	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1513184123224	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1513184123677	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1513184123678	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1513184123679	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1513184123679	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1513184123679	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1513184123679	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1513184123679	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1513184128079	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1513184128406	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184128686	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184128982	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184130418	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184131912	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184134268	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483721"
+1513184134340	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184137607	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184140951	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483724"
+1513184141070	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184141330	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184141513	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483727"
+1513184141599	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184141844	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184142090	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184142411	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184142660	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184142928	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184145186	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483730"
+1513184145306	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184148559	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184151868	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483733"
+1513184151985	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513184152441	Marionette	DEBUG	Register listener.js for window 2147483741
+1513184152596	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.expedia.com/"
+1513184152626	Marionette	DEBUG	Register listener.js for window 2147483744
+1513184152713	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483741"
+1513184153862	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1513184153871	Marionette	DEBUG	Received DOM event "unload" for "https://www.expedia.com/"
+1513184153931	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=82e0e69c-2b89-4f67-b878-e859cc4ed4c9&adults=2&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&ttla=LAS&startDate=1/21/2018&endDate=1/28/2018&sort=recommended"
+1513184153932	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483674"
+1513184153932	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483676"
+1513184153933	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483678"
+1513184153933	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483680"
+1513184153933	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483682"
+1513184153933	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483702"
+1513184153934	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483707"
+1513184153934	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483710"
+1513184153934	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483700"
+1513184153934	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483684"
+1513184153934	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483709"
+1513184153935	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483712"
+1513184153935	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483703"
+1513184153935	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483686"
+1513184153935	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483695"
+1513184153935	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483717"
+1513184153935	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483736"
+1513184153935	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483698"
+1513184153935	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483719"
+JavaScript error: https://suggest.expedia.com/api/v4/ping?callback=jQuery18206292610455714374_1513184154172&_=1513184154389, line 1: SyntaxError: missing ; before statement
+JavaScript error: https://c.travel-assets.com/datacapture/2-149/9d2cf77cde53f15b66ea3d290cc6686797e7960e/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4101 (The given Experiment details was null)
+1513184155318	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=82e0e69c-2b89-4f67-b878-e859cc4ed4c9&adults=2&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&ttla=LAS&startDate=1/21/2018&endDate=1/28/2018&sort=recommended"
+1513184158807	Marionette	DEBUG	Register listener.js for window 2147483738
+1513184178234	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307805455	geckodriver	INFO	geckodriver 0.19.1
+1513307805462	geckodriver	INFO	Listening on 127.0.0.1:50113
+1513307806562	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/qk/r6c6c1m166v2bb87vx_d39nm0000gn/T/rust_mozprofile.dc3CKZZTMIiS"
+1513307807327	Marionette	INFO	Enabled via --marionette
+2017-12-14 22:16:48.207 plugin-container[904:18280] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3f, name = 'com.apple.tsm.portname'
 See /usr/include/servers/bootstrap_defs.h for the error codes.
-1508363489043	Marionette	INFO	Listening on port 65002
-1508363489165	Marionette	DEBUG	Register listener.js for window 2147483649
-JavaScript error: chrome://browser/content/browser-safebrowsing.js, line 16: TypeError: gBrowser is null
-2017-10-18 17:57:18.008 plugin-container[14046:4664704] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3b, name = 'com.apple.tsm.portname'
+1513307808632	Marionette	INFO	Listening on port 50122
+1513307808705	Marionette	DEBUG	Register listener.js for window 2147483649
+1513307809056	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513307809343	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513307809343	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/memberOnlyDeals-1-en_US-32fbe104be8b60293a98c79a6c92189b-min.js, line 1: ReferenceError: Handlebars is not defined
+1513307810231	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+JavaScript error: https://suggest.expedia.com/api/v4/ping?callback=jQuery18208428813348768401_1513307810098&_=1513307810106, line 1: SyntaxError: missing ; before statement
+1513307811326	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1513307811326	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1513307811326	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1513307811326	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1513307811326	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1513307811326	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1513307811327	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1513307812147	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1513307812148	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1513307812148	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1513307812148	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1513307812149	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1513307812149	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1513307812149	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1513307877428	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1513307877726	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307877974	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307878236	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307879636	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307881190	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307883528	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483735"
+1513307883607	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307886877	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307890221	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483738"
+1513307890347	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307890602	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307890831	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483741"
+1513307890873	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307891112	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307891356	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307891682	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307891924	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307892185	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307894432	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483744"
+1513307894577	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307897841	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307901142	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483747"
+1513307901277	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307901690	Marionette	DEBUG	Register listener.js for window 2147483755
+1513307901894	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.expedia.com/"
+1513307901921	Marionette	DEBUG	Register listener.js for window 2147483758
+1513307901982	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483755"
+1513307903148	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1513307903157	Marionette	DEBUG	Received DOM event "unload" for "https://www.expedia.com/"
+1513307903201	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=3a4b4118-3db8-449d-920d-740535a9a463&adults=2&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&ttla=LAS&startDate=1/21/2018&endDate=1/28/2018&sort=recommended"
+1513307903205	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483706"
+1513307903206	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483708"
+1513307903206	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483713"
+1513307903207	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483704"
+1513307903207	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483674"
+1513307903207	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483676"
+1513307903207	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483678"
+1513307903207	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483680"
+1513307903208	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483723"
+1513307903208	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483727"
+1513307903208	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483716"
+1513307903208	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483682"
+1513307903209	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483715"
+1513307903209	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483721"
+1513307903209	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483709"
+1513307903209	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483684"
+1513307903209	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483725"
+1513307903210	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483729"
+1513307903210	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483719"
+1513307903210	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483686"
+1513307903210	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483695"
+1513307903210	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483697"
+1513307903210	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483750"
+1513307903210	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483700"
+1513307903211	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483702"
+1513307903286	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=3a4b4118-3db8-449d-920d-740535a9a463&adults=2&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&ttla=LAS&startDate=1/21/2018&endDate=1/28/2018&sort=recommended"
+JavaScript error: https://suggest.expedia.com/api/v4/ping?callback=jQuery18209767121610164722_1513307903463&_=1513307903672, line 1: SyntaxError: missing ; before statement
+JavaScript error: https://c.travel-assets.com/datacapture/2-149/9d2cf77cde53f15b66ea3d290cc6686797e7960e/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4101 (The given Experiment details was null)
+1513307906367	Marionette	DEBUG	Register listener.js for window 2147483752
+JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 223: TypeError: this._mm is null
+JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 223: TypeError: this._mm is null
+1513307922874	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307992755	geckodriver	INFO	geckodriver 0.19.1
+1513307992762	geckodriver	INFO	Listening on 127.0.0.1:50595
+1513307993830	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/qk/r6c6c1m166v2bb87vx_d39nm0000gn/T/rust_mozprofile.WfmDcRdJO6z6"
+1513307994291	Marionette	INFO	Enabled via --marionette
+2017-12-14 22:19:55.018 plugin-container[939:21021] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad0b, name = 'com.apple.tsm.portname'
 See /usr/include/servers/bootstrap_defs.h for the error codes.
-2017-10-18 17:57:18.009 plugin-container[14046:4664704] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaf03, name = 'com.apple.CFPasteboardClient'
+1513307995402	Marionette	INFO	Listening on port 50604
+1513307995536	Marionette	DEBUG	Register listener.js for window 2147483649
+1513307995885	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513307996090	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513307996090	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/memberOnlyDeals-1-en_US-32fbe104be8b60293a98c79a6c92189b-min.js, line 1: ReferenceError: Handlebars is not defined
+1513307996535	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+JavaScript error: https://suggest.expedia.com/api/v4/ping?callback=jQuery182044119117443128153_1513307996566&_=1513307996727, line 1: SyntaxError: missing ; before statement
+1513307998188	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1513307998619	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307998832	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1513307998833	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1513307998833	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
+1513307998833	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483673"
+1513307998834	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483675"
+1513307998834	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483677"
+1513307998834	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483679"
+1513307999081	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513307999466	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308001037	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308002676	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308005068	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483745"
+1513308005152	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308008425	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308011747	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483748"
+1513308011883	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308012144	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308012306	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483751"
+1513308012411	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308012647	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308012890	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308013217	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308013458	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308013702	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308016002	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483754"
+1513308016129	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308019384	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308022692	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483757"
+1513308022783	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513308023182	Marionette	DEBUG	Register listener.js for window 2147483765
+1513308023327	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.expedia.com/"
+1513308023356	Marionette	DEBUG	Register listener.js for window 2147483768
+1513308023427	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483765"
+1513308023851	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1513308023858	Marionette	DEBUG	Received DOM event "unload" for "https://www.expedia.com/"
+1513308023910	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=36fb74af-75b8-4aa8-b3ab-e9ce973adf9a&adults=2&destination=Las+Vegas,+NV,+United+States+(LAS-McCarran+Intl.)&ttla=LAS&startDate=1/21/2018&endDate=1/28/2018&sort=recommended"
+1513308023925	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483717"
+1513308023925	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483719"
+1513308023925	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483720"
+1513308023925	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483715"
+1513308023926	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483684"
+1513308023926	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483686"
+1513308023926	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483688"
+1513308023926	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483690"
+1513308023926	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483730"
+1513308023927	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483736"
+1513308023927	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483724"
+1513308023927	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483692"
+1513308023927	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483734"
+1513308023927	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483738"
+1513308023927	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483728"
+1513308023927	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483694"
+1513308023928	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483732"
+1513308023928	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483740"
+1513308023928	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483726"
+1513308023928	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483696"
+1513308023928	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483698"
+1513308023928	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483681"
+1513308023928	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483701"
+1513308023929	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483760"
+1513308023929	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483699"
+1513308023929	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483712"
+1513308024019	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=36fb74af-75b8-4aa8-b3ab-e9ce973adf9a&adults=2&destination=Las+Vegas,+NV,+United+States+(LAS-McCarran+Intl.)&ttla=LAS&startDate=1/21/2018&endDate=1/28/2018&sort=recommended"
+JavaScript error: https://suggest.expedia.com/api/v4/ping?callback=jQuery18208719469743381693_1513308024593&_=1513308024773, line 1: SyntaxError: missing ; before statement
+JavaScript error: https://c.travel-assets.com/datacapture/2-149/9d2cf77cde53f15b66ea3d290cc6686797e7960e/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4101 (The given Experiment details was null)
+1513308027041	Marionette	DEBUG	Register listener.js for window 2147483762
+1513308034783	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483781"
+1513308034783	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483783"
+1513308034783	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483785"
+1513308034783	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483787"
+1513308034787	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 939, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1513440867512	geckodriver	INFO	geckodriver 0.19.1
+1513440867520	geckodriver	INFO	Listening on 127.0.0.1:59235
+1513440868599	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/qk/r6c6c1m166v2bb87vx_d39nm0000gn/T/rust_mozprofile.e4199jANhvc3"
+1513440869236	Marionette	INFO	Enabled via --marionette
+2017-12-16 11:14:30.088 plugin-container[3072:493011] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15237, name = 'com.apple.tsm.portname'
 See /usr/include/servers/bootstrap_defs.h for the error codes.
-2017-10-18 17:57:25.028 plugin-container[14047:4664900] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad3b, name = 'com.apple.tsm.portname'
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-2017-10-18 17:57:25.029 plugin-container[14047:4664900] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb003, name = 'com.apple.CFPasteboardClient'
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-1508364197292	geckodriver	INFO	geckodriver 0.19.0
-1508364197297	geckodriver	INFO	Listening on 127.0.0.1:65304
-1508364198349	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/qk/r6c6c1m166v2bb87vx_d39nm0000gn/T/rust_mozprofile.kI7l7zuCTg4d"
-1508364198624	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
-1508364198946	Marionette	INFO	Enabled via --marionette
-2017-10-18 18:03:19.746 plugin-container[14117:4671953] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad3b, name = 'com.apple.tsm.portname'
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-2017-10-18 18:03:19.747 plugin-container[14117:4671953] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb003, name = 'com.apple.CFPasteboardClient'
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-1508364200118	Marionette	INFO	Listening on port 65313
-1508364200223	Marionette	DEBUG	Register listener.js for window 2147483649
-1508364200568	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1508364200827	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1508364200828	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1508364201540	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
-JavaScript error: https://suggest.expedia.com/api/v4/ping?callback=jQuery18203665740416379155_1508364201733&_=1508364201745, line 1: SyntaxError: missing ; before statement
-1508364206178	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
-1508364206609	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364206788	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
-1508364206788	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
-1508364206789	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
-1508364206789	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
-1508364206790	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483673"
-1508364206798	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483675"
-1508364206800	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483677"
-1508364206948	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364207287	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364208689	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364210511	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364213009	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483726"
-1508364213091	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364216368	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364219819	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483729"
-1508364219945	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364220235	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364220451	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483732"
-1508364220534	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364220786	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364221037	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364221436	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364221689	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364221941	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364224329	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483735"
-1508364224452	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364227716	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364231214	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483738"
-1508364231344	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364232052	Marionette	DEBUG	Register listener.js for window 2147483746
-1508364232193	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.expedia.com/"
-1508364232237	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483746"
-1508364232758	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
-1508364232809	Marionette	DEBUG	Received DOM event "unload" for "https://www.expedia.com/"
-1508364232874	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=38a9ae2c-3273-4ae1-a273-c2bb3b5acaba&adults=2&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&ttla=LAS&startDate=11/21/2017&endDate=11/28/2017&sort=recommended"
-1508364232875	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483702"
-1508364232875	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483712"
-1508364232876	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483713"
-1508364232876	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483679"
-1508364232876	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483681"
-1508364232876	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483683"
-1508364232877	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483685"
-1508364232877	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483716"
-1508364232877	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483719"
-1508364232877	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483707"
-1508364232878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483687"
-1508364232878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483706"
-1508364232878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483718"
-1508364232878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483720"
-1508364232878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483703"
-1508364232878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483689"
-1508364232879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483691"
-1508364232879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
-1508364232879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
-1508364232879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
-1508364232879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483700"
-1508364232879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483741"
-1508364232879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
-1508364232880	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
-1508364232929	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=38a9ae2c-3273-4ae1-a273-c2bb3b5acaba&adults=2&destination=Las+Vegas+(and+vicinity),+Nevada,+United+States+Of+America&ttla=LAS&startDate=11/21/2017&endDate=11/28/2017&sort=recommended"
-JavaScript error: https://suggest.expedia.com/api/v4/ping?callback=jQuery18208084880113960754_1508364233279&_=1508364233452, line 1: SyntaxError: missing ; before statement
-1508364236063	Marionette	DEBUG	Register listener.js for window 2147483743
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=3818880&callback=jQuery18208084880113960754_1508364233279&_=1508364250883, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=16110930&callback=jQuery18208084880113960754_1508364233280&_=1508364250893, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=15930&callback=jQuery18208084880113960754_1508364233281&_=1508364250898, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1443&callback=jQuery18208084880113960754_1508364233282&_=1508364250906, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=3818880&callback=jQuery18208084880113960754_1508364233283&_=1508364250914, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=41081&callback=jQuery18208084880113960754_1508364233286&_=1508364251315, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=19558&callback=jQuery18208084880113960754_1508364233287&_=1508364251328, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=203613&callback=jQuery18208084880113960754_1508364233288&_=1508364251338, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=13945&callback=jQuery18208084880113960754_1508364233290&_=1508364251359, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=19901392&callback=jQuery18208084880113960754_1508364233289&_=1508364251349, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1769973&callback=jQuery18208084880113960754_1508364233291&_=1508364251376, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=7611&callback=jQuery18208084880113960754_1508364233293&_=1508364251401, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=15237&callback=jQuery18208084880113960754_1508364233292&_=1508364251391, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=19837&callback=jQuery18208084880113960754_1508364233294&_=1508364251411, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=41308&callback=jQuery18208084880113960754_1508364233295&_=1508364251421, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=200710&callback=jQuery18208084880113960754_1508364233296&_=1508364251430, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=41245&callback=jQuery18208084880113960754_1508364233297&_=1508364251440, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=14323&callback=jQuery18208084880113960754_1508364233298&_=1508364251456, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=24715&callback=jQuery18208084880113960754_1508364233299&_=1508364251465, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=198225&callback=jQuery18208084880113960754_1508364233300&_=1508364251475, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=20194&callback=jQuery18208084880113960754_1508364233301&_=1508364251486, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=43312&callback=jQuery18208084880113960754_1508364233302&_=1508364251497, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=15117&callback=jQuery18208084880113960754_1508364233303&_=1508364251505, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1857289&callback=jQuery18208084880113960754_1508364233304&_=1508364251516, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=8753178&callback=jQuery18208084880113960754_1508364233306&_=1508364251534, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=12628&callback=jQuery18208084880113960754_1508364233305&_=1508364251526, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=12384405&callback=jQuery18208084880113960754_1508364233307&_=1508364251542, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=41307&callback=jQuery18208084880113960754_1508364233310&_=1508364251569, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=140596&callback=jQuery18208084880113960754_1508364233309&_=1508364251562, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=792446&callback=jQuery18208084880113960754_1508364233308&_=1508364251553, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=41277&callback=jQuery18208084880113960754_1508364233283&_=1508364251742, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=17863402&callback=jQuery18208084880113960754_1508364233281&_=1508364251762, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1380135&callback=jQuery18208084880113960754_1508364233282&_=1508364251752, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=852937&callback=jQuery18208084880113960754_1508364233280&_=1508364251769, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=19&callback=jQuery18208084880113960754_1508364233279&_=1508364251775, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=41080&callback=jQuery18208084880113960754_1508364233311&_=1508364251785, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1184243&callback=jQuery18208084880113960754_1508364233312&_=1508364251795, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=15575&callback=jQuery18208084880113960754_1508364233313&_=1508364251803, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=460435&callback=jQuery18208084880113960754_1508364233314&_=1508364251811, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1847179&callback=jQuery18208084880113960754_1508364233315&_=1508364251823, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1217263&callback=jQuery18208084880113960754_1508364233316&_=1508364251832, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=921745&callback=jQuery18208084880113960754_1508364233317&_=1508364251841, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=58201&callback=jQuery18208084880113960754_1508364233318&_=1508364251852, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=787214&callback=jQuery18208084880113960754_1508364233319&_=1508364251861, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=970030&callback=jQuery18208084880113960754_1508364233320&_=1508364251869, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=460434&callback=jQuery18208084880113960754_1508364233322&_=1508364251888, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=2223789&callback=jQuery18208084880113960754_1508364233321&_=1508364251878, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1309521&callback=jQuery18208084880113960754_1508364233323&_=1508364251896, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=12028553&callback=jQuery18208084880113960754_1508364233325&_=1508364251913, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=1248211&callback=jQuery18208084880113960754_1508364233324&_=1508364251904, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=894235&callback=jQuery18208084880113960754_1508364233326&_=1508364251921, line 2: SyntaxError: missing ; before statement
-JavaScript error: https://www.tripadvisor.com/api/ratinginfo/1.0/getRating?key=4cd5d1bc-7d71-4eea-afde-d52f9a1a247c&locationId=7116&callback=jQuery18208084880113960754_1508364233327&_=1508364251932, line 2: SyntaxError: missing ; before statement
-1508364253417	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1508364253819	Marionette	INFO	New connections will no longer be accepted
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
-[GFX1]: ValidateTile failed
-[Child 14117] WARNING: pipe error: Broken pipe: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
-[Child 14117] WARNING: pipe error: Broken pipe: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1513440870474	Marionette	INFO	Listening on port 59241
+1513440870610	Marionette	DEBUG	Register listener.js for window 2147483649
+1513440870998	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513440871394	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513440871395	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/memberOnlyDeals-1-en_US-b9fd9bddd9cbc06accea2cba532f2a3e-min.js, line 1: ReferenceError: Handlebars is not defined
+1513440871858	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/"
+JavaScript error: https://suggest.expedia.com/api/v4/ping?callback=jQuery182015275083520227628_1513440871890&_=1513440871896, line 1: SyntaxError: missing ; before statement
+1513440874914	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/"
+1513440875318	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483675"
+1513440875338	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483677"
+1513440875339	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483679"
+1513440875339	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483681"
+1513440875340	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483685"
+1513440875341	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483687"
+1513440875449	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440875800	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483713"
+1513440875839	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440876290	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440878104	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440879774	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440882142	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483720"
+1513440882248	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440885520	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440888853	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483723"
+1513440888992	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440889248	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440889427	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483726"
+1513440889531	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440889773	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440890025	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440890382	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440890650	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440890905	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440893169	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483729"
+1513440893302	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440896557	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440899862	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483732"
+1513440899996	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513440900414	Marionette	DEBUG	Register listener.js for window 2147483740
+1513440900626	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.expedia.com/"
+1513440900665	Marionette	DEBUG	Register listener.js for window 2147483743
+1513440900690	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483740"
+1513440901543	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.expedia.com/"
+1513440901552	Marionette	DEBUG	Received DOM event "unload" for "https://www.expedia.com/"
+1513440901597	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=efebaef1-ae15-4634-8089-75b06850d9f6&adults=2&destination=Las+Vegas,+NV,+United+States+(LAS-McCarran+Intl.)&ttla=LAS&startDate=1/21/2018&endDate=1/28/2018&sort=recommended"
+1513440901599	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483689"
+1513440901599	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483691"
+1513440901600	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483693"
+1513440901600	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483695"
+1513440901600	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483716"
+1513440901601	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483715"
+1513440901601	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483710"
+1513440901601	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483683"
+1513440901602	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483698"
+1513440901602	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483700"
+1513440901602	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1513440901602	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1513440901603	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483708"
+1513440901603	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483735"
+1513440901603	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1513440901604	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1513440901668	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.expedia.com/Hotel-Search?packageType=fhc&searchProduct=hotel&c=efebaef1-ae15-4634-8089-75b06850d9f6&adults=2&destination=Las+Vegas,+NV,+United+States+(LAS-McCarran+Intl.)&ttla=LAS&startDate=1/21/2018&endDate=1/28/2018&sort=recommended"
+JavaScript error: https://suggest.expedia.com/api/v4/ping?callback=jQuery1820004711466890991667_1513440901917&_=1513440902178, line 1: SyntaxError: missing ; before statement
+JavaScript error: https://c.travel-assets.com/datacapture/2-149/9d2cf77cde53f15b66ea3d290cc6686797e7960e/datacapture/js/analytics-core-bundle-min.js, line 1: Error: 4101 (The given Experiment details was null)
+1513440904686	Marionette	DEBUG	Register listener.js for window 2147483737
+1513440921686	Marionette	DEBUG	Canceled page load listener because no navigation has been detected

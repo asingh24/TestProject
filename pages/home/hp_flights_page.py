@@ -1,4 +1,3 @@
-
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 import utilities.custom_logger as cl
@@ -244,7 +243,7 @@ class FlightRTBundle(BasePage):
         self.clickSortByPrice()
 
     def verifyHomepageTitle(self):
-        return self.verifyPageTitle("Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares")
+        return self.verifyPageTitle("Expedia Travel: Search Hotels, Cheap Flights, Car Rentals & Vacations")
 
 
     def nonStopIsDisplayed(self):
