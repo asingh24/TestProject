@@ -1,1 +1,1 @@
-# TestProject
+A roundtrip flight booking flow is automated in a Page Object Model using Selenium Webdriver based on Python. The Backend Testing folder is a separate project, it automates the user & product creation using Woocommerce API's on a locally installed AMPPS stack running Wordpress/Woocommerce plugin, the automation is also done using Selenium WebDriver based on Python.
